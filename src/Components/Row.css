@@ -1,0 +1,55 @@
+.row {
+    margin-left: 20px;
+    color: black;
+  }
+  
+  .row h2 {
+    margin-left: 10px;
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: visible;
+    padding: 20px 0;
+  }
+  
+  .row__poster {
+    max-height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 0.2s;
+    cursor:pointer;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.1);
+  }
+
+  .row__posterContainer {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .row__addButton {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .row__posterContainer:hover .row__addButton {
+    opacity: 1; /* Show button on hover */
+  }
+  
+  
