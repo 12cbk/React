@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Card = () => {
+const Header = () => {
   return (
     <StyledWrapper>
       <div className="bgblue">
@@ -30,17 +30,18 @@ const Card = () => {
 const StyledWrapper = styled.div`
   .bgblue {
     background: linear-gradient(135deg, #fffffff5, #3a4b8a, #ffffff98);
-    padding: 1px;
+    padding: 0.1rem;
     border-radius: 1.2rem;
     box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
     max-width: 100%;
+    //max-height: 100px;
   }
 
   .card {
     font-size: 1rem;
     color: #bec4cf;
-    background: linear-gradient(135deg, rgb(98, 115, 178) 0%, rgb(214, 220, 240) 43%, rgb(108, 134, 228) 100%);
-    padding: 1.5rem;
+    background: linear-gradient(135deg, rgb(98, 115, 178) 0%, rgb(188, 199, 239) 43%, rgb(209, 214, 229) 100%);
+    padding: 0.2rem;
     border-radius: 1.2rem;
     display: flex;
     align-items: center; /* Centers items vertically */
@@ -52,7 +53,7 @@ const StyledWrapper = styled.div`
   }
 
   .image {
-    height: 75.7px;
+    height: 50px;
     margin-right: 1rem; /* Space between image and text */
   }
 
@@ -108,4 +109,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Card;
+export default Header;

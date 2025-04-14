@@ -6,16 +6,27 @@ import App from './App';
 import Header from './Outline';
 import reportWebVitals from './reportWebVitals';
 import Card from './card';
+// import Menu from './Menu';
+// import Test from './test';
+import Footer from './Footer';
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from './Route';
+import Dropdown from './dropdown';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Card/>
-    <App />
+  
+   <BrowserRouter>
+   {/* <Card/> */}
+    <AppRoutes />
+    <Footer/>    
+    
+  </BrowserRouter>,
+  
     
   
     
-  </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
