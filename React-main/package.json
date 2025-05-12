@@ -2,7 +2,6 @@
   "name": "newreactapp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://databank.oup.com",
   "dependencies": {
     "@heroui/react": "^2.7.5",
     "@radix-ui/themes": "^3.2.1",
@@ -11,10 +10,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.21",
-    "axios": "^1.9.0",
-    "cors": "^2.8.5",
     "framer-motion": "^12.6.3",
-    "node-fetch": "^3.3.2",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

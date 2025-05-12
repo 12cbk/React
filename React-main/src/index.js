@@ -6,23 +6,30 @@ import App from './App';
 import Header from './Outline';
 import reportWebVitals from './reportWebVitals';
 import Card from './card';
+// import Menu from './Menu';
+// import Test from './test';
 import Footer from './Footer';
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from './Route';
 import Dropdown from './dropdown';
-import { HeroUIProvider } from "@heroui/react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HeroUIProvider>
+  
+   <BrowserRouter>
+   {/* <Card/> */}
+    <AppRoutes />
+    <Footer/>    
     
-    <BrowserRouter>
-      {/* <Card/> */}
-      <AppRoutes />
-      <Footer/>    
-    </BrowserRouter>
-  </HeroUIProvider>
+  </BrowserRouter>,
+  
+    
+  
+    
+  
 );
 
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

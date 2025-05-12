@@ -1,24 +1,19 @@
-import React from "react";
+import react from "react";
 import "./textbox.css";
 
-const Textbox = ({ label, values, onTextChange }) => {
-  return (
-    <div className="input-container">
-      <p>{label}</p>
-      {values.map((item, index) => (
-        <div key={index} className="input-group">
-          <span className="field-name">{item.textboxlabel}</span>
+const Textbox = ({ index, label, value }) => {    
+
+    return (
+        <div key={index} className="textbox-container">
+          <span className="field-name">{label}</span>
           <input
+            placeholder={value.placeholder || "Type something here..."}
             className="input"
+            name="text"
             type="text"
-            placeholder={`Enter ${item.textboxlabel}`}
-            value={item.value || ""}
-            onChange={(e) => onTextChange(item.textboxlabel, e.target.value)}
           />
         </div>
-      ))}
-    </div>
-  );
-};
+      );
+}
 
 export default Textbox;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import App from "./App"; 
-import Managefeed from "./Managefeed"; 
+import App from "./App"; // Your home page
+import Managefeed from "./Managefeed"; // Your next UI component
 
 const AppRoutes = () => {
   return (

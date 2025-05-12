@@ -1,32 +1,5 @@
-
-
-  .input:focus {
-    box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,
-      -1px -1px 5px rgba(68, 67, 67, 0.781),
-      inset -1px -1px 5px rgba(66, 65, 65, 0.822);
-  }
-
-  .textbox-container {
-    margin-bottom: 0.5cm; /* Adds 0.5cm space below each textbox */
-  }
-
-  .field-name {
-    width: 200px; /* Fixed width for all labels */
-    margin-right: 10px; 
-    text-align: left; 
-    font-size: 1rem;
-    color: #333;
-    display: inline-block; /* Ensures proper spacing and alignment */
-  }
-  
-  .input-container {
-    display: flex; /* Align the label and input horizontally */
-    align-items: center; /* Vertically align items */
-    margin-bottom: 20px;
-  }
-  
-  .input {
-    max-width: 190px; /* Keep the textbox consistent */
+.input {
+    max-width: 190px;
     height: 2rem;
     background-color: transparent;
     border: 2px solid transparent;
@@ -38,6 +11,21 @@
     border-radius: 10px;
     font-size: medium;
   }
-  
-  
-  
+
+  .input:focus {
+    box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,
+      -1px -1px 5px rgba(68, 67, 67, 0.781),
+      inset -1px -1px 5px rgba(66, 65, 65, 0.822);
+  }
+
+.input-container {
+    display: flex; /* Align the label and input horizontally */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 20px;
+  }
+
+  .field-name {
+    margin-right: 10px; /* Space between the label and input */
+    font-size: 1rem;
+    color: #333;
+  }
