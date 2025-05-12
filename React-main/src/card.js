@@ -9,7 +9,7 @@ const Header = () => {
           <div className="content">
             {/* Image Section */}
             <img
-              src="https://india.oup.com/wp-content/themes/indiaoup/OUP_logo.png" // Replace with your image path or URL
+              src="https://india.oup.com/wp-content/themes/indiaoup/OUP_logo.png" 
               alt="Your Image"
               className="image"
             />
