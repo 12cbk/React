@@ -10,17 +10,18 @@ import Footer from './Footer';
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from './Route';
 import Dropdown from './dropdown';
+import Displaycard from './displaycard'
 import { HeroUIProvider } from "@heroui/react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HeroUIProvider>
-    
-    <BrowserRouter>
+    <Displaycard/>
+    {/* <BrowserRouter> */}
       {/* <Card/> */}
-      <AppRoutes />
-      <Footer/>    
-    </BrowserRouter>
+      {/* <AppRoutes /> */}
+      {/* <Footer/>     */}
+    {/* </BrowserRouter> */}
   </HeroUIProvider>
 );
 

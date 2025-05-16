@@ -47,31 +47,126 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                     ] ,
                   dependency: "searchType-quick"
         
-                  }
-                  // { type: "Dropdown", label: "Select format", 
-                  //   name:"BIND",  
-                  //   values: [
-                  //         { value: "P&C&SP&SH&F&L&PK&O&PI", text: "All printed formats" } ,               
-                  //         { value: "C&SH&L", text: "Hardback only" } ,               
-                  //         { value: "P&SP&F", text: "Paperback only" } ,               
-                  //         { value: "least_expensive", text: "Least expensive printed format" } ,               
-                  //         { value: "P&C&SP&SH&F&L&PK&O&CS&V&SW&Software*&eBook*&Online&CdRom*&PI", text: "All printed formats & electronic product" } ,               
-                  //         { value: "PK&CDRom*", text: "Mixed Media (e.g. Pbk & CD Rom)" } ,               
-                  //         { value: "Software*&eBook*&Online*&CDRom*", text: "Electronic product only" } ,               
-                  //         { value: "PI", text: "Sheet Music" } ,               
-                  //       ]                     
+                  },
+
+                  { type: "Radio", label: "Do you wish to search by subject or series?", 
+                    name:"searchBy",  
+                    values: [
+                          { value: "subject", text: "Search by subject" } ,               
+                          { value: "series", text: "Search by series" } ,               
+                        ] ,
+                      dependency: "searchType-flexible"
             
-                  //     },         
-                  //     {
-                  //       type: "textbox",
-                  //       label: "Search by UK price (GBP). If you do not wish to refine by price, please leave the fields blank.",
-                  //       values:[
-                  //         {
-                  //           textboxlabel:"From: £",
-                  //           textboxlabel: "To: £"
-                  //         }
-                  //       ]                        
-                  //     }
+                      },
+                  { type: "Dropdown", label: "Select format", 
+                    name:"BIND", 
+                    dropdownlabel:"Format", 
+                    values: [
+                          { value: "P&C&SP&SH&F&L&PK&O&PI", text: "All printed formats" } ,               
+                          { value: "C&SH&L", text: "Hardback only" } ,               
+                          { value: "P&SP&F", text: "Paperback only" } ,               
+                          { value: "least_expensive", text: "Least expensive printed format" } ,               
+                          { value: "P&C&SP&SH&F&L&PK&O&CS&V&SW&Software*&eBook*&Online&CdRom*&PI", text: "All printed formats & electronic product" } ,               
+                          { value: "PK&CDRom*", text: "Mixed Media (e.g. Pbk & CD Rom)" } ,               
+                          { value: "Software*&eBook*&Online*&CDRom*", text: "Electronic product only" } ,               
+                          { value: "PI", text: "Sheet Music" } ,               
+                        ]                     
+            
+                      },         
+                      {
+                        type: "textbox",
+                        label: "Search by UK price (GBP). If you do not wish to refine by price, please leave the fields blank.",
+                        values:[
+                          {
+                            textboxlabel:"From: £"},
+                            {textboxlabel: "To: £"}
+                        ]                        
+                      },
+                      { type: "Radio", label: "Search by UK publication date", 
+                        name:"searchType", 
+                        sublabel:[
+                          "Please select either a forward publishing period*, or enter a fixed date range.",
+                          "* recommended for for datafeeds you intend to schedule to rerun periodically in the future."
+                        ] ,
+                        values: [
+                              { value: "abc", text: "Do not filter by publication date" } ,             
+                              { value: "def", text: "Forward publishing period" }    ,          
+                              { value: "ijk", text: "Within a fixed date range" }              
+                            ] 
+                          
+                
+                          },
+                          { type: "Checkbox", label: "UK availability status", 
+                            name:"searchType",                             
+                            values: [
+                                  { value: "order_now", text: "Published and available to supply now" } ,             
+                                  { value: "not_pub", text: "Not yet published (but with a provisional UK publication date)" }    ,          
+                                  { value: "on_demand", text: "Printed on demand" } ,             
+                                  { value: "out_of_stock", text: "Out of stock / temporarily unavailable" }    ,          
+                                  { value: "out_of_print", text: "Recently declared 'out of print'" }              
+                                ] 
+                              
+                    
+                              },
+                           {
+                            type:"Combined",
+                            elements: [{
+                              type:"textbox",label: "File name and format options",
+                              values:[
+                                {textboxlabel:"Please give your report a name."}
+                              ] 
+                            },{
+                              type:"Checkbox", label:"",
+                              name:"dateStamp",
+                              values:[{value:"dateStamp", text:"Add a date stamp suffix to each file name"}]
+                            }
+                          ]
+                           } ,
+                           {
+                            type:"Combined",
+                            elements: [{ type: "Radio", label: "Delivery options", 
+                              name:"DELIV",  
+                              values: [
+                                    { value: "email", text: "Deliver files by email (enter email address)" } ,             
+                                    { value: "ftp", text: "Deliver files by FTP (enter FTP server, directory, username, password)" }          
+                                               
+                                  ] 
+                                
+                      
+                                },{
+                                  type:"textbox",label: "",
+                                  values:[
+                                    {textboxlabel:"Email address(es)"}
+                                  ] 
+                                }]
+                           },
+                           {
+                            type:"Combined",
+                            elements: [
+                              { type: "Dropdown", label: "File frequency options", 
+                                name:"sched", 
+                                dropdownlabel:"Please select your preference for how often you wish to receive this report:", 
+                                values: [
+                                      { value: "now", text: "Run now (1-off, complete dataset)" } ,               
+                                      { value: "daily", text: "Run now and schedule to re-run daily" } ,               
+                                      { value: "weekly", text: "Run now and schedule to re-run weekly" } ,               
+                                      { value: "monthly", text: "Run now and schedule to re-run monthly" } ,               
+                                      { value: "quarterly", text: "Run now and schedule to re-run quarterly" } ,               
+                                      { value: "annually", text: "Run now and schedule to re-run annually" }            
+                                    ]                     
+                        
+                                  },
+                              ,{
+                                type: "Radio", label: "", 
+                                name:"searchType",  
+                                values: [
+                                      { value: "complete", text: "Send complete dataset with each re-run" } ,             
+                                      { value: "update", text: "Send new/changed records only with each re-run" }          
+                                                   
+                                    ] 
+                                   
+                                }]
+                           }   
                       
             
       

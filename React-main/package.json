@@ -5,6 +5,7 @@
   "proxy": "https://databank.oup.com",
   "dependencies": {
     "@heroui/react": "^2.7.5",
+    "@heroui/use-disclosure": "^2.2.11",
     "@radix-ui/themes": "^3.2.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

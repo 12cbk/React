@@ -39,8 +39,7 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
+} 
 .menu .link svg {
   width: 14px;
   height: 14px;
@@ -82,7 +81,7 @@
 }
 
 .menu .item:hover .link {
-  color: #ffffff;
+  color: #0d0c0c;
   border-radius: 16px 16px 0 0;
 }
 
@@ -136,3 +135,68 @@
 .submenu .submenu-link:hover {
   color: #ffffff;
 }
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.main-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dropdown-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.field-name {
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 4px;
+}
+
+.item:hover .submenu {
+  display: block;
+}
+
+.submenu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.submenu-item:hover {
+  background-color: #120db1;
+}
+
+
+
+
+  

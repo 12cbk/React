@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import formatFeedRequirements from  './Formatfeed'
-import { Pagination, Button } from "@heroui/react";
+import { Pagination, Button, Checkbox } from "@heroui/react";
 import Radiogroup from "./Radiogroup";
  import feedrequirements from "./Feedrequirements";
 import Dropdown from "./dropdown";
 import "./Managefeed.css";
 import Textbox from "./textbox";
 import { fetchData } from "./ApiService";
+import Checkboxgroup from "./checkbox";
+
 const Card = () => {
   const [page, setPage] = useState(0); 
   const [answers, setAnswers] = useState({});
@@ -61,7 +63,7 @@ const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questio
                        if(data.type ==="Radio")  {    
                         
                         return (                    
-                            <Radiogroup key={index} label={data.label} values={data.values} 
+                            <Radiogroup key={index} label={data.label} values={data.values} sublabel = {data.sublabel}
                             SelectedAnswer={answers[data.name]} 
                             onAnsSelect={(selectedValue) => updateAnswer(data.name, selectedValue)} name={data.name}
                              />)                          
@@ -71,49 +73,86 @@ const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questio
                           <Textbox 
                           key={index} 
                           label={data.label} 
-                          values={data.values || []}  
+                          values={data.values || []} 
+                          answers = {answers} 
                           onTextChange={(label, text) => updateAnswer(label, text)}
                         />
                           );
                         }
                         else if (data.type === "Dropdown") {
                           return (                                      
-                              <Dropdown key = {index} label={data.label} values={data.values} selectedValue={answers[data.name]} 
+                              <Dropdown key = {index} label={data.label} values={data.values} dropdownlabel={data.dropdownlabel} selectedValue={answers[data.name]} 
                               onSelectChange={(selectedOption) => updateAnswer(data.name, selectedOption)}/>
                                                                      
                           );
                         }
+                        else if (data.type === "Checkbox") {
+                          return (
+                            <Checkboxgroup
+                              key={index}
+                              label={data.label}
+                              name={data.name}
+                              values={data.values}
+                              selectedValues={answers[data.name] || []}
+                              onChange={(e) => {
+                                const { value, checked } = e.target;
+                                const prev = answers[data.name] || [];
+                                const updated = checked
+                                  ? [...prev, value]
+                                  : prev.filter((v) => v !== value);
+                                updateAnswer(data.name, updated);
+                              }}
+                            />
+                          );
+                        }
+                        
 
-                        else if (data.type === "combined") {
+  
+                        else if (data.type === "Combined") {
                           if (data.elements.length > 0) {
                             return (
                               <div key={index} className="combined-container">
                                 {data.elements.map((element, idx) => {
                                   // console.log("Element", element);
                                   if (element.type === "Radio") {
-                                    return (     
-                                      <div key={idx} className="combined-item">                               
-                                    <Radiogroup key={idx} label={element.label} values={element.values} trigger={data.trigger} 
-                                    SelectedAnswer={answers[data.label]} 
-                            onAnsSelect={(selectedValue) => updateAnswer(element.label, selectedValue)}/>
-                            </div>)
+                                    return (                    
+                                      <Radiogroup key={index} label={element.label} values={element.values} sublabel = {element.sublabel}
+                                      SelectedAnswer={answers[element.name]} 
+                                      onAnsSelect={(selectedValue) => updateAnswer(element.name, selectedValue)} name={element.name}
+                                       />) 
                                   } 
                                   else if (element.type === "textbox") {
                                     return (
-                                      <div key={idx} className="combined-item">
-                                      <Textbox key={idx} label={element.label} value={answers[element.label] || ""} 
-                                      onTextChange={(text) => updateAnswer(element.label, text)} />
+                                      <div key={idx} className="combined-item">                                      
+                                  <Textbox key={idx} label={element.label} values={element.values || []} answers = {answers} 
+                                  onTextChange={(label, text) => updateAnswer(label, text)}/>
                                       </div>
                                     );
                                   }
-                                  else if (element.type === "dropdown") {
+                                  else if (element.type === "Dropdown") {
                                     return (   <div key={idx} className="combined-item">                                   
-                                        <Dropdown label={element.label} values={element.values} selectedValue={answers[element.label]} 
-                                        onSelectChange={(selectedOption) => updateAnswer(element.label, selectedOption)}/>
+                                        <Dropdown key = {idx} label={element.label} values={element.values} dropdownlabel={element.dropdownlabel} selectedValue={answers[element.name]} 
+                              onSelectChange={(selectedOption) => updateAnswer(element.name, selectedOption)}/>
                                           </div>                                      
                                     );
                                   }   
-
+                                  else if (element.type === "Checkbox"){
+                                    
+                            return (   <div key={idx} className="combined-item">                                   
+                              <Checkboxgroup key={idx} label={element.label} name={element.name} values={element.values}
+                                  selectedValues={answers[element.name] || []}
+                                  onChange={(e) => {
+                                    const { value, checked } = e.target;
+                                    const prev = answers[element.name] || [];
+                                    const updated = checked
+                                    ? [...prev, value]
+                                    : prev.filter((v) => v !== value);
+                                    updateAnswer(element.name, updated);
+                              }}
+                            />
+                                </div>                                      
+                          );
+                                  }
                                 })}
 
                               </div>

@@ -1,7 +1,12 @@
 import React from "react";
 import "./textbox.css";
 
-const Textbox = ({ label, values, onTextChange }) => {
+const Textbox = ({ label, values, answers,onTextChange }) => {
+  
+  const handleTextChange = (textboxlabel, value) => {
+    onTextChange(textboxlabel, value);
+  };
+
   return (
     <div className="input-container">
       <p>{label}</p>
@@ -12,8 +17,8 @@ const Textbox = ({ label, values, onTextChange }) => {
             className="input"
             type="text"
             placeholder={`Enter ${item.textboxlabel}`}
-            value={item.value || ""}
-            onChange={(e) => onTextChange(item.textboxlabel, e.target.value)}
+            value={answers[item.textboxlabel] || ""}
+            onChange={(e) => handleTextChange(item.textboxlabel, e.target.value)}
           />
         </div>
       ))}
