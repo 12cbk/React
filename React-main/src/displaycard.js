@@ -7,29 +7,32 @@ import {
   DrawerBody,
   DrawerFooter,
   Button,
-  useDisclosure,
+  useDisclosure
 } from "@heroui/react";
 import Selection from "./Selection";
-import { SelectionProvider, useSelection } from "./Context";
 
-function AppContent() {
-  const {
-    selectedKeys,
-    setSelectedKeys,
-    selectionBoxes,
-    setSelectionBoxes,
-    rightSelectionBox,
-    addSelectionBox,
-  } = useSelection();
+export const ListboxWrapper = ({ children }) => (
+  <div className="flex flex-col gap-2">
+    {children}
+  </div>
+);
 
+export default function App() {
+  const [selectedKeys, setSelectedKeys] = React.useState(new Set([]));
+  const [selectionBoxes, setSelectionBoxes] = React.useState([]);
+  const [rightselectionbox, setrightSelectionBoxes] = React.useState({});
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const [activeItem, setActiveItem] = React.useState("");
   const [isCtrlPressed, setIsCtrlPressed] = React.useState(false);
   const pendingSelectionRef = React.useRef(false);
 
   React.useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === "Control") setIsCtrlPressed(true);
+      if (e.key === "Control") {
+        setIsCtrlPressed(true);
+      }
     };
+
     const handleKeyUp = (e) => {
       if (e.key === "Control") {
         setIsCtrlPressed(false);
@@ -39,83 +42,95 @@ function AppContent() {
         }
       }
     };
+
     window.addEventListener("keydown", handleKeyDown);
     window.addEventListener("keyup", handleKeyUp);
+
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
       window.removeEventListener("keyup", handleKeyUp);
     };
   }, [onOpen]);
 
-  const handleSelectionChange = (keys) => {
-    const newKeys = Array.from(keys);
-    const newlySelected = newKeys.find((key) => !selectedKeys.has(key));
-
-    setSelectedKeys(new Set(keys));
-    setSelectionBoxes((prev) => prev.filter((box) => newKeys.includes(box)));
-
-    if (newlySelected) {
-      setSelectionBoxes((prev) => [...prev, newlySelected]);
-
-      if (isCtrlPressed) {
-        pendingSelectionRef.current = true;
-      } else {
-        onOpen();
-      }
-    }
+  const addSelectionBox = (selectedKey, selectedValues) => {
+    setrightSelectionBoxes((prev) => ({
+      ...prev,
+      [selectedKey]: selectedValues.length ? selectedValues : undefined, // Remove empty selections
+    }));
   };
+
+  const handleSelectionChange = (keys) => {
+  const newKeys = Array.from(keys);
+  const oldKeys = Array.from(selectedKeys);
+  const newlySelected = newKeys.find((key) => !oldKeys.includes(key));
+
+  setSelectedKeys(keys);
+
+  setSelectionBoxes(prevBoxes => prevBoxes.filter(box => newKeys.includes(box))); // Removes unchecked items
+
+  if (newlySelected) {
+    setActiveItem(newlySelected);
+    setSelectionBoxes(prevBoxes => [...prevBoxes, newlySelected]);
+
+    if (isCtrlPressed) {
+      pendingSelectionRef.current = true;
+    } else {
+      onOpen();
+    }
+  }
+};
+
+
+  console.log("Current rightselectionbox:", rightselectionbox);
 
   return (
     <div className="flex flex-col gap-2">
-      <Listbox
-        aria-label="Multiple selection example"
-        selectedKeys={selectedKeys}
-        selectionMode="multiple"
+      <ListboxWrapper>
+        <Listbox
+          aria-label="Multiple selection example"
+          selectedKeys={selectedKeys}
+          selectionMode="multiple"
+          variant="flat"
+          onSelectionChange={handleSelectionChange}
         >
-        {[
-          { key: "AC", label: "Academic and Trade" },
-          { key: "HE", label: "Higher Education Textbooks" },
-          { key: "EL", label: "English Language Teaching" },
-          { key: "*", label: "All" },
-          { key: "OX", label: "Children's and Pre University Educational" },
-          { key: "MU", label: "Printed Music" },
-        ].map(({ key, label }) => (
-          <ListboxItem key={key}>{label}</ListboxItem>
-        ))}
-      </Listbox>
+          <ListboxItem key="AC">Academic and Trade</ListboxItem>
+          <ListboxItem key="HE">Higher Education Textbooks</ListboxItem>
+          <ListboxItem key="EL">English Language Teaching</ListboxItem>
+          <ListboxItem key="*">All</ListboxItem>
+          <ListboxItem key="OX">Children's and Pre University Educational</ListboxItem>
+          <ListboxItem key="MU">Printed Music</ListboxItem>
+        </Listbox>
+      </ListboxWrapper>
 
       <Drawer isOpen={isOpen} size="3xl" onOpenChange={onOpenChange} placement="left">
         <DrawerContent>
-          {(onClose) => (
+          {onClose => (
             <>
               <DrawerBody className="flex flex-col gap-4 overflow-auto">
                 <div className="overflow-x-auto whitespace-nowrap flex flex-col gap-4">
-                  {selectionBoxes.map((key) => (
-                    <div key={key} className="flex gap-4">
+                  {selectionBoxes.map((key, index) => (
+                    <div key={index} className="flex gap-4">
                       <Selection selectedKey={key} onAddSelection={addSelectionBox} />
-                      {rightSelectionBox[key]?.map((rightKey) => (
-                        <Selection key={`${key}-${rightKey}`} selectedKey={rightKey} />
+                      {rightselectionbox[key]?.map((rightKey, rightIndex) => (
+                        <Selection key={rightIndex} selectedKey={rightKey} />
                       ))}
                     </div>
                   ))}
                 </div>
               </DrawerBody>
+
               <DrawerFooter>
-                <Button color="danger" variant="light" onPress={onClose}>Close</Button>
-                <Button color="primary" onPress={onClose}>Apply</Button>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Apply
+                </Button>
               </DrawerFooter>
             </>
           )}
         </DrawerContent>
       </Drawer>
     </div>
-  );
-}
-
-export default function App() {
-  return (
-    <SelectionProvider>
-      <AppContent />
-    </SelectionProvider>
   );
 }

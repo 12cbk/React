@@ -1,10 +1,8 @@
 import { Select, SelectItem } from "@heroui/react";
 import React, { useEffect, useState } from "react";
-import { SelectionProvider, useSelection } from "./Context";
 
-const Selection = ({ selectedKey }) => {
+const Selection = ({ selectedKey, onAddSelection }) => {
   const [options, setOptions] = useState([]);
-  const { addSelectionBox } = useSelection();
 
   useEffect(() => {
     const fetchOptions = async () => {
@@ -28,7 +26,8 @@ const Selection = ({ selectedKey }) => {
 
   const handleSelectionChange = (keys) => {
     const combinedKeys = Array.from(keys).map(key => selectedKey + key.slice(2, 4));
-    addSelectionBox(selectedKey, combinedKeys);
+    console.log("Combined values:", combinedKeys);
+    onAddSelection(selectedKey, combinedKeys);
   };
 
   return (
