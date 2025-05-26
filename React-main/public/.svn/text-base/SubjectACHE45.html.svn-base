@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACHE45??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACHE4510000000">Company & Commercial Law</option>
+<option value="ACHE4515000000">Comparative Law</option>
+<option value="ACHE4520000000">Competition Law</option>
+<option value="ACHE4530000000">Contract Law</option>
+<option value="ACHE4535000000">Criminal Law</option>
+<option value="ACHE4537000000">Employment Law</option>
+<option value="ACHE4539000000">Environmental Law</option>
+<option value="ACHE4541000000">Equity & Trusts</option>
+<option value="ACHE4543000000">EU Law</option>
+<option value="ACHE4545000000">Family Law</option>
+<option value="ACHE4548000000">Finance & Banking Law</option>
+<option value="ACHE4550000000">Human Rights</option>
+<option value="ACHE4555000000">Intellectual Property</option>
+<option value="ACHE4558000000">International Law</option>
+<option value="ACHE4560000000">IT Law</option>
+<option value="ACHE4564000000">Jurisprudence</option>
+<option value="ACHE4568000000">Land Law</option>
+<option value="ACHE4500000000">Law</option>
+<option value="ACHE4572000000">Legal History</option>
+<option value="ACHE4575000000">Legal Skills & Practice</option>
+<option value="ACHE4580000000">Legal System</option>
+<option value="ACHE4584000000">Media Law</option>
+<option value="ACHE4586000000">Medical & Healthcare Law</option>
+<option value="ACHE4525000000">Public Law</option>
+<option value="ACHE4588000000">Social Law</option>
+<option value="ACHE4592000000">Study & Revision Guides</option>
+<option value="ACHE4595000000">Taxation</option>
+<option value="ACHE4598000000">Tort</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>

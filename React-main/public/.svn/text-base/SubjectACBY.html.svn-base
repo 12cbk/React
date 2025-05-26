@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACBY??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACBY9500000000">Anthropology</option>
+<option value="ACBY6000000000">Aquatic Biology</option>
+<option value="ACBY1500000000">Biochemistry</option>
+<option value="ACBY0000000000">Biological Sciences</option>
+<option value="ACBY9800000000">Biomathematics, Statistics & Data Analysis</option>
+<option value="ACBY8000000000">Botany, Plant Sciences & Forestry</option>
+<option value="ACBY2000000000">Developmental Biology</option>
+<option value="ACBY0500000000">Ecology</option>
+<option value="ACBY0700000000">Environment, Conservation, & Biodiversity</option>
+<option value="ACBY2500000000">Evolutionary Biology & Genomics</option>
+<option value="ACBY1000000000">Life Sciences - General Issues</option>
+<option value="ACBY5000000000">Microbiology</option>
+<option value="ACBY3000000000">Molecular & Cellular Biology</option>
+<option value="ACBY9000000000">Zoology & Animal Sciences</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>

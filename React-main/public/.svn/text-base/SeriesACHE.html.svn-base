@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">DSUB=ACHE* NOT STI=""</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="APACR">American Philological Association Classical Resources</option>
+<option value="BM">Bar Manuals</option>
+<option value="BEBR">Bicentennial Essays on the Bill of Rights</option>
+<option value="BLSB">Blackstone's Statute Series</option>
+<option value="CPIS">Comparative Political Institutions Series</option>
+<option value="COMP">Complete</option>
+<option value="CONC">Concentrate</option>
+<option value="CTS">Core Texts Series</option>
+<option value="DRT">Directions series</option>
+<option value="ES">European Societies</option>
+<option value="IBMS">Fundamentals of Biomedical Science</option>
+<option value="MS">Gustav Mahler Biography</option>
+<option value="HEPS">Hegel's Encyclopedia of the Philosophical Sciences</option>
+<option value="IHS">Introducing Health Science</option>
+<option value="JHAPL">Johns Hopkins University Applied Physics Laboratories Series in Science and Engineering</option>
+<option value="LQA">Law Questions & Answers</option>
+<option value="LSIM">Law Society of Ireland Manuals</option>
+<option value="LPCG">Legal Practice Course Guide</option>
+<option value="MITPSME">MIT-Pappalardo Series in Mechanical Engineering</option>
+<option value="NEU">The New European Union Series</option>
+<option value="NNAH">New Narratives in American History Series</option>
+<option value="OCP">Oxford Chemistry Primers</option>
+<option value="OCTS">Oxford Core Texts</option>
+<option value="OECLS">Oxford European Community Law Library Series</option>
+<option value="OPHT">Oxford Philosophical Texts</option>
+<option value="OR">Oxford Readers</option>
+<option value="ORP">Oxford Readings in Philosophy</option>
+<option value="OSAM">Oxford Series on Advanced Manufacturing</option>
+<option value="OTS">Oxford Television Studies</option>
+<option value="PGSWRM">Pocket Guide to Social Work Research Methods</option>
+<option value="APA">A Practical Approach</option>
+<option value="PIB">Primers in Biology</option>
+<option value="RCP">Readings in Crime and Punishment</option>
+<option value="SAS">Series in Affective Science</option>
+<option value="SIS">Spatial Information Systems</option>
+<option value="SLC">Studies in Logic and Computation</option>
+<option value="TEEE">Textbooks in Electrical and Electronic Engineering</option>
+<option value="TCE">Topics in Chemical Engineering</option>
+<option value="TEC">Topics in Environmental Chemistry</option>
+<option value="TICH">Topics in Inorganic Chemistry</option>
+<option value="TPC">Topics in Physical Chemistry</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>

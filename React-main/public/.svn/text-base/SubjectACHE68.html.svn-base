@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACHE68??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACHE6810000000">Allied Health Professions</option>
+<option value="ACHE6820000000">Clinical Medicine</option>
+<option value="ACHE6800000000">Medicine</option>
+<option value="ACHE6830000000">Popular Health</option>
+<option value="ACHE6840000000">Pre-Clinical Medicine</option>
+<option value="ACHE6850000000">Primary care</option>
+<option value="ACHE6860000000">Psychiatry & Clinical Psychology</option>
+<option value="ACHE6870000000">Public Health & Epidemiology</option>
+<option value="ACHE6880000000">Surgery</option>
+<option value="ACHE6890000000">Veterinary Medicine</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>

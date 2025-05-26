@@ -1,0 +1,20 @@
+
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACAC??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACAC1700000000">Anglo-Saxon & Medieval Archaeology</option>
+<option value="ACAC0000000000">Archaeology</option>
+<option value="ACAC1200000000">Biblical Archaeology</option>
+<option value="ACAC0800000000">Egyptian Archaeology</option>
+<option value="ACAC4000000000">Environmental Archaeology</option>
+<option value="ACAC1500000000">Greek & Roman Archaeology</option>
+<option value="ACAC3000000000">History & Theory</option>
+<option value="ACAC6000000000">Industrial Archaeology</option>
+<option value="ACAC7000000000">Landscape Archaeology</option>
+<option value="ACAC2000000000">Methodology & Techniques</option>
+<option value="ACAC0600000000">Prehistoric Archaeology</option>
+<option value="ACAC5000000000">Underwater Archaeology</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>
+

@@ -17,11 +17,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HeroUIProvider>
     <Displaycard/>
-    {/* <BrowserRouter> */}
-      {/* <Card/> */}
-      {/* <AppRoutes /> */}
-      {/* <Footer/>     */}
-    {/* </BrowserRouter> */}
+    {/* <BrowserRouter> 
+      <Card/>
+      <AppRoutes />
+       <Footer/>     
+    </BrowserRouter> */}
   </HeroUIProvider>
 );
 

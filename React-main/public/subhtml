@@ -1,0 +1,1 @@
+starclean -l SubjectACHE$1.lst SubjectACHE$1.html && rm SubjectACHE$1.lst
