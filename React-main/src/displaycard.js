@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Listbox,
   ListboxItem,
@@ -7,128 +7,101 @@ import {
   DrawerBody,
   DrawerFooter,
   Button,
-  useDisclosure
+  useDisclosure,
 } from "@heroui/react";
 import Selection from "./Selection";
 
-export const ListboxWrapper = ({ children }) => (
-  <div className="flex flex-col gap-2">
-    {children}
-  </div>
-);
+export default function DisplayCard() {
+  const [selectedKeys, setSelectedKeys] = useState(new Set());
+  const [drawerKeys, setDrawerKeys] = useState([]);
+  const [selections, setSelections] = useState({});
+  const [nestedSelections, setNestedSelections] = useState({});
 
-export default function App() {
-  const [selectedKeys, setSelectedKeys] = React.useState(new Set([]));
-  const [selectionBoxes, setSelectionBoxes] = React.useState([]);
-  const [rightselectionbox, setrightSelectionBoxes] = React.useState({});
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [activeItem, setActiveItem] = React.useState("");
-  const [isCtrlPressed, setIsCtrlPressed] = React.useState(false);
-  const pendingSelectionRef = React.useRef(false);
+  const { isOpen, onOpen, onClose, onOpenChange } = useDisclosure();
+  console.log("Selected Keys:", selections);
+  const handleListboxChange = (keys) => {
+    const newKeys = Array.from(keys);
+    const oldKeys = Array.from(selectedKeys);
+    const newlySelected = newKeys.find((key) => !oldKeys.includes(key));
 
-  React.useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === "Control") {
-        setIsCtrlPressed(true);
-      }
-    };
+    setSelectedKeys(new Set(newKeys));
 
-    const handleKeyUp = (e) => {
-      if (e.key === "Control") {
-        setIsCtrlPressed(false);
-        if (pendingSelectionRef.current) {
-          pendingSelectionRef.current = false;
-          onOpen();
-        }
-      }
-    };
+    if (newlySelected) {
+      setDrawerKeys((prev) =>
+        prev.includes(newlySelected) ? prev : [...prev, newlySelected]
+      );
+      onOpen();
+    }
+  };
 
-    window.addEventListener("keydown", handleKeyDown);
-    window.addEventListener("keyup", handleKeyUp);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-      window.removeEventListener("keyup", handleKeyUp);
-    };
-  }, [onOpen]);
-
-  const addSelectionBox = (selectedKey, selectedValues) => {
-    setrightSelectionBoxes((prev) => ({
+  const handleMainSelectionChange = (key, values) => {
+    setSelections((prev) => ({
       ...prev,
-      [selectedKey]: selectedValues.length ? selectedValues : undefined, // Remove empty selections
+      [key]: values,
+    }));
+    console.log(`Main selection changed for ${key}:`, values);
+  };
+
+  const handleNestedSelectionChange = (slicedKey, nestedValues) => {
+    setNestedSelections((prev) => ({
+      ...prev,
+      [slicedKey]: nestedValues,
     }));
   };
 
-  const handleSelectionChange = (keys) => {
-  const newKeys = Array.from(keys);
-  const oldKeys = Array.from(selectedKeys);
-  const newlySelected = newKeys.find((key) => !oldKeys.includes(key));
-
-  setSelectedKeys(keys);
-
-  setSelectionBoxes(prevBoxes => prevBoxes.filter(box => newKeys.includes(box))); // Removes unchecked items
-
-  if (newlySelected) {
-    setActiveItem(newlySelected);
-    setSelectionBoxes(prevBoxes => [...prevBoxes, newlySelected]);
-
-    if (isCtrlPressed) {
-      pendingSelectionRef.current = true;
-    } else {
-      onOpen();
-    }
-  }
-};
-
-
-  console.log("Current rightselectionbox:", rightselectionbox);
-
   return (
-    <div className="flex flex-col gap-2">
-      <ListboxWrapper>
-        <Listbox
-          aria-label="Multiple selection example"
-          selectedKeys={selectedKeys}
-          selectionMode="multiple"
-          variant="flat"
-          onSelectionChange={handleSelectionChange}
-        >
-          <ListboxItem key="AC">Academic and Trade</ListboxItem>
-          <ListboxItem key="HE">Higher Education Textbooks</ListboxItem>
-          <ListboxItem key="EL">English Language Teaching</ListboxItem>
-          <ListboxItem key="*">All</ListboxItem>
-          <ListboxItem key="OX">Children's and Pre University Educational</ListboxItem>
-          <ListboxItem key="MU">Printed Music</ListboxItem>
-        </Listbox>
-      </ListboxWrapper>
+    <div className="p-4">
+      <h2 className="text-xl font-bold">Select Options</h2>
+      <Listbox
+        aria-label="Multiple selection"
+        selectedKeys={selectedKeys}
+        selectionMode="multiple"
+        onSelectionChange={handleListboxChange}
+      >
+        <ListboxItem key="AC">Academic and Trade</ListboxItem>
+        <ListboxItem key="HE">Higher Education Textbooks</ListboxItem>
+        <ListboxItem key="EL">English Language Teaching</ListboxItem>
+        <ListboxItem key="*">All</ListboxItem>
+        <ListboxItem key="OX">Children's and Pre University Educational</ListboxItem>
+        <ListboxItem key="MU">Printed Music</ListboxItem>
+      </Listbox>
 
-      <Drawer isOpen={isOpen} size="3xl" onOpenChange={onOpenChange} placement="left">
+      <Drawer isOpen={isOpen} onOpenChange={onOpenChange} size="3xl" placement="left">
         <DrawerContent>
-          {onClose => (
-            <>
-              <DrawerBody className="flex flex-col gap-4 overflow-auto">
-                <div className="overflow-x-auto whitespace-nowrap flex flex-col gap-4">
-                  {selectionBoxes.map((key, index) => (
-                    <div key={index} className="flex gap-4">
-                      <Selection selectedKey={key} onAddSelection={addSelectionBox} />
-                      {rightselectionbox[key]?.map((rightKey, rightIndex) => (
-                        <Selection key={rightIndex} selectedKey={rightKey} />
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              </DrawerBody>
-
-              <DrawerFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  Apply
-                </Button>
-              </DrawerFooter>
-            </>
-          )}
+          <DrawerBody className="flex gap-4 overflow-x-auto">
+            {drawerKeys.map((key) => (
+              <div key={key} className="flex gap-4">
+                <Selection
+                  selectedKey={key}
+                  selectedValues={selections[key] || []}
+                  onSelectionChange={(values) => handleMainSelectionChange(key, values)}
+                />
+                {selections[key]?.map((nestedKey) => {
+                  const slicedKey = nestedKey.slice(0,4);
+                  console.log("abcd", nestedKey) 
+                  console.log("abcdesl", slicedKey) // Slicing logic here
+                  return (
+                    <Selection
+                      key={slicedKey}
+                      selectedKey={slicedKey}
+                      selectedValues={nestedSelections[slicedKey] || []}
+                      onSelectionChange={(nestedValues) =>
+                        handleNestedSelectionChange(slicedKey, nestedValues)
+                      }
+                    />
+                  );
+                })}
+              </div>
+            ))}
+          </DrawerBody>
+          <DrawerFooter>
+            <Button color="danger" variant="light" onPress={onClose}>
+              Close
+            </Button>
+            <Button color="primary" onPress={onClose}>
+              Apply
+            </Button>
+          </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </div>

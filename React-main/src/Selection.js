@@ -1,7 +1,7 @@
 import { Select, SelectItem } from "@heroui/react";
 import React, { useEffect, useState } from "react";
 
-const Selection = ({ selectedKey, onAddSelection }) => {
+const Selection = ({ selectedKey, selectedValues, onSelectionChange }) => {
   const [options, setOptions] = useState([]);
 
   useEffect(() => {
@@ -12,32 +12,36 @@ const Selection = ({ selectedKey, onAddSelection }) => {
         const doc = new DOMParser().parseFromString(html, "text/html");
         const optionElements = doc.querySelectorAll("select[name='test'] option");
 
-        setOptions(Array.from(optionElements).map(option => ({
-          key: option.value,
-          label: option.textContent,
-        })));
-      } catch (error) {
-        console.error(`Error loading options:`, error);
+        setOptions(
+          Array.from(optionElements).map((opt) => ({
+            key: opt.value,
+            label: opt.textContent,
+          }))
+        );
+      } catch (err) {
+        console.error(`Error fetching options for ${selectedKey}:`, err);
       }
     };
 
     fetchOptions();
   }, [selectedKey]);
 
-  const handleSelectionChange = (keys) => {
-    const combinedKeys = Array.from(keys).map(key => selectedKey + key.slice(2, 4));
-    console.log("Combined values:", combinedKeys);
-    onAddSelection(selectedKey, combinedKeys);
-  };
-
   return (
-    <Select className="max-w-xs" label="Select Subject" selectionMode="multiple" onSelectionChange={handleSelectionChange}>
-      {options.map(({ key, label }) => (
-        <SelectItem key={key} value={key}>
-          {label}
-        </SelectItem>
-      ))}
-    </Select>
+    <div className="min-w-[250px]">
+      <h4 className="text-lg font-bold">{selectedKey} Options</h4>
+      <Select
+        label="Select options"
+        selectionMode="multiple"
+        selectedKeys={new Set(selectedValues)}
+        onSelectionChange={(keys) => onSelectionChange(Array.from(keys))}
+      >
+        {options.map(({ key, label }) => (
+          <SelectItem key={key} value={key}>
+            {label}
+          </SelectItem>
+        ))}
+      </Select>
+    </div>
   );
 };
 
