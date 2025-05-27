@@ -16,12 +16,12 @@ import { HeroUIProvider } from "@heroui/react";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HeroUIProvider>
-    <Displaycard/>
-    {/* <BrowserRouter> 
-      <Card/>
-      <AppRoutes />
-       <Footer/>     
-    </BrowserRouter> */}
+    {/* <Displaycard/> */}
+    <BrowserRouter>
+       <Card/> 
+      <AppRoutes /> 
+      <Footer/>
+    </BrowserRouter>
   </HeroUIProvider>
 );
 
