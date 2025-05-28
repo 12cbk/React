@@ -44,12 +44,25 @@ const Card = () => {
       console.log(answers);
       };
     
-const visibleQuestions = feedrequirement.filter((question) => {
-  if (!question.dependency) {return true; }
-  const [parentName, expectedValue] = question.dependency.split("-");
-  const isVisible =  answers[parentName] === expectedValue;   
-  return isVisible;
+// const visibleQuestions = feedrequirement.filter((question) => {
+//   if (!question.dependency) {return true; }
+//   const [parentName, expectedValue] = question.dependency.split("-");
+//   const isVisible =  answers[parentName] === expectedValue;   
+//   return isVisible;
+// });
+
+const visibleQuestions = feedrequirement.filter((q) => {
+  if (!q.dependency) return true;
+  const [parent, value] = q.dependency.split("-");
+  const parentMatch = answers[parent] === value;
+  
+  if (q.subdependency) {
+    const [sub, subval] = q.subdependency.split("-");
+    return parentMatch && answers[sub] === subval;
+  }
+  return parentMatch;
 });
+
 const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questionsPerPage);
 
 return (
@@ -90,14 +103,7 @@ return (
                               name={data.name}
                               values={data.values}
                               selectedValues={answers[data.name] || []}
-                              onChange={(e) => {
-                                const { value, checked } = e.target;
-                                const prev = answers[data.name] || [];
-                                const updated = checked
-                                  ? [...prev, value]
-                                  : prev.filter((v) => v !== value);
-                                updateAnswer(data.name, updated);
-                              }}
+                              onChange={(newSelectedValues) => updateAnswer(data.name, newSelectedValues)}
                             />
                           );
                         }
@@ -128,7 +134,12 @@ return (
                           if (data.elements.length > 0) {
                             return (
                               <div key={index} className="combined-container">
-                                {data.elements.map((element, idx) => {
+                                {data.elements.filter((element) => {
+          if (!element.dependency) return true;
+          const [parent, expectedValue] = element.dependency.split("-");
+          return answers[parent] === expectedValue;
+        })
+        .map((element, idx) => {
                                   // console.log("Element", element);
                                   if (element.type === "Radio") {
                                     return (                    
@@ -157,14 +168,7 @@ return (
                             return (   <div key={idx} className="combined-item">                                   
                               <Checkboxgroup key={idx} label={element.label} name={element.name} values={element.values}
                                   selectedValues={answers[element.name] || []}
-                                  onChange={(e) => {
-                                    const { value, checked } = e.target;
-                                    const prev = answers[element.name] || [];
-                                    const updated = checked
-                                    ? [...prev, value]
-                                    : prev.filter((v) => v !== value);
-                                    updateAnswer(element.name, updated);
-                              }}
+                                  onChange={(newSelectedValues) => updateAnswer(element.name, newSelectedValues)}
                             />
                                 </div>                                      
                           );

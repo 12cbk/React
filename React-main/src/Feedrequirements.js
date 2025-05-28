@@ -61,8 +61,9 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
 
                   {
   type: "DisplayCard",
-  dependency: "searchBy-subject"
-},{
+  dependency: "searchBy-subject",subdependency: "searchType-flexible"
+},
+{
   type: "MultiLineInput",
   label: "Search by ISBN",
   description: "A maximum of 500 ISBNs is permitted. Enter one ISBN to a line without hyphens.",
@@ -147,12 +148,27 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                                   ] 
                                 
                       
-                                },{
+                                },
+                                {
                                   type:"textbox",label: "",
                                   values:[
                                     {textboxlabel:"Email address(es)"}
-                                  ] 
-                                }]
+                                  ] ,
+                                  dependency: "DELIV-email"
+                                },
+                                {
+                                  type:"textbox",label: "",
+                                  values:[
+                                    { textboxlabel: "Email address(es)" },
+        { textboxlabel: "FTP server" },
+        { textboxlabel: "FTP directory" },
+        { textboxlabel: "FTP username" },
+        { textboxlabel: "FTP password" }
+                                  ] ,
+                                  dependency: "DELIV-ftp"
+                                }
+                                
+                              ]
                            },
                            {
                             type:"Combined",
