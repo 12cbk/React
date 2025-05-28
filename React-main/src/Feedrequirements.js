@@ -58,6 +58,20 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                       dependency: "searchType-flexible"
             
                       },
+
+                  {
+  type: "DisplayCard",
+  dependency: "searchBy-subject"
+},{
+  type: "MultiLineInput",
+  label: "Search by ISBN",
+  description: "A maximum of 500 ISBNs is permitted. Enter one ISBN to a line without hyphens.",
+  name: "isbn",
+  placeholder: "Enter ISBNs here",
+  dependency: "searchType-isbn"
+},
+
+
                   { type: "Dropdown", label: "Select format", 
                     name:"BIND", 
                     dropdownlabel:"Format", 

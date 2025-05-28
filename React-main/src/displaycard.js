@@ -1,61 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
-  Listbox,
-  ListboxItem,
-  Drawer,
-  DrawerContent,
-  DrawerBody,
-  DrawerFooter,
-  Button,
-  useDisclosure,
+  Listbox, ListboxItem, Drawer, DrawerContent, DrawerBody, DrawerFooter, Button, useDisclosure
 } from "@heroui/react";
 import Selection from "./Selection";
 
-export default function DisplayCard() {
-  const [selectedKeys, setSelectedKeys] = useState(new Set());
-  const [drawerKeys, setDrawerKeys] = useState([]);
-  const [selections, setSelections] = useState({});
-  const [nestedSelections, setNestedSelections] = useState({});
+const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAnswer }) => {
+  const [selectedKeys, setSelectedKeys] = useState(new Set(selectedValues));
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const { isOpen, onOpen, onClose, onOpenChange } = useDisclosure();
-  console.log("Selected Keys:", selections);
+  useEffect(() => {
+    setSelectedKeys(new Set(selectedValues));
+  }, [selectedValues]);
+
   const handleListboxChange = (keys) => {
-    const newKeys = Array.from(keys);
-    const oldKeys = Array.from(selectedKeys);
-    const newlySelected = newKeys.find((key) => !oldKeys.includes(key));
-
-    setSelectedKeys(new Set(newKeys));
-
-    if (newlySelected) {
-      setDrawerKeys((prev) =>
-        prev.includes(newlySelected) ? prev : [...prev, newlySelected]
-      );
+    setSelectedKeys(keys);
+    if (onSelectionChange) {
+      onSelectionChange(Array.from(keys));
+    }
+    if (Array.from(keys).length > 0) {
       onOpen();
     }
   };
 
-  const handleMainSelectionChange = (key, values) => {
-    setSelections((prev) => ({
-      ...prev,
-      [key]: values,
-    }));
-    console.log(`Main selection changed for ${key}:`, values);
+  const handleLeftSelectionChange = (parentKey, values) => {
+    updateAnswer(`selection-${parentKey}`, values);
   };
 
-  const handleNestedSelectionChange = (slicedKey, nestedValues) => {
-    setNestedSelections((prev) => ({
-      ...prev,
-      [slicedKey]: nestedValues,
-    }));
+  const handleRightSelectionChange = (parentKey, childKey, values) => {
+    updateAnswer(`rightSelection-${parentKey}-${childKey}`, values);
   };
 
   return (
     <div className="p-4">
-      <h2 className="text-xl font-bold">Select Options</h2>
+      <h2 className="text-lg font-semibold">Select Your Options</h2>
       <Listbox
         aria-label="Multiple selection"
         selectedKeys={selectedKeys}
         selectionMode="multiple"
+        variant="flat"
         onSelectionChange={handleListboxChange}
       >
         <ListboxItem key="AC">Academic and Trade</ListboxItem>
@@ -66,44 +48,38 @@ export default function DisplayCard() {
         <ListboxItem key="MU">Printed Music</ListboxItem>
       </Listbox>
 
-      <Drawer isOpen={isOpen} onOpenChange={onOpenChange} size="3xl" placement="left">
+      <Drawer isOpen={isOpen} onOpenChange={() => {}} placement="left" size="3xl">
         <DrawerContent>
-          <DrawerBody className="flex gap-4 overflow-x-auto">
-            {drawerKeys.map((key) => (
-              <div key={key} className="flex gap-4">
-                <Selection
-                  selectedKey={key}
-                  selectedValues={selections[key] || []}
-                  onSelectionChange={(values) => handleMainSelectionChange(key, values)}
-                />
-                {selections[key]?.map((nestedKey) => {
-                  const slicedKey = nestedKey.slice(0,4);
-                  console.log("abcd", nestedKey) 
-                  console.log("abcdesl", slicedKey) // Slicing logic here
-                  return (
-                    <Selection
-                      key={slicedKey}
-                      selectedKey={slicedKey}
-                      selectedValues={nestedSelections[slicedKey] || []}
-                      onSelectionChange={(nestedValues) =>
-                        handleNestedSelectionChange(slicedKey, nestedValues)
-                      }
-                    />
-                  );
-                })}
-              </div>
-            ))}
+          <DrawerBody>
+            {Array.from(selectedKeys).map((parentKey) => (
+  <div key={parentKey} className="flex gap-4 mb-4">
+    <Selection
+      selectedKey={parentKey}
+      selectedValues={answers[`selection-${parentKey}`] || []}
+      onSelectionChange={(values) => handleLeftSelectionChange(parentKey, values)}
+    />
+    {answers[`selection-${parentKey}`]?.map((childKey) => {
+      const slicedChildKey = childKey.slice(0, 4); 
+      return (
+        <Selection
+          key={childKey}
+          selectedKey={slicedChildKey} 
+          selectedValues={answers[`rightSelection-${parentKey}-${childKey}`] || []}
+          onSelectionChange={(values) => handleRightSelectionChange(parentKey, childKey, values)}
+        />
+      );
+    })}
+  </div>
+))}
+
           </DrawerBody>
           <DrawerFooter>
-            <Button color="danger" variant="light" onPress={onClose}>
-              Close
-            </Button>
-            <Button color="primary" onPress={onClose}>
-              Apply
-            </Button>
+            <Button color="danger" variant="light" onPress={onClose}>Close</Button>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </div>
   );
-}
+};
+
+export default DisplayCard;

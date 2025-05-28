@@ -18,7 +18,7 @@ root.render(
   <HeroUIProvider>
     {/* <Displaycard/> */}
     <BrowserRouter>
-       <Card/> 
+       {/* <Card/>  */}
       <AppRoutes /> 
       <Footer/>
     </BrowserRouter>

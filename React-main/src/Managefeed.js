@@ -8,6 +8,8 @@ import "./Managefeed.css";
 import Textbox from "./textbox";
 import { fetchData } from "./ApiService";
 import Checkboxgroup from "./checkbox";
+import DisplayCard from "./displaycard";
+import MultiLineInput from "./MultiLineInput";
 
 const Card = () => {
   const [page, setPage] = useState(0); 
@@ -15,15 +17,15 @@ const Card = () => {
   const [feedrequirement, setFeedRequirements] = useState(feedrequirements);
   const questionsPerPage = 3;   
   const startIndex = page * questionsPerPage;
-  
-  useEffect(() => {
-    fetchData().then((extractedData) => {
-      let formattedData = formatFeedRequirements(extractedData);
-      console.log("Format Data:", formattedData);
-      setFeedRequirements((prev) => [...prev, ...formattedData]);
-      console.log("feed Data:", feedrequirement);
-    });
-  }, []);
+  console.log("answers:", answers);
+  // useEffect(() => {
+  //   fetchData().then((extractedData) => {
+  //     let formattedData = formatFeedRequirements(extractedData);
+  //     console.log("Format Data:", formattedData);
+  //     setFeedRequirements((prev) => [...prev, ...formattedData]);
+  //     console.log("feed Data:", feedrequirement);
+  //   });
+  // }, []);
 
   const handlePageChange = (direction) => {
     console.log("length:",visibleQuestions.length);
@@ -99,6 +101,29 @@ return (
                             />
                           );
                         }
+                          if (data.type === "DisplayCard") {
+    const selectedValues = answers["displayCardSelection"] || []; 
+    return (
+      <DisplayCard
+  selectedValues={answers["displayCardSelection"] || []}
+  onSelectionChange={(newValues) => updateAnswer("displayCardSelection", newValues)}
+  answers={answers}
+  updateAnswer={updateAnswer}
+/>
+    );
+  }
+  if (data.type === "MultiLineInput") {
+  return (
+    <MultiLineInput
+      key={index}
+      label={data.label}
+      description={data.description} 
+      placeholder={data.placeholder}
+      value={answers[data.name] || ""}
+      onChange={(val) => updateAnswer(data.name, val)}
+    />
+  );
+}
                         else if (data.type === "Combined") {
                           if (data.elements.length > 0) {
                             return (

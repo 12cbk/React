@@ -1,13 +1,16 @@
 import { Select, SelectItem } from "@heroui/react";
 import React, { useEffect, useState } from "react";
 
-const Selection = ({ selectedKey, selectedValues, onSelectionChange }) => {
+const Selection = ({ selectedKey, selectedValues, onSelectionChange, fromRight = false }) => {
   const [options, setOptions] = useState([]);
 
   useEffect(() => {
     const fetchOptions = async () => {
       try {
-        const response = await fetch(`./Subject${selectedKey}.html`);
+        
+        const keyToUse = fromRight ? selectedKey.slice(1, 4) : selectedKey;
+
+        const response = await fetch(`./Subject${keyToUse}.html`);
         const html = await response.text();
         const doc = new DOMParser().parseFromString(html, "text/html");
         const optionElements = doc.querySelectorAll("select[name='test'] option");
@@ -24,7 +27,7 @@ const Selection = ({ selectedKey, selectedValues, onSelectionChange }) => {
     };
 
     fetchOptions();
-  }, [selectedKey]);
+  }, [selectedKey, fromRight]); 
 
   return (
     <div className="min-w-[250px]">
