@@ -10,6 +10,7 @@ import { fetchData } from "./ApiService";
 import Checkboxgroup from "./checkbox";
 import DisplayCard from "./displaycard";
 import MultiLineInput from "./MultiLineInput";
+import DatePicker from "./DatePicker";
 
 const Card = () => {
   const [page, setPage] = useState(0); 
@@ -64,6 +65,7 @@ const visibleQuestions = feedrequirement.filter((q) => {
 });
 
 const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questionsPerPage);
+console.log("questions", currentQuestions)
 
 return (
     
@@ -172,6 +174,12 @@ return (
                             />
                                 </div>                                      
                           );
+                                  }
+                                  else if(element.type === "DatePicker"){
+                                    return(<div key={idx} className="combined-item">
+                                      <DatePicker/>
+                                      </div>)
+                                    
                                   }
                                 })}
 

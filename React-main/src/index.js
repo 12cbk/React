@@ -12,6 +12,7 @@ import AppRoutes from './Route';
 import Dropdown from './dropdown';
 import Displaycard from './displaycard'
 import { HeroUIProvider } from "@heroui/react";
+import DatePicker from "./DatePicker";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
        {/* <Card/>  */}
       <AppRoutes /> 
       <Footer/>
+      {/* <DatePicker/> */}
     </BrowserRouter>
   </HeroUIProvider>
 );

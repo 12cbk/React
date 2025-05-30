@@ -22,6 +22,16 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
         ],
         dependency: "BESP-standard"
       },
+      { type: "Checkbox", label: "Send me the following files for all titles available from OUP UK", 
+                            name:"searchType",                             
+                            values: [
+                                  { value: "ONIX", text: "A standard 2.1 ONIX feed containing extensive metadata for all OUP titles (updated weekly, only available via ftp)" } ,             
+                                  { value: "COVER", text: "A feed containing new cover images for all OUP titles (updated weekly, only available via ftp)." }    ,          
+                                             
+                                ] ,
+                              dependency: "BESP-common"
+                    
+                              },
       { type: "Radio", label: "If none of these file types are appropriate and you wish to build your own file or output, please select this option.", 
         name:"oupType",  
         values: [
@@ -97,20 +107,38 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                             {textboxlabel: "To: £"}
                         ]                        
                       },
-                      { type: "Radio", label: "Search by UK publication date", 
-                        name:"searchType", 
+                      {
+                            type:"Combined",
+                            elements: [{ type: "Radio", label: "Search by UK publication date", 
+                        name:"pub_select", 
                         sublabel:[
                           "Please select either a forward publishing period*, or enter a fixed date range.",
                           "* recommended for for datafeeds you intend to schedule to rerun periodically in the future."
                         ] ,
                         values: [
-                              { value: "abc", text: "Do not filter by publication date" } ,             
-                              { value: "def", text: "Forward publishing period" }    ,          
-                              { value: "ijk", text: "Within a fixed date range" }              
+                              { value: "no_date", text: "Do not filter by publication date" } ,             
+                              { value: "period", text: "Forward publishing period" }    ,          
+                              { value: "date_range", text: "Within a fixed date range" }              
                             ] 
                           
                 
-                          },
+                          },{ type: "Dropdown", label: "", 
+                                name:"sched", 
+                                dropdownlabel:"Forward publishing period:", 
+                                values: [
+                                      { value: "1month", text: "within 1 month" } ,               
+                                      { value: "3months", text: "in the next 3 months" } ,               
+                                      { value: "6months", text: "in the next 6 months" } ,               
+                                      { value: "12months", text: "in the next 12 months" }            
+                                    ] ,
+                                    dependency: "pub_select-period"                    
+                        
+                                  },{type: "DatePicker",
+                                    dependency:"pub_select-date_range"
+                                  }
+                                  
+                          ]
+                           },
                           { type: "Checkbox", label: "UK availability status", 
                             name:"searchType",                             
                             values: [
