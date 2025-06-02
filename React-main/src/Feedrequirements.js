@@ -7,23 +7,51 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
         { value: "common", text: "Everything that OUP publishes" }
       ] },
       {
-        type: "Radio",
-        label: "A number of standard file types are listed below. Please select one of these file types should it suit your requirement. If not, please see below.",
-        name: "oupType",
-        values: [
-          { value: "ORDERFORM", text: "Order form without jacket images (single Excel file)" },
-          { value: "ORDERFORMJ", text: "Order form with jacket images (single Excel file)." },
-          { value: "SALESBRIEFS", text: "Sales Briefs or AI sheets (as a single html file)." },
-          { value: "ONIX", text: "ONIX report (single XML file)." },
-          { value: "COVERS", text: "Cover image files (multiple jpg files)." },
-          { value: "PDFFILES", text: "Sample content files (multiple pdf files)." },
-          { value: "MUSICREP", text: "Music report, showing music-specific data - such as arranger, type of score, orchestration and ABRSM selected grade (single Excel file)." },
+  type: "Combined",
+  dependency: "BESP-standard",
+  elements: [
+    {
+      type: "Radio",
+      label: "A number of standard file types are listed below. Please select one of these file types should it suit your requirement. If not, please see below.",
+      name: "oupType",
+      values: [
+        { value: "ORDERFORM", text: "Order form without jacket images (single Excel file)" },
+        { value: "ORDERFORMJ", text: "Order form with jacket images (single Excel file)." },
+        { value: "SALESBRIEFS", text: "Sales Briefs or AI sheets (as a single html file)." },
+        { value: "ONIX", text: "ONIX report (single XML file)." },
+        { value: "COVERS", text: "Cover image files (multiple jpg files)." },
+        { value: "PDFFILES", text: "Sample content files (multiple pdf files)." },
+        { value: "MUSICREP", text: "Music report, showing music-specific data - such as arranger, type of score, orchestration and ABRSM selected grade (single Excel file)." },
+      ],
+    },
+    {
+      type: "Dropdown",      
+      name: "imageQuality",
+      dropdownlabel: "Choose cover image quality",
+      values: [
+        { value: "72", text: "72 dpi - for online display" },
+        { value: "300", text: "300 dpi - for print display" }
+      ],
+      dependency: "oupType-COVERS",
+    },
+    {
+      type: "Dropdown",      
+      name: "sampleTypes",
+      dropdownlabel: "Choose sample types",
+      values: [
+        { value: "all", text: "All sample files" },
+        { value: "bibliography", text: "Bibliography files (.pdf)" },
+        { value: "introductions", text: "Introductions (.pdf)" },
+        { value: "chapters", text: "Sample chapters (.pdf)" },
+        { value: "toc", text: "Tables of Contents (.pdf)" },
+      ],
+      dependency: "oupType-PDFFILES",
+    }
+  ]
+},
 
-        ],
-        dependency: "BESP-standard"
-      },
       { type: "Checkbox", label: "Send me the following files for all titles available from OUP UK", 
-                            name:"searchType",                             
+                            name:"filetype",                             
                             values: [
                                   { value: "ONIX", text: "A standard 2.1 ONIX feed containing extensive metadata for all OUP titles (updated weekly, only available via ftp)" } ,             
                                   { value: "COVER", text: "A feed containing new cover images for all OUP titles (updated weekly, only available via ftp)." }    ,          

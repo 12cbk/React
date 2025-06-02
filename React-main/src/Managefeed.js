@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import formatFeedRequirements from  './Formatfeed'
 import { Pagination, Button, Checkbox } from "@heroui/react";
 import Radiogroup from "./Radiogroup";
@@ -11,11 +11,13 @@ import Checkboxgroup from "./checkbox";
 import DisplayCard from "./displaycard";
 import MultiLineInput from "./MultiLineInput";
 import DatePicker from "./DatePicker";
+import HiddenForm from './Hiddenform';
 
 const Card = () => {
   const [page, setPage] = useState(0); 
   const [answers, setAnswers] = useState({});
   const [feedrequirement, setFeedRequirements] = useState(feedrequirements);
+   const hiddenFormRef = useRef();
   const questionsPerPage = 3;   
   const startIndex = page * questionsPerPage;
   console.log("answers:", answers);
@@ -66,6 +68,12 @@ const visibleQuestions = feedrequirement.filter((q) => {
 
 const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questionsPerPage);
 console.log("questions", currentQuestions)
+
+const handleSubmit = () => {
+    if (hiddenFormRef.current) {
+      hiddenFormRef.current.submitForm(); 
+    }
+  }
 
 return (
     
@@ -216,6 +224,9 @@ return (
 >
   Next
 </Button>
+<HiddenForm ref={hiddenFormRef} answers={answers} />
+
+      
       </div>
       </div>
       
