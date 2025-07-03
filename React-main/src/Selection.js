@@ -30,11 +30,13 @@ const Selection = ({ selectedKey, selectedValues, onSelectionChange, fromRight =
   }, [selectedKey, fromRight]); 
 
   return (
-    <div className="min-w-[250px]">
-      <h4 className="text-lg font-bold">{selectedKey} Options</h4>
+    // <div className="w-[300px] flex-shrink-0">
+      // <h4 className="text-lg font-bold">{selectedKey} Options</h4>
       <Select
+      className="max-w-xs"
         label="Select options"
         selectionMode="multiple"
+        color="primary"
         selectedKeys={new Set(selectedValues)}
         onSelectionChange={(keys) => onSelectionChange(Array.from(keys))}
       >
@@ -44,7 +46,7 @@ const Selection = ({ selectedKey, selectedValues, onSelectionChange, fromRight =
           </SelectItem>
         ))}
       </Select>
-    </div>
+    // </div>
   );
 };
 
