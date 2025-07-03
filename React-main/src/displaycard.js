@@ -50,23 +50,28 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
 
       <Drawer isOpen={isOpen} onOpenChange={() => {}} placement="left" size="3xl">
         <DrawerContent>
-          <DrawerBody>
+          <DrawerBody className="overflow-x-auto">
             {Array.from(selectedKeys).map((parentKey) => (
-  <div key={parentKey} className="flex gap-4 mb-4">
-    <Selection
+  <div key={parentKey} className="flex gap-4 mb-4 overflow-x-auto scrollbar-thin">
+    
+  
+    <Selection 
       selectedKey={parentKey}
       selectedValues={answers[`selection-${parentKey}`] || []}
       onSelectionChange={(values) => handleLeftSelectionChange(parentKey, values)}
     />
+    
     {answers[`selection-${parentKey}`]?.map((childKey) => {
       const slicedChildKey = childKey.slice(0, 4); 
       return (
-        <Selection
+        
+        <Selection 
           key={childKey}
           selectedKey={slicedChildKey} 
           selectedValues={answers[`rightSelection-${parentKey}-${childKey}`] || []}
           onSelectionChange={(values) => handleRightSelectionChange(parentKey, childKey, values)}
         />
+        
       );
     })}
   </div>
