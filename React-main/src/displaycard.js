@@ -52,7 +52,7 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
         <DrawerContent>
           <DrawerBody>
             {Array.from(selectedKeys).map((parentKey) => (
-  <div key={parentKey} className="flex gap-4 mb-4">
+  <div key={parentKey} className="flex gap-4 mb-4 items-start">
     <Selection
       selectedKey={parentKey}
       selectedValues={answers[`selection-${parentKey}`] || []}

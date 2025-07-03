@@ -30,7 +30,7 @@ const Selection = ({ selectedKey, selectedValues, onSelectionChange, fromRight =
   }, [selectedKey, fromRight]); 
 
   return (
-    <div className="min-w-[250px]">
+    <div className="w-[300px] flex-shrink-0">
       <h4 className="text-lg font-bold">{selectedKey} Options</h4>
       <Select
         label="Select options"
