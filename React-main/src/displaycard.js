@@ -17,12 +17,19 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
     if (onSelectionChange) {
       onSelectionChange(Array.from(keys));
     }
+    if (
+    Array.from(keys).includes("EL") &&
+    (!answers || !answers["selection-EL"] || answers["selection-EL"].length === 0)
+  ) {
+    updateAnswer("selection-EL", ["abc"]);
+  }
     if (Array.from(keys).length > 0) {
       onOpen();
     }
   };
 
   const handleLeftSelectionChange = (parentKey, values) => {
+    
     updateAnswer(`selection-${parentKey}`, values);
   };
 
@@ -48,33 +55,49 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
         <ListboxItem key="MU">Printed Music</ListboxItem>
       </Listbox>
 
-      <Drawer isOpen={isOpen} onOpenChange={() => {}} placement="left" size="3xl">
+      <Drawer isOpen={isOpen} onOpenChange={() => {}} placement="top">
         <DrawerContent>
-          <DrawerBody className="overflow-x-auto">
-            {Array.from(selectedKeys).map((parentKey) => (
-  <div key={parentKey} className="flex gap-4 mb-4 overflow-x-auto scrollbar-thin">
-    
-  
-    <Selection 
+          <DrawerBody >
+            {Array.from(selectedKeys).map((parentKey) => (       
+  <div key={parentKey} className="whitespace-normal">
+  {/* <div key={parentKey} className="gap-x-8"> */}
+    <Selection
+      
       selectedKey={parentKey}
       selectedValues={answers[`selection-${parentKey}`] || []}
-      onSelectionChange={(values) => handleLeftSelectionChange(parentKey, values)}
+      onSelectionChange={(values) =>
+        handleLeftSelectionChange(parentKey, values)
+      }
+      fromleft = {true}
     />
+  
+ 
+  {answers[`selection-${parentKey}`]?.map((childKey) => {
+    // console.log('child', childKey);
+    // console.log('childsliced', childKey.slice(0, 4));    
+    let slicedChildKey = childKey.slice(0, 4);
+    if (slicedChildKey === 'ACHE'){
+      slicedChildKey = childKey.slice(0, 6)
+    }
+if (slicedChildKey.startsWith("EL")) {
+    return null; // prevents rendering <Selection />
+  }
     
-    {answers[`selection-${parentKey}`]?.map((childKey) => {
-      const slicedChildKey = childKey.slice(0, 4); 
-      return (
-        
-        <Selection 
-          key={childKey}
-          selectedKey={slicedChildKey} 
-          selectedValues={answers[`rightSelection-${parentKey}-${childKey}`] || []}
-          onSelectionChange={(values) => handleRightSelectionChange(parentKey, childKey, values)}
+    return (
+              <Selection          
+          selectedKey={slicedChildKey}
+          selectedValues={
+            answers[`rightSelection-${parentKey}-${childKey}`] || []
+          }
+          onSelectionChange={(values) =>
+            handleRightSelectionChange(parentKey, childKey, values)
+          }
         />
-        
-      );
-    })}
-  </div>
+      
+    );
+  })}
+  {/* </div> */}
+ </div>
 ))}
 
           </DrawerBody>

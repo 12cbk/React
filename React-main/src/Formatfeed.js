@@ -1,7 +1,8 @@
-const formatFeedRequirements = (extractedData) => {
+const formatFeedRequirements = (extractedData, type) => {
     const formattedQuestions = [];
     let currentHeader = null;
   
+    if(type ==='Radio'){
     extractedData.forEach((item) => {
       if (item.value === "heading") {
         currentHeader = { type: "Radio", label: item.text, name: "catco", values: [], dependency: "searchType-quick" };
@@ -9,7 +10,14 @@ const formatFeedRequirements = (extractedData) => {
       } else if (currentHeader) {
         currentHeader.values.push({ value: item.value, text: item.text });
       }
-    });
+    });}
+    else if(type ==='Select'){
+      extractedData.forEach((item)=>{
+        if(item.text ===''){
+          
+        }
+      })
+    }
   
     return formattedQuestions;
   };

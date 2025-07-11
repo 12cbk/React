@@ -8,8 +8,18 @@ app.use(cors());
 
 app.get("/api/proxy", async (req, res) => {
   try {
-    const response = await axios.get("https://databank.oup.com/cgi-bin/starfinder/0?path=groups.txt&id=fastgroups&pass=lerom&search=y&format=WEBPREV2");
-
+    
+    const category = req.query.category;
+    console.log("server",category);
+    let url = "";
+    if (category === 'ELT'){
+      url = "https://databank.oup.com/cgi-bin/starfinder/0?path=ptypes.txt&id=fastmyreps&pass=seya&format=WEBPREV2";
+    }
+    else{
+       url = "https://databank.oup.com/cgi-bin/starfinder/0?path=groups.txt&id=fastgroups&pass=lerom&search=y&format=WEBPREV2";
+    }
+    // console.log("url",url);
+    const response = await axios.get(url);
     const html = response.data;
     console.log("Raw HTML Response:", html);
 
@@ -29,5 +39,7 @@ app.get("/api/proxy", async (req, res) => {
     
   }
 });
+
+
 
 app.listen(5000, () => console.log("Proxy server running on port 5000"));

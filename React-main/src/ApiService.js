@@ -1,9 +1,11 @@
 import axios from "axios";
 
-export const fetchData = async () => {
+export const fetchData = async (category) => {
   try {
-    const response = await axios.get("http://localhost:5000/api/proxy");
-    
+    // console.log("API",category);
+    // const response = await axios.get('http://localhost:5000/api/proxy?category=${category}');
+    const response = await axios.get(`http://localhost:5000/api/proxy?category=${category}`);
+
     return response.data; 
   } catch (error) {
     console.error("Error axios:", error);

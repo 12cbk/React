@@ -29,19 +29,35 @@ const HiddenFormSubmit = ({ answers }) => {
 
     if (answers["searchType"]) {
       form.elements["STYPE"].value = answers["searchType"];
-      if (answers["searchType"] === "isbn") {
-        form.elements["ISBN"].value = answers["isbn"] || "";
-      } else if (answers["searchType"] === "quick") {
-        form.elements["CATCO"].value = answers["catco"] || "";
-      } else if (answers["searchType"] === "flexible") {
-        form.elements["SCHBY"].value = answers["searchBy"] || "";
-        if (answers["searchBy"] === "subject") {
-          form.elements["SUBJ"].value = answers["subjectSelection"] || "";
-        } else if (answers["searchBy"] === "series") {
-          form.elements["SERIE"].value = answers["seriesSelection"] || "";
-        }
+      if(form.elements["STYPE"].value ==="bisac"){
+        form.elements["STYPE"].value = "flexible";
+        form.elements["SCHBY"].value="bisac";
       }
+      
     }
+
+  form.elements["ISBN"].value = "";
+  form.elements["BISAC"].value = "";
+  form.elements["CATCO"].value = "";
+  form.elements["SERIE"].value = "";
+  form.elements["SUBJ"].value = "";
+  form.elements["SUBJ2"].value = "";
+
+  if (answers["searchType"] === "quick") {
+    form.elements["CATCO"].value = answers["catco"];
+  }
+
+  if (answers["searchType"] === "isbn") {
+    form.elements["ISBN"].value = answers["isbn"]; //todo
+  }
+
+  if (answers["searchType"] === "flexible") {
+    form.elements["ISBN"].value = answers["isbn"]; //todo
+  }
+
+  if (form.elements["SCHBY"].value  != "bisac") {
+			form.elements["SCHBY"].value  = answers["searchBy"]; 
+		}
 
     form.elements["BIND"].value = answers["BIND"] || "";
     form.elements["PRIF"].value = answers["fromPrice"] || "";
