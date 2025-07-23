@@ -3,6 +3,10 @@ import React, { useRef } from 'react';
 const HiddenFormSubmit = ({ answers }) => {
   const formRef = useRef();
 
+
+
+ 
+
   const handleSubmit = () => {
     const form = formRef.current;
     if (!form) return;
@@ -29,19 +33,35 @@ const HiddenFormSubmit = ({ answers }) => {
 
     if (answers["searchType"]) {
       form.elements["STYPE"].value = answers["searchType"];
-      if (answers["searchType"] === "isbn") {
-        form.elements["ISBN"].value = answers["isbn"] || "";
-      } else if (answers["searchType"] === "quick") {
-        form.elements["CATCO"].value = answers["catco"] || "";
-      } else if (answers["searchType"] === "flexible") {
-        form.elements["SCHBY"].value = answers["searchBy"] || "";
-        if (answers["searchBy"] === "subject") {
-          form.elements["SUBJ"].value = answers["subjectSelection"] || "";
-        } else if (answers["searchBy"] === "series") {
-          form.elements["SERIE"].value = answers["seriesSelection"] || "";
-        }
+      if(form.elements["STYPE"].value ==="bisac"){
+        form.elements["STYPE"].value = "flexible";
+        form.elements["SCHBY"].value="bisac";
       }
+      
     }
+
+  form.elements["ISBN"].value = "";
+  form.elements["BISAC"].value = "";
+  form.elements["CATCO"].value = "";
+  form.elements["SERIE"].value = "";
+  form.elements["SUBJ"].value = "";
+  form.elements["SUBJ2"].value = "";
+
+  if (answers["searchType"] === "quick") {
+    form.elements["CATCO"].value = answers["catco"];
+  }
+
+  if (answers["searchType"] === "isbn") {
+    form.elements["ISBN"].value = answers["isbn"]; //todo
+  }
+
+  if (answers["searchType"] === "flexible") {
+    form.elements["ISBN"].value = answers["isbn"]; //todo
+  }
+
+  if (form.elements["SCHBY"].value  != "bisac") {
+			form.elements["SCHBY"].value  = answers["searchBy"]; 
+		}
 
     form.elements["BIND"].value = answers["BIND"] || "";
     form.elements["PRIF"].value = answers["fromPrice"] || "";
@@ -61,14 +81,40 @@ const HiddenFormSubmit = ({ answers }) => {
     form.elements["SCHED"].value = answers["sched"] || "";
     form.elements["DELTA"].value = answers["datasetOptions"] || "";
 
-   
-    form.submit();
+    
+  // Step 1: Collect selection-* keys
+  const selectionKeys = Object.keys(answers).filter(key => key.startsWith('selection-'));
+
+  // Step 2: Merge all values from those keys
+  const combinedList = selectionKeys.flatMap(key => answers[key]);
+  console.log("Combined List:", combinedList);
+
+  // Step 3: Sort and apply trim logic
+  combinedList.sort();
+  const trimmed = combinedList.map(x => x.replace(/0+$/, ''));
+  const resultList = [];
+
+  for (let i = 0; i < trimmed.length - 1; i++) {
+    if (trimmed[i + 1].startsWith(trimmed[i])) {
+      resultList.push(combinedList[i]);
+    }
+  }
+
+  // Always add the last element
+  if (combinedList.length > 0) {
+    resultList.push(combinedList[combinedList.length - 1]);
+  }
+
+  // Step 4: Assign to SUBJ2 field (comma separated string)
+  form.elements["SUBJ2"].value = resultList.join(',');
+
+  form.submit();
   };
 
   return (
     <div>
       <form ref={formRef} name="hiddenform" method="post" action="/cgi-bin/FormToStar.pl" style={{ display: "none" }}>
-        
+        <input type="hidden" name="TXTYP" />
         <input type="hidden" name="BESP" />
         <input type="hidden" name="REPRT" />
         <input type="hidden" name="PDFT" />
@@ -89,6 +135,9 @@ const HiddenFormSubmit = ({ answers }) => {
         <input type="hidden" name="FTPW" />
         <input type="hidden" name="SCHED" />
         <input type="hidden" name="DELTA" />
+        <input type="hidden" name="BISAC" />
+<input type="hidden" name="SUBJ2" />
+        
         
       </form>
       <button onClick={handleSubmit}>Submit Form</button>

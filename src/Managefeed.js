@@ -12,6 +12,7 @@ import DisplayCard from "./displaycard";
 import MultiLineInput from "./MultiLineInput";
 import DatePicker from "./DatePicker";
 import HiddenForm from './Hiddenform';
+import DisplayCardSeries from "./DisplayCardSeries"
 
 const Card = () => {
   const [page, setPage] = useState(0); 
@@ -20,18 +21,18 @@ const Card = () => {
    const hiddenFormRef = useRef();
   const questionsPerPage = 3;   
   const startIndex = page * questionsPerPage;
-  console.log("answers:", answers);
-  // useEffect(() => {
-  //   fetchData().then((extractedData) => {
-  //     let formattedData = formatFeedRequirements(extractedData);
-  //     console.log("Format Data:", formattedData);
-  //     setFeedRequirements((prev) => [...prev, ...formattedData]);
-  //     console.log("feed Data:", feedrequirement);
-  //   });
-  // }, []);
+   console.log("answers:", answers);
+  useEffect(() => {
+    // fetchData().then((extractedData) => {
+    //   let formattedData = formatFeedRequirements(extractedData);
+    //   console.log("Format Data:", formattedData);
+    //   setFeedRequirements((prev) => [...prev, ...formattedData]);
+    //   console.log("feed Data:", feedrequirement);
+    // });
+  }, []);
 
   const handlePageChange = (direction) => {
-    console.log("length:",visibleQuestions.length);
+    // console.log("length:",visibleQuestions.length);
     setPage((prevPage) => {
       const newPage = direction === "next" ? prevPage + 1 : prevPage - 1;
       return Math.max(0, Math.min(newPage, Math.ceil(visibleQuestions.length / questionsPerPage) - 1));
@@ -44,7 +45,7 @@ const Card = () => {
         ...prevAnswers,
         [name]: selectedValue,
       }));
-      console.log(answers);
+       console.log(answers);
       };
     
 // const visibleQuestions = feedrequirement.filter((question) => {
@@ -67,7 +68,7 @@ const visibleQuestions = feedrequirement.filter((q) => {
 });
 
 const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questionsPerPage);
-console.log("questions", currentQuestions)
+// console.log("questions", currentQuestions)
 
 const handleSubmit = () => {
     if (hiddenFormRef.current) {
@@ -76,8 +77,8 @@ const handleSubmit = () => {
   }
 
 return (
-    
-      <div className="card">        
+    <div className="card-container">
+      <div className="card glass">        
         {currentQuestions.map((data, index) => { 
                        if(data.type ==="Radio")  {    
                         
@@ -123,6 +124,17 @@ return (
       <DisplayCard
   selectedValues={answers["displayCardSelection"] || []}
   onSelectionChange={(newValues) => updateAnswer("displayCardSelection", newValues)}
+  answers={answers}
+  updateAnswer={updateAnswer}
+/>
+    );
+  }
+  if (data.type === "DisplayCardSeries") {
+    const selectedValues = answers["Seriescardselection"] || []; 
+    return (
+      <DisplayCardSeries
+  selectedValues={answers["Seriescardselection"] || []}
+  onSelectionChange={(newValues) => updateAnswer("Seriescardselection", newValues)}
   answers={answers}
   updateAnswer={updateAnswer}
 />
@@ -227,6 +239,7 @@ return (
 <HiddenForm ref={hiddenFormRef} answers={answers} />
 
       
+      </div>
       </div>
       </div>
       

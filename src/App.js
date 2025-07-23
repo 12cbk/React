@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <StyledWrapper>
-      <div className="card row">
+       <div className="card row glass">
       <div className="screen">
         <div className="image_container">
       <img src={imageSrc} alt="Description" className="image" />
@@ -33,11 +33,8 @@ const App = () => {
 const StyledWrapper = styled.div`
   .card {
     width: full;
-    height: auto; /* Adjust height dynamically based on content */
-    // background: #e8e8e8;
-    background: linear-gradient(rgb(212, 212, 219),rgb(237, 238, 246));
-    border: 3px inset white;
-    box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+    height: auto; /* Adjust height dynamically based on content */   
+    border: 3px inset white;    
     transition: all 0.5s ease-in-out;
     border-radius: 1.5rem;
     display: flex;
