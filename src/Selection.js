@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { fetchData } from "./ApiService";
 import formatFeedRequirements from './Formatfeed';
 
-// 🔒 Simple in-memory cache: Map <selectedKey, options[]>
+
 const optionsCache = new Map();
 
 const Selection = ({
@@ -18,8 +18,8 @@ const Selection = ({
 
   useEffect(() => {
     const fetchOptions = async () => {
-      try {
-        // ✅ Reuse from cache if present
+      try {   
+              
         if (optionsCache.has(selectedKey)) {
           const cachedOptions = optionsCache.get(selectedKey);
           setOptions(cachedOptions);
@@ -53,12 +53,17 @@ const Selection = ({
           optionElements = doc.querySelectorAll("select[name='test'] option");
         }
 
-        const formattedOptions = Array.from(optionElements).map(opt => ({
-          key: opt.value,
-          label: opt.textContent
-        }));
+       const formattedOptions = [
+  { key: "*", label: "All" },
+  ...Array.from(optionElements)
+    .filter(opt => opt.value.replace(/0+$/, '') !== keyToUse.replace(/0+$/, ''))
+    .map(opt => ({
+      key: opt.value,
+      label: opt.textContent
+    }))
+];
 
-        // 💾 Cache the result
+        //setOptions(formattedOptions);
         optionsCache.set(selectedKey, formattedOptions);
         setOptions(formattedOptions);
 

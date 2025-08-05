@@ -135,8 +135,8 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                         label: "Search by UK price (GBP). If you do not wish to refine by price, please leave the fields blank.",
                         values:[
                           {
-                            textboxlabel:"From: £"},
-                            {textboxlabel: "To: £"}
+                            textboxlabel:"From: £", value:"AMTFRM"},
+                            {textboxlabel: "To: £", value:"AMTTO"}
                         ]                        
                       },
                       {
@@ -188,7 +188,7 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                             elements: [{
                               type:"textbox",label: "File name and format options",
                               values:[
-                                {textboxlabel:"Please give your report a name."}
+                                {textboxlabel:"Please give your report a name.", value:"RPTname"}
                               ] 
                             },{
                               type:"Checkbox", label:"",
@@ -212,18 +212,18 @@ let feedrequirements = [{ type: "Radio", label: "Are you interested in receiving
                                 {
                                   type:"textbox",label: "",
                                   values:[
-                                    {textboxlabel:"Email address(es)"}
+                                    {textboxlabel:"Email address(es)", value:"mail"}
                                   ] ,
                                   dependency: "DELIV-email"
                                 },
                                 {
                                   type:"textbox",label: "",
                                   values:[
-                                    { textboxlabel: "Email address(es)" },
-        { textboxlabel: "FTP server" },
-        { textboxlabel: "FTP directory" },
-        { textboxlabel: "FTP username" },
-        { textboxlabel: "FTP password" }
+                                    
+        { textboxlabel: "FTP server", value:"FTPSERV" },
+        { textboxlabel: "FTP directory", value:"FTPDIR" },
+        { textboxlabel: "FTP username", value:"FTPUSR" },
+        { textboxlabel: "FTP password",value:"FTPPWD" }
                                   ] ,
                                   dependency: "DELIV-ftp"
                                 }

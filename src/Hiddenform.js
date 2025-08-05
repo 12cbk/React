@@ -67,7 +67,7 @@ const HiddenFormSubmit = ({ answers }) => {
     form.elements["PRIF"].value = answers["fromPrice"] || "";
     form.elements["PRIT"].value = answers["toPrice"] || "";
 
-    if (answers["DELIV"] === "ftp") {
+    if (answers["DELIV"] === "ftp") {//todo, check if it is correct
       form.elements["DELIV"].value = "FTP";
       form.elements["FTPS"].value = answers["ftpServer"] || "";
       form.elements["FTPD"].value = answers["ftpDir"] || "";
@@ -105,8 +105,49 @@ const HiddenFormSubmit = ({ answers }) => {
     resultList.push(combinedList[combinedList.length - 1]);
   }
 
-  // Step 4: Assign to SUBJ2 field (comma separated string)
+  // Step 4: Assign to SUBJ2 field (comma separated string)  
+
   form.elements["SUBJ2"].value = resultList.join(',');
+
+  if (answers["BESP"]  === "standard") {
+		form.elements["NAME"].value= answers["name"];
+	}	
+	form.elements["NAMED"].value =  answers["NAMED"];
+	
+  
+  if (answers["BESP"] !== "common") {
+		form.elements["TXTYP"].value= answers["format"];
+	}	
+  form.elements["CHEAD"].value= answers["CHEAD"];
+	
+
+
+  form.elements["SCHED"].value= answers["sched"];
+	form.elements["DELTA"].value== answers["searchType"];
+	form.elements["CNTRY"].value== answers["country"];
+
+  if (answers["BESP"] === "common") {
+		form.elements["NAME"].value = "OUP All Title Reports";		
+		form.elements["SCHED"].value = "weekly";
+		form.elements["NAMED"].value = "N";
+		form.elements["CHEAD"].value = "N";}
+
+		if (answers["DELIV"]==="email") {
+			form.elements["DELIV"].value = 'Email';
+			form.elements["EMAIL"].value = answers["mail"];      
+		  form.elements["FTPS"].value= "";
+		  form.elements["FTPD"].value= "";
+		  form.elements["FTPU"].value = "";
+		  form.elements["FTPW"].value = "";
+		}
+		if (answers["DELIV"]==="ftp") {
+			form.elements["DELIV"].value = 'FTP';
+			form.elements["FTPS"].value = answers["FTPSERV"];
+			form.elements["FTPD"].value= answers["FTPDIR"];
+			form.elements["FTPU"].value = answers["FTPUSR"];
+			form.elements["FTPW"].value = answers["FTPPWD"];
+		}
+	
 
   form.submit();
   };

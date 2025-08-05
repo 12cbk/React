@@ -17,8 +17,8 @@ const Textbox = ({ label, values, answers,onTextChange }) => {
             className="input"
             type="text"
             placeholder={`Enter ${item.textboxlabel}`}
-            value={answers[item.textboxlabel] || ""}
-            onChange={(e) => handleTextChange(item.textboxlabel, e.target.value)}
+            value={answers[item.value] || ""}
+            onChange={(e) => handleTextChange(item.value, e.target.value)}
           />
         </div>
       ))}

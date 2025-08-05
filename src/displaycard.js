@@ -23,6 +23,7 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
   }, [selectedValues]);
 
   const handleListboxChange = (keys) => {
+    console.log("latestkey", keys);
     setSelectedKeys(keys);
     if (onSelectionChange) {
       onSelectionChange(Array.from(keys));
@@ -31,9 +32,9 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
     Array.from(keys).includes("EL") &&
     (!answers || !answers["selection-EL"] || answers["selection-EL"].length === 0)
   ) {
-    updateAnswer("selection-EL", ["abc"]);
+    updateAnswer("selection-EL", ["abc"]);    
   }
-    if (Array.from(keys).length > 0) {
+    if (Array.from(keys).length > 0 && keys !== "*") {
       onOpen();
     }
   };
@@ -83,17 +84,18 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
     // console.log('child', childKey);
     // console.log('childsliced', childKey.slice(0, 4));    
     let slicedChildKey = childKey.slice(0, 4);
+    console.log("sck",slicedChildKey )
     if (slicedChildKey === 'ACHE'){
       slicedChildKey = childKey.slice(0, 6)
     }
-if (slicedChildKey.startsWith("EL")) {
-    return null; // prevents rendering <Selection />
+if (slicedChildKey.startsWith("EL") || slicedChildKey=== "*" ) {
+    return null;
   }
   
    let childLabel = childKey; 
 
 if (parentKey === "EL" && childKey === "abc") {
-  childLabel = "English Language Teaching"; // Hard-coded fallback for ELT
+  childLabel = "English Language Teaching";
 } else {
   const selectedKeys = answers[`selection-${parentKey}`] || [];
   const selectedLabels = answers[`label-${parentKey}`] || [];
