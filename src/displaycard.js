@@ -45,7 +45,7 @@ const DisplayCard = ({ selectedValues = [], onSelectionChange, answers, updateAn
 };
 
   const handleRightSelectionChange = (parentKey, childKey, values) => {
-    updateAnswer(`rightSelection-${parentKey}-${childKey}`, values);
+    updateAnswer(`selection-right-${parentKey}-${childKey}`, values);
   };
 
   return (
@@ -113,7 +113,7 @@ if (parentKey === "EL" && childKey === "abc") {
               <Selection          
           selectedKey={slicedChildKey}
           selectedValues={
-            answers[`rightSelection-${parentKey}-${childKey}`] || []
+            answers[`selection-right-${parentKey}-${childKey}`] || []
           }
           selectedlabel={childLabel}
           onSelectionChange={(values, labels) =>

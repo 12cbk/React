@@ -18,7 +18,7 @@ const Card = () => {
   const [page, setPage] = useState(0); 
   const [answers, setAnswers] = useState({});
   const [feedrequirement, setFeedRequirements] = useState(feedrequirements);
-   const hiddenFormRef = useRef();
+const hiddenFormRef = useRef();
   const questionsPerPage = 3;   
   const startIndex = page * questionsPerPage;
    console.log("answers:", answers);
@@ -70,11 +70,11 @@ const visibleQuestions = feedrequirement.filter((q) => {
 const currentQuestions = visibleQuestions.slice(startIndex, startIndex + questionsPerPage);
 // console.log("questions", currentQuestions)
 
-const handleSubmit = () => {
-    if (hiddenFormRef.current) {
-      hiddenFormRef.current.submitForm(); 
-    }
-  }
+  const handleSubmit = () => {
+     if (hiddenFormRef.current) {
+       hiddenFormRef.current.submitForm(); 
+     }
+   }
 
 return (
     <div className="card-container">

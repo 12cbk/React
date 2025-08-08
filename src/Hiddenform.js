@@ -56,7 +56,59 @@ const HiddenFormSubmit = ({ answers }) => {
   }
 
   if (answers["searchType"] === "flexible") {
-    form.elements["ISBN"].value = answers["isbn"]; //todo
+    form.elements["SCHBY"].value = answers["searchBy"];
+    // form.elements["AREA2"].value = arealist;
+    let selectionKeys;
+    if (answers["searchBy"] == 'subject'){
+       selectionKeys = Object.keys(answers).filter(key => key.startsWith('selection-'));
+    }
+    else if(answers["searchBy"] == 'series'){
+      selectionKeys = Object.keys(answers).filter(key => key.startsWith('series-'));
+    }   
+
+  const combinedList = selectionKeys.flatMap(key => answers[key]);
+combinedList.sort();
+
+// Step 2: Prepare a filtered list
+const filteredList = [];
+
+for (let i = 0; i < combinedList.length; i++) {
+  // Trim trailing zeros
+  let valueToMatch = combinedList[i].replace(/0+$/, '');
+  // Pad with '0' if odd length
+  if (valueToMatch.length % 2 !== 0) valueToMatch += '0';
+
+  let isPrefix = false;
+  // Check if any *later* code starts with this one
+  for (let j = i + 1; j < combinedList.length; j++) {
+    let matchAgainst = combinedList[j].replace(/0+$/, '');
+    if (matchAgainst.length % 2 !== 0) matchAgainst += '0';
+    if (matchAgainst.startsWith(valueToMatch)) {
+      isPrefix = true;
+      break;
+    }
+  }
+  // Only keep if not a prefix of any later code
+  if (!isPrefix) {
+    filteredList.push(combinedList[i]);
+  }
+}
+  if(answers["searchBy"] == 'subject'){
+    form.elements["PTYPE"].value = answers["selection-right-EL-abc"];
+    form.elements["SUBJ"].value = filteredList.join(','); 
+    form.elements["SUBJ2"].value = combinedList.sort().join(','); 
+    form.elements["SERIE"].value = "";
+  }
+  else if(answers["searchBy"] == 'series'){
+    form.elements["PTYPE"].value = "";
+    form.elements["SUBJ"].value = "";
+    form.elements["SUBJ2"].value = "";
+    form.elements["SERIE"].value = filteredList.join(',');
+
+  }
+    
+
+  
   }
 
   if (form.elements["SCHBY"].value  != "bisac") {
@@ -82,32 +134,7 @@ const HiddenFormSubmit = ({ answers }) => {
     form.elements["DELTA"].value = answers["datasetOptions"] || "";
 
     
-  // Step 1: Collect selection-* keys
-  const selectionKeys = Object.keys(answers).filter(key => key.startsWith('selection-'));
-
-  // Step 2: Merge all values from those keys
-  const combinedList = selectionKeys.flatMap(key => answers[key]);
-  console.log("Combined List:", combinedList);
-
-  // Step 3: Sort and apply trim logic
-  combinedList.sort();
-  const trimmed = combinedList.map(x => x.replace(/0+$/, ''));
-  const resultList = [];
-
-  for (let i = 0; i < trimmed.length - 1; i++) {
-    if (trimmed[i + 1].startsWith(trimmed[i])) {
-      resultList.push(combinedList[i]);
-    }
-  }
-
-  // Always add the last element
-  if (combinedList.length > 0) {
-    resultList.push(combinedList[combinedList.length - 1]);
-  }
-
-  // Step 4: Assign to SUBJ2 field (comma separated string)  
-
-  form.elements["SUBJ2"].value = resultList.join(',');
+  
 
   if (answers["BESP"]  === "standard") {
 		form.elements["NAME"].value= answers["name"];
@@ -123,8 +150,8 @@ const HiddenFormSubmit = ({ answers }) => {
 
 
   form.elements["SCHED"].value= answers["sched"];
-	form.elements["DELTA"].value== answers["searchType"];
-	form.elements["CNTRY"].value== answers["country"];
+	form.elements["DELTA"].value= answers["searchType"];
+	form.elements["CNTRY"].value= answers["country"];
 
   if (answers["BESP"] === "common") {
 		form.elements["NAME"].value = "OUP All Title Reports";		
@@ -155,6 +182,12 @@ const HiddenFormSubmit = ({ answers }) => {
   return (
     <div>
       <form ref={formRef} name="hiddenform" method="post" action="/cgi-bin/FormToStar.pl" style={{ display: "none" }}>
+        <input type="hidden" name="PTYPE" />
+  <input type="hidden" name="NAMED" />
+  <input type="hidden" name="CHEAD" />
+  <input type="hidden" name="NAME" />
+  <input type="hidden" name="CNTRY" />
+  <input type="hidden" name="FLDS" />
         <input type="hidden" name="TXTYP" />
         <input type="hidden" name="BESP" />
         <input type="hidden" name="REPRT" />
