@@ -1,0 +1,2618 @@
+{
+  "AC": [
+    {
+      "Value": "AC000000000000",
+      "Label": "Academic, Professional, & General"
+    },
+    {
+      "Value": "ACAC0000000000",
+      "Label": "Archaeology"
+    },
+    {
+      "Value": "ACAR0000000000",
+      "Label": "Arts & Architecture"
+    },
+    {
+      "Value": "ACBI0000000000",
+      "Label": "Biography"
+    },
+    {
+      "Value": "ACBY0000000000",
+      "Label": "Biological Sciences"
+    },
+    {
+      "Value": "ACBU0000000000",
+      "Label": "Business & Management"
+    },
+    {
+      "Value": "ACCH0000000000",
+      "Label": "Chemistry"
+    },
+    {
+      "Value": "ACCL0000000000",
+      "Label": "Classical Studies & Ancient History"
+    },
+    {
+      "Value": "ACCC0000000000",
+      "Label": "Computing & Computer Science"
+    },
+    {
+      "Value": "ACDI0000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "ACEA0000000000",
+      "Label": "Earth Sciences"
+    },
+    {
+      "Value": "ACEC0000000000",
+      "Label": "Economics & Finance"
+    },
+    {
+      "Value": "ACET0000000000",
+      "Label": "Engineering Science"
+    },
+    {
+      "Value": "ACGE0000000000",
+      "Label": "Geography"
+    },
+    {
+      "Value": "ACHI0000000000",
+      "Label": "History"
+    },
+    {
+      "Value": "ACLA0000000000",
+      "Label": "Language & Linguistics"
+    },
+    {
+      "Value": "ACLI0000000000",
+      "Label": "Law"
+    },
+    {
+      "Value": "ACLP0000000000",
+      "Label": "Lifestyle & Leisure"
+    },
+    {
+      "Value": "ACLT0000000000",
+      "Label": "Literature"
+    },
+    {
+      "Value": "ACMM0000000000",
+      "Label": "Mathematics"
+    },
+    {
+      "Value": "ACME0000000000",
+      "Label": "Medicine & Health"
+    },
+    {
+      "Value": "ACMU0000000000",
+      "Label": "Music"
+    },
+    {
+      "Value": "ACPH0000000000",
+      "Label": "Philosophy"
+    },
+    {
+      "Value": "ACPC0000000000",
+      "Label": "Physics"
+    },
+    {
+      "Value": "ACPL0000000000",
+      "Label": "Policing"
+    },
+    {
+      "Value": "ACPO0000000000",
+      "Label": "Politics"
+    },
+    {
+      "Value": "ACPY0000000000",
+      "Label": "Psychology & Neuroscience"
+    },
+    {
+      "Value": "ACRE0000000000",
+      "Label": "Reference"
+    },
+    {
+      "Value": "ACRL0000000000",
+      "Label": "Religion & Bibles"
+    },
+    {
+      "Value": "ACSO0000000000",
+      "Label": "Society, Culture, & Environment"
+    }
+  ],
+  "ACAC": [
+    {
+      "Value": "ACAC1700000000",
+      "Label": "Anglo-Saxon & Medieval Archaeology"
+    },
+    {
+      "Value": "ACAC0000000000",
+      "Label": "Archaeology"
+    },
+    {
+      "Value": "ACAC1200000000",
+      "Label": "Biblical Archaeology"
+    },
+    {
+      "Value": "ACAC0800000000",
+      "Label": "Egyptian Archaeology"
+    },
+    {
+      "Value": "ACAC4000000000",
+      "Label": "Environmental Archaeology"
+    },
+    {
+      "Value": "ACAC1500000000",
+      "Label": "Greek & Roman Archaeology"
+    },
+    {
+      "Value": "ACAC3000000000",
+      "Label": "History & Theory"
+    },
+    {
+      "Value": "ACAC6000000000",
+      "Label": "Industrial Archaeology"
+    },
+    {
+      "Value": "ACAC7000000000",
+      "Label": "Landscape Archaeology"
+    },
+    {
+      "Value": "ACAC2000000000",
+      "Label": "Methodology & Techniques"
+    },
+    {
+      "Value": "ACAC0600000000",
+      "Label": "Prehistoric Archaeology"
+    },
+    {
+      "Value": "ACAC5000000000",
+      "Label": "Underwater Archaeology"
+    }
+  ],
+  "ACAR": [
+    {
+      "Value": "ACAR8000000000",
+      "Label": "Architecture"
+    },
+    {
+      "Value": "ACAR5000000000",
+      "Label": "Art Forms"
+    },
+    {
+      "Value": "ACAR4000000000",
+      "Label": "Art Styles"
+    },
+    {
+      "Value": "ACAR6000000000",
+      "Label": "Art Treatments & Subjects"
+    },
+    {
+      "Value": "ACAR0000000000",
+      "Label": "Arts & Architecture"
+    },
+    {
+      "Value": "ACAR9500000000",
+      "Label": "Dance & Other Performing Arts"
+    },
+    {
+      "Value": "ACAR9000000000",
+      "Label": "Film, TV & Radio"
+    },
+    {
+      "Value": "ACAR1000000000",
+      "Label": "General Issues"
+    },
+    {
+      "Value": "ACAR3000000000",
+      "Label": "History of Art"
+    },
+    {
+      "Value": "ACAR7500000000",
+      "Label": "Industrial & Commercial"
+    },
+    {
+      "Value": "ACAR7000000000",
+      "Label": "Photography & Photographs"
+    },
+    {
+      "Value": "ACAR8500000000",
+      "Label": "Theatre Studies"
+    },
+    {
+      "Value": "ACAR2000000000",
+      "Label": "Theory of Art"
+    }
+  ],
+  "ACBI": [
+    {
+      "Value": "ACBI1500000000",
+      "Label": "Arts & Entertainment"
+    },
+    {
+      "Value": "ACBI0000000000",
+      "Label": "Biography"
+    },
+    {
+      "Value": "ACBI2000000000",
+      "Label": "Business & Industry"
+    },
+    {
+      "Value": "ACBI8000000000",
+      "Label": "Diaries, Letters & Journals"
+    },
+    {
+      "Value": "ACBI1000000000",
+      "Label": "General"
+    },
+    {
+      "Value": "ACBI2500000000",
+      "Label": "Historical, Political & Military"
+    },
+    {
+      "Value": "ACBI3000000000",
+      "Label": "Literary"
+    },
+    {
+      "Value": "ACBI9000000000",
+      "Label": "Memoirs"
+    },
+    {
+      "Value": "ACBI4000000000",
+      "Label": "Religious & Spiritual"
+    },
+    {
+      "Value": "ACBI5000000000",
+      "Label": "Royalty"
+    },
+    {
+      "Value": "ACBI6000000000",
+      "Label": "Science, Technology & Engineering"
+    },
+    {
+      "Value": "ACBI7000000000",
+      "Label": "Sport"
+    },
+    {
+      "Value": "ACBI9500000000",
+      "Label": "True Stories"
+    }
+  ],
+  "ACBU": [
+    {
+      "Value": "ACBU0000000000",
+      "Label": "Business & Management"
+    },
+    {
+      "Value": "ACBU2500000000",
+      "Label": "Business Ethics"
+    },
+    {
+      "Value": "ACBU4800000000",
+      "Label": "Business History"
+    },
+    {
+      "Value": "ACBU9200000000",
+      "Label": "Comparative Political Economy"
+    },
+    {
+      "Value": "ACBU4500000000",
+      "Label": "Corporate Governance"
+    },
+    {
+      "Value": "ACBU5500000000",
+      "Label": "Entrepreneurship"
+    },
+    {
+      "Value": "ACBU1000000000",
+      "Label": "General"
+    },
+    {
+      "Value": "ACBU7600000000",
+      "Label": "Human Resource Management"
+    },
+    {
+      "Value": "ACBU6000000000",
+      "Label": "Industry & Industrial Studies"
+    },
+    {
+      "Value": "ACBU6500000000",
+      "Label": "Innovation"
+    },
+    {
+      "Value": "ACBU7000000000",
+      "Label": "International Business"
+    },
+    {
+      "Value": "ACBU7800000000",
+      "Label": "Knowledge Management"
+    },
+    {
+      "Value": "ACBU7500000000",
+      "Label": "Management & Management Techniques"
+    },
+    {
+      "Value": "ACBU8500000000",
+      "Label": "Organizational Theory & Behaviour"
+    },
+    {
+      "Value": "ACBU9000000000",
+      "Label": "Ownership & Organization of Enterprises"
+    },
+    {
+      "Value": "ACBU9100000000",
+      "Label": "Pensions & Pension Management"
+    },
+    {
+      "Value": "ACBU9400000000",
+      "Label": "Public Management"
+    },
+    {
+      "Value": "ACBU9500000000",
+      "Label": "Sales & Marketing"
+    },
+    {
+      "Value": "ACBU9800000000",
+      "Label": "Strategy"
+    }
+  ],
+  "ACBY": [
+    {
+      "Value": "ACBY9500000000",
+      "Label": "Anthropology"
+    },
+    {
+      "Value": "ACBY6000000000",
+      "Label": "Aquatic Biology"
+    },
+    {
+      "Value": "ACBY1500000000",
+      "Label": "Biochemistry"
+    },
+    {
+      "Value": "ACBY0000000000",
+      "Label": "Biological Sciences"
+    },
+    {
+      "Value": "ACBY9800000000",
+      "Label": "Biomathematics, Statistics & Data Analysis"
+    },
+    {
+      "Value": "ACBY8000000000",
+      "Label": "Botany, Plant Sciences & Forestry"
+    },
+    {
+      "Value": "ACBY2000000000",
+      "Label": "Developmental Biology"
+    },
+    {
+      "Value": "ACBY0500000000",
+      "Label": "Ecology"
+    },
+    {
+      "Value": "ACBY0700000000",
+      "Label": "Environment, Conservation, & Biodiversity"
+    },
+    {
+      "Value": "ACBY2500000000",
+      "Label": "Evolutionary Biology & Genomics"
+    },
+    {
+      "Value": "ACBY1000000000",
+      "Label": "Life Sciences - General Issues"
+    },
+    {
+      "Value": "ACBY5000000000",
+      "Label": "Microbiology"
+    },
+    {
+      "Value": "ACBY3000000000",
+      "Label": "Molecular & Cellular Biology"
+    },
+    {
+      "Value": "ACBY9000000000",
+      "Label": "Zoology & Animal Sciences"
+    }
+  ],
+  "ACCC": [
+    {
+      "Value": "ACCC2000000000",
+      "Label": "Computer Science"
+    },
+    {
+      "Value": "ACCC1000000000",
+      "Label": "Computing"
+    },
+    {
+      "Value": "ACCC0000000000",
+      "Label": "Computing & Computer Science"
+    }
+  ],
+  "ACCH": [
+    {
+      "Value": "ACCH1000000000",
+      "Label": "Analytical Chemistry"
+    },
+    {
+      "Value": "ACCH0000000000",
+      "Label": "Chemistry"
+    },
+    {
+      "Value": "ACCH6000000000",
+      "Label": "Crystallography"
+    },
+    {
+      "Value": "ACCH2000000000",
+      "Label": "Inorganic Chemistry"
+    },
+    {
+      "Value": "ACCH7000000000",
+      "Label": "Mineralogy & Gems"
+    },
+    {
+      "Value": "ACCH4000000000",
+      "Label": "Organic Chemistry"
+    },
+    {
+      "Value": "ACCH5000000000",
+      "Label": "Physical Chemistry"
+    }
+  ],
+  "ACCL": [
+    {
+      "Value": "ACCL1000000000",
+      "Label": "Ancient & Classical Art & Architecture"
+    },
+    {
+      "Value": "ACCL2000000000",
+      "Label": "Ancient History"
+    },
+    {
+      "Value": "ACCL3000000000",
+      "Label": "Ancient Philosophy"
+    },
+    {
+      "Value": "ACCL4000000000",
+      "Label": "Ancient Religions & Mythologies"
+    },
+    {
+      "Value": "ACCL5000000000",
+      "Label": "Classical Literature"
+    },
+    {
+      "Value": "ACCL0000000000",
+      "Label": "Classical Studies & Ancient History"
+    },
+    {
+      "Value": "ACCL6000000000",
+      "Label": "Greek & Roman Archaeology"
+    }
+  ],
+  "ACDI": [
+    {
+      "Value": "ACDI2000000000",
+      "Label": "Bilingual Dictionaries"
+    },
+    {
+      "Value": "ACDI0000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "ACDI1000000000",
+      "Label": "English Dictionaries"
+    }
+  ],
+  "ACEA": [
+    {
+      "Value": "ACEA0000000000",
+      "Label": "Earth Sciences"
+    },
+    {
+      "Value": "ACEA2000000000",
+      "Label": "Geology & The Lithosphere"
+    },
+    {
+      "Value": "ACEA3000000000",
+      "Label": "Hydrology & The Hydrosphere"
+    },
+    {
+      "Value": "ACEA4000000000",
+      "Label": "Meteorology & Climatology"
+    },
+    {
+      "Value": "ACEA5000000000",
+      "Label": "Palaeontology"
+    },
+    {
+      "Value": "ACEA1000000000",
+      "Label": "Volcanology & Seismology"
+    }
+  ],
+  "ACEC": [
+    {
+      "Value": "ACEC1000000000",
+      "Label": "Economics"
+    },
+    {
+      "Value": "ACEC0000000000",
+      "Label": "Economics & Finance"
+    },
+    {
+      "Value": "ACEC2000000000",
+      "Label": "Finance & Accounting"
+    }
+  ],
+  "ACET": [
+    {
+      "Value": "ACET9000000000",
+      "Label": "Agriculture & Farming"
+    },
+    {
+      "Value": "ACET2000000000",
+      "Label": "Biochemical Engineering"
+    },
+    {
+      "Value": "ACET7000000000",
+      "Label": "Civil Engineering, Surveying & Building"
+    },
+    {
+      "Value": "ACET6000000000",
+      "Label": "Electronics & Communications Engineering"
+    },
+    {
+      "Value": "ACET5000000000",
+      "Label": "Energy Technology"
+    },
+    {
+      "Value": "ACET0000000000",
+      "Label": "Engineering Science"
+    },
+    {
+      "Value": "ACET7500000000",
+      "Label": "Environmental Science, Engineering & Technology"
+    },
+    {
+      "Value": "ACET3000000000",
+      "Label": "Industrial Chemistry & Manufacturing Technologies"
+    },
+    {
+      "Value": "ACET4000000000",
+      "Label": "Mechanical Engineering & Materials"
+    },
+    {
+      "Value": "ACET8500000000",
+      "Label": "Other Technologies & Applied Sciences"
+    },
+    {
+      "Value": "ACET1000000000",
+      "Label": "Technology - General Issues"
+    },
+    {
+      "Value": "ACET8000000000",
+      "Label": "Transport Technology & Trades"
+    }
+  ],
+  "ACGE": [
+    {
+      "Value": "ACGE1000000000",
+      "Label": "Biogeography"
+    },
+    {
+      "Value": "ACGE2000000000",
+      "Label": "Cartography, Map-Making & Projections"
+    },
+    {
+      "Value": "ACGE3000000000",
+      "Label": "Geodesy & Surveying For Maps & Charts"
+    },
+    {
+      "Value": "ACGE4000000000",
+      "Label": "Geographical Discovery & Exploration"
+    },
+    {
+      "Value": "ACGE5000000000",
+      "Label": "Geographical Information Systems (GIS) & Remote Sensing"
+    },
+    {
+      "Value": "ACGE6000000000",
+      "Label": "Geographical Maps (Specialist)"
+    },
+    {
+      "Value": "ACGE0000000000",
+      "Label": "Geography"
+    },
+    {
+      "Value": "ACGE7000000000",
+      "Label": "Human Geography"
+    },
+    {
+      "Value": "ACGE8000000000",
+      "Label": "Physical Geography & Topography"
+    },
+    {
+      "Value": "ACGE9000000000",
+      "Label": "Regional Geography"
+    }
+  ],
+  "ACHE": [
+    {
+      "Value": "ACHE1700000000",
+      "Label": "Archaeology"
+    },
+    {
+      "Value": "ACHE2000000000",
+      "Label": "Architecture"
+    },
+    {
+      "Value": "ACHE5000000000",
+      "Label": "Biosciences"
+    },
+    {
+      "Value": "ACHE1000000000",
+      "Label": "Business & Management"
+    },
+    {
+      "Value": "ACHE5500000000",
+      "Label": "Chemistry"
+    },
+    {
+      "Value": "ACHE2300000000",
+      "Label": "Classical Studies & Ancient History"
+    },
+    {
+      "Value": "ACHE8400000000",
+      "Label": "Criminology"
+    },
+    {
+      "Value": "ACHE5800000000",
+      "Label": "Dentistry"
+    },
+    {
+      "Value": "ACHE1500000000",
+      "Label": "Economics & Finance"
+    },
+    {
+      "Value": "ACHE6200000000",
+      "Label": "Engineering & Computer Science"
+    },
+    {
+      "Value": "ACHE8800000000",
+      "Label": "Film, Media & Cultural Studies"
+    },
+    {
+      "Value": "ACHE9200000000",
+      "Label": "Geography & Environmental Science"
+    },
+    {
+      "Value": "ACHE2600000000",
+      "Label": "History"
+    },
+    {
+      "Value": "ACHE3000000000",
+      "Label": "Language & Linguistics"
+    },
+    {
+      "Value": "ACHE4500000000",
+      "Label": "Law"
+    },
+    {
+      "Value": "ACHE3400000000",
+      "Label": "Literature"
+    },
+    {
+      "Value": "ACHE6500000000",
+      "Label": "Mathematics"
+    },
+    {
+      "Value": "ACHE6800000000",
+      "Label": "Medicine"
+    },
+    {
+      "Value": "ACHE7200000000",
+      "Label": "Nursing & Midwifery"
+    },
+    {
+      "Value": "ACHE3700000000",
+      "Label": "Philosophy"
+    },
+    {
+      "Value": "ACHE7400000000",
+      "Label": "Physics"
+    },
+    {
+      "Value": "ACHE9500000000",
+      "Label": "Politics & International Relations"
+    },
+    {
+      "Value": "ACHE7800000000",
+      "Label": "Psychology & Neuroscience"
+    },
+    {
+      "Value": "ACHE4000000000",
+      "Label": "Reference"
+    },
+    {
+      "Value": "ACHE4300000000",
+      "Label": "Religion & Theology"
+    },
+    {
+      "Value": "ACHE8200000000",
+      "Label": "Science - Other"
+    },
+    {
+      "Value": "ACHE9800000000",
+      "Label": "Sociology & Social Welfare"
+    }
+  ],
+  "ACHE10": [
+    {
+      "Value": "ACHE1000000000",
+      "Label": "Business & Management"
+    },
+    {
+      "Value": "ACHE1010000000",
+      "Label": "Marketing"
+    },
+    {
+      "Value": "ACHE1020000000",
+      "Label": "Organizational Theory & Behaviour"
+    },
+    {
+      "Value": "ACHE1030000000",
+      "Label": "Strategy"
+    }
+  ],
+  "ACHE15": [
+    {
+      "Value": "ACHE1510000000",
+      "Label": "Accounting"
+    },
+    {
+      "Value": "ACHE1520000000",
+      "Label": "Development Economics"
+    },
+    {
+      "Value": "ACHE1530000000",
+      "Label": "Economic Theory & Thought"
+    },
+    {
+      "Value": "ACHE1500000000",
+      "Label": "Economics & Finance"
+    },
+    {
+      "Value": "ACHE1540000000",
+      "Label": "International Economics"
+    },
+    {
+      "Value": "ACHE1550000000",
+      "Label": "Macroeconomics"
+    },
+    {
+      "Value": "ACHE1560000000",
+      "Label": "Microeconomics"
+    }
+  ],
+  "ACHE17": [
+    {
+      "Value": "ACHE1700000000",
+      "Label": "Archaeology"
+    }
+  ],
+  "ACHE20": [
+    {
+      "Value": "ACHE2000000000",
+      "Label": "Architecture"
+    }
+  ],
+  "ACHE23": [
+    {
+      "Value": "ACHE2300000000",
+      "Label": "Classical Studies & Ancient History"
+    }
+  ],
+  "ACHE26": [
+    {
+      "Value": "ACHE2600000000",
+      "Label": "History"
+    }
+  ],
+  "ACHE30": [
+    {
+      "Value": "ACHE3000000000",
+      "Label": "Language & Linguistics"
+    },
+    {
+      "Value": "ACHE3010000000",
+      "Label": "Language Usage & Grammar"
+    },
+    {
+      "Value": "ACHE3020000000",
+      "Label": "Linguistics"
+    }
+  ],
+  "ACHE34": [
+    {
+      "Value": "ACHE3400000000",
+      "Label": "Literature"
+    }
+  ],
+  "ACHE37": [
+    {
+      "Value": "ACHE3710000000",
+      "Label": "Epistemology"
+    },
+    {
+      "Value": "ACHE3720000000",
+      "Label": "Ethics & Moral Philosophy"
+    },
+    {
+      "Value": "ACHE3730000000",
+      "Label": "History of Western Philosophy"
+    },
+    {
+      "Value": "ACHE3740000000",
+      "Label": "Logic"
+    },
+    {
+      "Value": "ACHE3750000000",
+      "Label": "Metaphysics"
+    },
+    {
+      "Value": "ACHE3700000000",
+      "Label": "Philosophy"
+    },
+    {
+      "Value": "ACHE3760000000",
+      "Label": "Philosophy of Mind"
+    },
+    {
+      "Value": "ACHE3770000000",
+      "Label": "Social & Political Philosophy"
+    }
+  ],
+  "ACHE40": [
+    {
+      "Value": "ACHE4000000000",
+      "Label": "Reference"
+    }
+  ],
+  "ACHE43": [
+    {
+      "Value": "ACHE4300000000",
+      "Label": "Religion & Theology"
+    }
+  ],
+  "ACHE45": [
+    {
+      "Value": "ACHE4510000000",
+      "Label": "Company & Commercial Law"
+    },
+    {
+      "Value": "ACHE4515000000",
+      "Label": "Comparative Law"
+    },
+    {
+      "Value": "ACHE4520000000",
+      "Label": "Competition Law"
+    },
+    {
+      "Value": "ACHE4530000000",
+      "Label": "Contract Law"
+    },
+    {
+      "Value": "ACHE4535000000",
+      "Label": "Criminal Law"
+    },
+    {
+      "Value": "ACHE4537000000",
+      "Label": "Employment Law"
+    },
+    {
+      "Value": "ACHE4539000000",
+      "Label": "Environmental Law"
+    },
+    {
+      "Value": "ACHE4541000000",
+      "Label": "Equity & Trusts"
+    },
+    {
+      "Value": "ACHE4543000000",
+      "Label": "EU Law"
+    },
+    {
+      "Value": "ACHE4545000000",
+      "Label": "Family Law"
+    },
+    {
+      "Value": "ACHE4548000000",
+      "Label": "Finance & Banking Law"
+    },
+    {
+      "Value": "ACHE4550000000",
+      "Label": "Human Rights"
+    },
+    {
+      "Value": "ACHE4555000000",
+      "Label": "Intellectual Property"
+    },
+    {
+      "Value": "ACHE4558000000",
+      "Label": "International Law"
+    },
+    {
+      "Value": "ACHE4560000000",
+      "Label": "IT Law"
+    },
+    {
+      "Value": "ACHE4564000000",
+      "Label": "Jurisprudence"
+    },
+    {
+      "Value": "ACHE4568000000",
+      "Label": "Land Law"
+    },
+    {
+      "Value": "ACHE4500000000",
+      "Label": "Law"
+    },
+    {
+      "Value": "ACHE4572000000",
+      "Label": "Legal History"
+    },
+    {
+      "Value": "ACHE4575000000",
+      "Label": "Legal Skills & Practice"
+    },
+    {
+      "Value": "ACHE4580000000",
+      "Label": "Legal System"
+    },
+    {
+      "Value": "ACHE4584000000",
+      "Label": "Media Law"
+    },
+    {
+      "Value": "ACHE4586000000",
+      "Label": "Medical & Healthcare Law"
+    },
+    {
+      "Value": "ACHE4525000000",
+      "Label": "Public Law"
+    },
+    {
+      "Value": "ACHE4588000000",
+      "Label": "Social Law"
+    },
+    {
+      "Value": "ACHE4592000000",
+      "Label": "Study & Revision Guides"
+    },
+    {
+      "Value": "ACHE4595000000",
+      "Label": "Taxation"
+    },
+    {
+      "Value": "ACHE4598000000",
+      "Label": "Tort"
+    }
+  ],
+  "ACHE50": [
+    {
+      "Value": "ACHE5010000000",
+      "Label": "Biochemistry"
+    },
+    {
+      "Value": "ACHE5000000000",
+      "Label": "Biosciences"
+    },
+    {
+      "Value": "ACHE5020000000",
+      "Label": "Cellular Biology"
+    },
+    {
+      "Value": "ACHE5030000000",
+      "Label": "Human Biology"
+    },
+    {
+      "Value": "ACHE5040000000",
+      "Label": "Molecular Biology"
+    }
+  ],
+  "ACHE55": [
+    {
+      "Value": "ACHE5510000000",
+      "Label": "Analytical Chemistry"
+    },
+    {
+      "Value": "ACHE5500000000",
+      "Label": "Chemistry"
+    },
+    {
+      "Value": "ACHE5520000000",
+      "Label": "Inorganic Chemistry"
+    },
+    {
+      "Value": "ACHE5530000000",
+      "Label": "Organic Chemistry"
+    },
+    {
+      "Value": "ACHE5540000000",
+      "Label": "Physical Chemistry"
+    }
+  ],
+  "ACHE58": [
+    {
+      "Value": "ACHE5800000000",
+      "Label": "Dentistry"
+    }
+  ],
+  "ACHE62": [
+    {
+      "Value": "ACHE6210000000",
+      "Label": "Civil Engineering"
+    },
+    {
+      "Value": "ACHE6220000000",
+      "Label": "Computer Science"
+    },
+    {
+      "Value": "ACHE6230000000",
+      "Label": "Electronics & Communications Engineering"
+    },
+    {
+      "Value": "ACHE6240000000",
+      "Label": "Energy Technology"
+    },
+    {
+      "Value": "ACHE6200000000",
+      "Label": "Engineering & Computer Science"
+    },
+    {
+      "Value": "ACHE6250000000",
+      "Label": "Engineering & Materials"
+    },
+    {
+      "Value": "ACHE6260000000",
+      "Label": "Industrial Chemistry & Manufacturing Technologies"
+    }
+  ],
+  "ACHE65": [
+    {
+      "Value": "ACHE6500000000",
+      "Label": "Mathematics"
+    }
+  ],
+  "ACHE68": [
+    {
+      "Value": "ACHE6810000000",
+      "Label": "Allied Health Professions"
+    },
+    {
+      "Value": "ACHE6820000000",
+      "Label": "Clinical Medicine"
+    },
+    {
+      "Value": "ACHE6800000000",
+      "Label": "Medicine"
+    },
+    {
+      "Value": "ACHE6830000000",
+      "Label": "Popular Health"
+    },
+    {
+      "Value": "ACHE6840000000",
+      "Label": "Pre-Clinical Medicine"
+    },
+    {
+      "Value": "ACHE6850000000",
+      "Label": "Primary care"
+    },
+    {
+      "Value": "ACHE6860000000",
+      "Label": "Psychiatry & Clinical Psychology"
+    },
+    {
+      "Value": "ACHE6870000000",
+      "Label": "Public Health & Epidemiology"
+    },
+    {
+      "Value": "ACHE6880000000",
+      "Label": "Surgery"
+    },
+    {
+      "Value": "ACHE6890000000",
+      "Label": "Veterinary Medicine"
+    }
+  ],
+  "ACHE72": [
+    {
+      "Value": "ACHE7200000000",
+      "Label": "Nursing & Midwifery"
+    }
+  ],
+  "ACHE74": [
+    {
+      "Value": "ACHE7400000000",
+      "Label": "Physics"
+    }
+  ],
+  "ACHE78": [
+    {
+      "Value": "ACHE7810000000",
+      "Label": "Neuroscience"
+    },
+    {
+      "Value": "ACHE7820000000",
+      "Label": "Psychology"
+    },
+    {
+      "Value": "ACHE7800000000",
+      "Label": "Psychology & Neuroscience"
+    }
+  ],
+  "ACHE82": [
+    {
+      "Value": "ACHE8200000000",
+      "Label": "Science - Other"
+    }
+  ],
+  "ACHE84": [
+    {
+      "Value": "ACHE8400000000",
+      "Label": "Criminology"
+    }
+  ],
+  "ACHE88": [
+    {
+      "Value": "ACHE8800000000",
+      "Label": "Film, Media & Cultural Studies"
+    }
+  ],
+  "ACHE92": [
+    {
+      "Value": "ACHE9200000000",
+      "Label": "Geography & Environmental Science"
+    }
+  ],
+  "ACHE95": [
+    {
+      "Value": "ACHE9510000000",
+      "Label": "Comparative Politics"
+    },
+    {
+      "Value": "ACHE9530000000",
+      "Label": "Human Rights"
+    },
+    {
+      "Value": "ACHE9520000000",
+      "Label": "International Relations"
+    },
+    {
+      "Value": "ACHE9540000000",
+      "Label": "Political Ideologies"
+    },
+    {
+      "Value": "ACHE9550000000",
+      "Label": "Political Structure & Processes"
+    },
+    {
+      "Value": "ACHE9500000000",
+      "Label": "Politics & International Relations"
+    }
+  ],
+  "ACHE98": [
+    {
+      "Value": "ACHE9810000000",
+      "Label": "Anthropology"
+    },
+    {
+      "Value": "ACHE9820000000",
+      "Label": "Education"
+    },
+    {
+      "Value": "ACHE9830000000",
+      "Label": "Social Research & Statistics"
+    },
+    {
+      "Value": "ACHE9840000000",
+      "Label": "Sociology"
+    },
+    {
+      "Value": "ACHE9800000000",
+      "Label": "Sociology & Social Welfare"
+    }
+  ],
+  "ACHI": [
+    {
+      "Value": "ACHI1000000000",
+      "Label": "General & World History"
+    },
+    {
+      "Value": "ACHI2000000000",
+      "Label": "Historical Periods"
+    },
+    {
+      "Value": "ACHI0000000000",
+      "Label": "History"
+    },
+    {
+      "Value": "ACHI5000000000",
+      "Label": "Military History"
+    },
+    {
+      "Value": "ACHI6000000000",
+      "Label": "Regional & National History"
+    },
+    {
+      "Value": "ACHI4000000000",
+      "Label": "Specific Events & Topics"
+    },
+    {
+      "Value": "ACHI3000000000",
+      "Label": "Theory & Methods"
+    }
+  ],
+  "ACLA": [
+    {
+      "Value": "ACLA1000000000",
+      "Label": "Dictionaries & Language Reference"
+    },
+    {
+      "Value": "ACLA0000000000",
+      "Label": "Language & Linguistics"
+    },
+    {
+      "Value": "ACLA3000000000",
+      "Label": "Language Teaching & Learning"
+    },
+    {
+      "Value": "ACLA2000000000",
+      "Label": "Linguistics"
+    }
+  ],
+  "ACLI": [
+    {
+      "Value": "ACLI0200000000",
+      "Label": "Arbitration"
+    },
+    {
+      "Value": "ACLI0300000000",
+      "Label": "Civil Law"
+    },
+    {
+      "Value": "ACLI0500000000",
+      "Label": "Company & Commercial Law"
+    },
+    {
+      "Value": "ACLI1000000000",
+      "Label": "Comparative Law"
+    },
+    {
+      "Value": "ACLI1500000000",
+      "Label": "Competition Law"
+    },
+    {
+      "Value": "ACLI2000000000",
+      "Label": "Constitutional & Administrative Law"
+    },
+    {
+      "Value": "ACLI2300000000",
+      "Label": "Construction Law"
+    },
+    {
+      "Value": "ACLI2500000000",
+      "Label": "Contract Law"
+    },
+    {
+      "Value": "ACLI3000000000",
+      "Label": "Criminal Law"
+    },
+    {
+      "Value": "ACLI3200000000",
+      "Label": "Criminology"
+    },
+    {
+      "Value": "ACLI3500000000",
+      "Label": "Employment & Labour Law"
+    },
+    {
+      "Value": "ACLI4100000000",
+      "Label": "Environment & Energy Law"
+    },
+    {
+      "Value": "ACLI4700000000",
+      "Label": "EU Law"
+    },
+    {
+      "Value": "ACLI5000000000",
+      "Label": "Family Law"
+    },
+    {
+      "Value": "ACLI5300000000",
+      "Label": "Financial Law"
+    },
+    {
+      "Value": "ACLI5400000000",
+      "Label": "Human Rights & Immigration"
+    },
+    {
+      "Value": "ACLI5600000000",
+      "Label": "Intellectual Property Law"
+    },
+    {
+      "Value": "ACLI5900000000",
+      "Label": "International Law"
+    },
+    {
+      "Value": "ACLI6200000000",
+      "Label": "IT & Communications Law"
+    },
+    {
+      "Value": "ACLI6500000000",
+      "Label": "Jurisprudence & Philosophy of Law"
+    },
+    {
+      "Value": "ACLI0000000000",
+      "Label": "Law"
+    },
+    {
+      "Value": "ACLI6800000000",
+      "Label": "Law & Society"
+    },
+    {
+      "Value": "ACLI7100000000",
+      "Label": "Legal History"
+    },
+    {
+      "Value": "ACLI7400000000",
+      "Label": "Legal System - General"
+    },
+    {
+      "Value": "ACLI3800000000",
+      "Label": "Media Law"
+    },
+    {
+      "Value": "ACLI7700000000",
+      "Label": "Medical & Healthcare Law"
+    },
+    {
+      "Value": "ACLI8600000000",
+      "Label": "Property Law"
+    },
+    {
+      "Value": "ACLI9100000000",
+      "Label": "Study & Revision Guides"
+    },
+    {
+      "Value": "ACLI9500000000",
+      "Label": "Tort"
+    },
+    {
+      "Value": "ACLI4400000000",
+      "Label": "Trusts Law"
+    }
+  ],
+  "ACLP": [
+    {
+      "Value": "ACLP1000000000",
+      "Label": "Antiques & Collectables"
+    },
+    {
+      "Value": "ACLP7000000000",
+      "Label": "Calendars, Diaries, & Gift Books"
+    },
+    {
+      "Value": "ACLP2000000000",
+      "Label": "Cookery, Food & Drink"
+    },
+    {
+      "Value": "ACLP3000000000",
+      "Label": "Hobbies, Games, Arts & Crafts"
+    },
+    {
+      "Value": "ACLP4000000000",
+      "Label": "Humour"
+    },
+    {
+      "Value": "ACLP0000000000",
+      "Label": "Lifestyle & Leisure"
+    },
+    {
+      "Value": "ACLP5000000000",
+      "Label": "Lifestyle, Home & Garden"
+    },
+    {
+      "Value": "ACLP6000000000",
+      "Label": "Local Interest, Family History & Nostalgia"
+    },
+    {
+      "Value": "ACLP9000000000",
+      "Label": "The Natural World, Country Life & Pets"
+    },
+    {
+      "Value": "ACLP8000000000",
+      "Label": "Sports & Outdoor Recreation"
+    },
+    {
+      "Value": "ACLP9500000000",
+      "Label": "Travel & Holiday"
+    }
+  ],
+  "ACLT": [
+    {
+      "Value": "ACLT7700000000",
+      "Label": "Children's Literature Studies"
+    },
+    {
+      "Value": "ACLT7300000000",
+      "Label": "Literary Reference Works"
+    },
+    {
+      "Value": "ACLT2700000000",
+      "Label": "Literary Studies - 1500 to 1800"
+    },
+    {
+      "Value": "ACLT3300000000",
+      "Label": "Literary Studies - 1800 to 1900"
+    },
+    {
+      "Value": "ACLT2300000000",
+      "Label": "Literary Studies - Classical, Early & Medieval"
+    },
+    {
+      "Value": "ACLT6300000000",
+      "Label": "Literary Studies - Fiction, Novelists & Prose Writers"
+    },
+    {
+      "Value": "ACLT5300000000",
+      "Label": "Literary Studies - Plays & Playwrights"
+    },
+    {
+      "Value": "ACLT4700000000",
+      "Label": "Literary Studies - Poetry & Poets"
+    },
+    {
+      "Value": "ACLT4300000000",
+      "Label": "Literary Studies - Postcolonial Literature"
+    },
+    {
+      "Value": "ACLT3700000000",
+      "Label": "Literary Studies - Twentieth Century Onwards"
+    },
+    {
+      "Value": "ACLT8300000000",
+      "Label": "Literary Texts"
+    },
+    {
+      "Value": "ACLT1700000000",
+      "Label": "Literary Theory & Cultural Studies"
+    },
+    {
+      "Value": "ACLT0000000000",
+      "Label": "Literature"
+    },
+    {
+      "Value": "ACLT5700000000",
+      "Label": "Shakespeare Studies"
+    }
+  ],
+  "ACME": [
+    {
+      "Value": "ACME7000000000",
+      "Label": "Allied Health Professions"
+    },
+    {
+      "Value": "ACME3000000000",
+      "Label": "Clinical Medicine"
+    },
+    {
+      "Value": "ACME3500000000",
+      "Label": "Dentistry"
+    },
+    {
+      "Value": "ACME1000000000",
+      "Label": "Medicine - General"
+    },
+    {
+      "Value": "ACME0000000000",
+      "Label": "Medicine & Health"
+    },
+    {
+      "Value": "ACME6000000000",
+      "Label": "Nursing & Midwifery"
+    },
+    {
+      "Value": "ACME9000000000",
+      "Label": "Popular Health & Popular Psychology"
+    },
+    {
+      "Value": "ACME2500000000",
+      "Label": "Pre-Clinical Medicine"
+    },
+    {
+      "Value": "ACME2000000000",
+      "Label": "Primary Care"
+    },
+    {
+      "Value": "ACME4000000000",
+      "Label": "Psychiatry & Clinical Psychology"
+    },
+    {
+      "Value": "ACME1500000000",
+      "Label": "Public Health & Epidemiology"
+    },
+    {
+      "Value": "ACME5000000000",
+      "Label": "Surgery"
+    }
+  ],
+  "ACMM": [
+    {
+      "Value": "ACMM7500000000",
+      "Label": "Applied Mathematics"
+    },
+    {
+      "Value": "ACMM8000000000",
+      "Label": "History of Mathematics"
+    },
+    {
+      "Value": "ACMM1800000000",
+      "Label": "Logic & Philosophy"
+    },
+    {
+      "Value": "ACMM3200000000",
+      "Label": "Mathematical Biology"
+    },
+    {
+      "Value": "ACMM4800000000",
+      "Label": "Mathematical Finance"
+    },
+    {
+      "Value": "ACMM4200000000",
+      "Label": "Mathematical Physics"
+    },
+    {
+      "Value": "ACMM0000000000",
+      "Label": "Mathematics"
+    },
+    {
+      "Value": "ACMM5800000000",
+      "Label": "Numerical & Computational Mathematics"
+    },
+    {
+      "Value": "ACMM6000000000",
+      "Label": "Probability & Statistics"
+    },
+    {
+      "Value": "ACMM5200000000",
+      "Label": "Pure Mathematics"
+    }
+  ],
+  "ACMU": [
+    {
+      "Value": "ACMU1000000000",
+      "Label": "Individual Composers & Musicians"
+    },
+    {
+      "Value": "ACMU0000000000",
+      "Label": "Music"
+    },
+    {
+      "Value": "ACMU2000000000",
+      "Label": "Musical Instruments & Instrumental Ensembles"
+    },
+    {
+      "Value": "ACMU3000000000",
+      "Label": "Musical Scores, Lyrics & Libretti"
+    },
+    {
+      "Value": "ACMU4000000000",
+      "Label": "Recording & Reproduction"
+    },
+    {
+      "Value": "ACMU5000000000",
+      "Label": "Styles & Genres"
+    },
+    {
+      "Value": "ACMU6000000000",
+      "Label": "Techniques of Music & Music Tutorials"
+    },
+    {
+      "Value": "ACMU7000000000",
+      "Label": "Theory of Music & Musicology"
+    }
+  ],
+  "ACPC": [
+    {
+      "Value": "ACPC0100000000",
+      "Label": "Atomic, Laser, Optical Physics"
+    },
+    {
+      "Value": "ACPC0300000000",
+      "Label": "Crystallography"
+    },
+    {
+      "Value": "ACPC5000000000",
+      "Label": "Magnetism"
+    },
+    {
+      "Value": "ACPC2000000000",
+      "Label": "Materials"
+    },
+    {
+      "Value": "ACPC6000000000",
+      "Label": "Nuclear & Plasma Physics"
+    },
+    {
+      "Value": "ACPC5300000000",
+      "Label": "Particle Physics, Astrophysics, Cosmology"
+    },
+    {
+      "Value": "ACPC0000000000",
+      "Label": "Physics"
+    },
+    {
+      "Value": "ACPC8300000000",
+      "Label": "Semiconductor & Mesoscopic Physics"
+    },
+    {
+      "Value": "ACPC1500000000",
+      "Label": "Soft Matter"
+    },
+    {
+      "Value": "ACPC1000000000",
+      "Label": "Theoretical & Statistical Physics"
+    }
+  ],
+  "ACPH": [
+    {
+      "Value": "ACPH1000000000",
+      "Label": "Aesthetics"
+    },
+    {
+      "Value": "ACPH1500000000",
+      "Label": "Bioethics & Medical Ethics"
+    },
+    {
+      "Value": "ACPH2000000000",
+      "Label": "Epistemology"
+    },
+    {
+      "Value": "ACPH3000000000",
+      "Label": "Ethics & Moral Philosophy"
+    },
+    {
+      "Value": "ACPH3500000000",
+      "Label": "Feminist Philosophy"
+    },
+    {
+      "Value": "ACPH4000000000",
+      "Label": "History of Western Philosophy"
+    },
+    {
+      "Value": "ACPH6000000000",
+      "Label": "Metaphysics"
+    },
+    {
+      "Value": "ACPH7000000000",
+      "Label": "Non-Western Philosophy"
+    },
+    {
+      "Value": "ACPH0000000000",
+      "Label": "Philosophy"
+    },
+    {
+      "Value": "ACPH4600000000",
+      "Label": "Philosophy of Language"
+    },
+    {
+      "Value": "ACPH4300000000",
+      "Label": "Philosophy of Law"
+    },
+    {
+      "Value": "ACPH5000000000",
+      "Label": "Philosophy of Mathematics & Logic"
+    },
+    {
+      "Value": "ACPH8000000000",
+      "Label": "Philosophy of Mind"
+    },
+    {
+      "Value": "ACPH5300000000",
+      "Label": "Philosophy of Religion"
+    },
+    {
+      "Value": "ACPH5600000000",
+      "Label": "Philosophy of Science"
+    },
+    {
+      "Value": "ACPH9000000000",
+      "Label": "Social & Political Philosophy"
+    }
+  ],
+  "ACPL": [
+    {
+      "Value": "ACPL2000000000",
+      "Label": "Police & Security Services"
+    },
+    {
+      "Value": "ACPL1000000000",
+      "Label": "Police Procedure & Law"
+    },
+    {
+      "Value": "ACPL0000000000",
+      "Label": "Policing"
+    }
+  ],
+  "ACPO": [
+    {
+      "Value": "ACPO0300000000",
+      "Label": "Armed Conflict"
+    },
+    {
+      "Value": "ACPO0700000000",
+      "Label": "Arms Negotiation & Control"
+    },
+    {
+      "Value": "ACPO1000000000",
+      "Label": "Central Government"
+    },
+    {
+      "Value": "ACPO2000000000",
+      "Label": "Comparative Politics"
+    },
+    {
+      "Value": "ACPO3500000000",
+      "Label": "International Institutions"
+    },
+    {
+      "Value": "ACPO3000000000",
+      "Label": "International Relations"
+    },
+    {
+      "Value": "ACPO4000000000",
+      "Label": "Political Activism"
+    },
+    {
+      "Value": "ACPO5500000000",
+      "Label": "Political Economy"
+    },
+    {
+      "Value": "ACPO6000000000",
+      "Label": "Political Ideologies"
+    },
+    {
+      "Value": "ACPO7000000000",
+      "Label": "Political Parties"
+    },
+    {
+      "Value": "ACPO7500000000",
+      "Label": "Political Philosophy"
+    },
+    {
+      "Value": "ACPO8000000000",
+      "Label": "Political Science & Theory"
+    },
+    {
+      "Value": "ACPO8500000000",
+      "Label": "Political Structure & Processes"
+    },
+    {
+      "Value": "ACPO0000000000",
+      "Label": "Politics"
+    },
+    {
+      "Value": "ACPO9000000000",
+      "Label": "Public Administration"
+    },
+    {
+      "Value": "ACPO9500000000",
+      "Label": "Regional Government"
+    }
+  ],
+  "ACPY": [
+    {
+      "Value": "ACPY1000000000",
+      "Label": "Neuroscience"
+    },
+    {
+      "Value": "ACPY2000000000",
+      "Label": "Psychology"
+    },
+    {
+      "Value": "ACPY0000000000",
+      "Label": "Psychology & Neuroscience"
+    }
+  ],
+  "ACRE": [
+    {
+      "Value": "ACRE1000000000",
+      "Label": "Encyclopaedias & Subject Reference"
+    },
+    {
+      "Value": "ACRE2000000000",
+      "Label": "Interdisciplinary Studies"
+    },
+    {
+      "Value": "ACRE3000000000",
+      "Label": "Museums, Libraries & Information Sciences"
+    },
+    {
+      "Value": "ACRE0000000000",
+      "Label": "Reference"
+    },
+    {
+      "Value": "ACRE4000000000",
+      "Label": "Research & Information"
+    }
+  ],
+  "ACRL": [
+    {
+      "Value": "ACRL0400000000",
+      "Label": "Bibles"
+    },
+    {
+      "Value": "ACRL0700000000",
+      "Label": "Biblical Studies"
+    },
+    {
+      "Value": "ACRL4000000000",
+      "Label": "Buddhism"
+    },
+    {
+      "Value": "ACRL5400000000",
+      "Label": "Christian Theology"
+    },
+    {
+      "Value": "ACRL5000000000",
+      "Label": "Christianity"
+    },
+    {
+      "Value": "ACRL5700000000",
+      "Label": "Early Christianity"
+    },
+    {
+      "Value": "ACRL6000000000",
+      "Label": "Hinduism"
+    },
+    {
+      "Value": "ACRL6500000000",
+      "Label": "History of Religion"
+    },
+    {
+      "Value": "ACRL7000000000",
+      "Label": "Islam"
+    },
+    {
+      "Value": "ACRL8000000000",
+      "Label": "Judaism"
+    },
+    {
+      "Value": "ACRL8500000000",
+      "Label": "Philosophy of Religion"
+    },
+    {
+      "Value": "ACRL0000000000",
+      "Label": "Religion & Bibles"
+    },
+    {
+      "Value": "ACRL8800000000",
+      "Label": "Religion & Science"
+    },
+    {
+      "Value": "ACRL1000000000",
+      "Label": "Religious Studies"
+    },
+    {
+      "Value": "ACRL8300000000",
+      "Label": "Sikhism"
+    }
+  ],
+  "ACSO": [
+    {
+      "Value": "ACSO0500000000",
+      "Label": "Anthropology"
+    },
+    {
+      "Value": "ACSO1000000000",
+      "Label": "Crime & Criminology"
+    },
+    {
+      "Value": "ACSO2000000000",
+      "Label": "Education"
+    },
+    {
+      "Value": "ACSO3000000000",
+      "Label": "The Environment"
+    },
+    {
+      "Value": "ACSO5000000000",
+      "Label": "Regional & Area Planning"
+    },
+    {
+      "Value": "ACSO6000000000",
+      "Label": "Social Welfare & Social Services"
+    },
+    {
+      "Value": "ACSO7000000000",
+      "Label": "Society & Culture"
+    },
+    {
+      "Value": "ACSO0000000000",
+      "Label": "Society, Culture, & Environment"
+    },
+    {
+      "Value": "ACSO8000000000",
+      "Label": "Sociology"
+    },
+    {
+      "Value": "ACSO9000000000",
+      "Label": "Warfare & Defence"
+    }
+  ],
+  "EL": [
+    {
+      "Value": "EL000000000000",
+      "Label": "ELT"
+    },
+    {
+      "Value": "ELAD0000000000",
+      "Label": "ELT Adult"
+    },
+    {
+      "Value": "ELDI0000000000",
+      "Label": "ELT Dictionaries"
+    },
+    {
+      "Value": "ELET0000000000",
+      "Label": "ELT ETTGB"
+    },
+    {
+      "Value": "ELPR0000000000",
+      "Label": "ELT Primary"
+    },
+    {
+      "Value": "ELRE0000000000",
+      "Label": "ELT Readers"
+    },
+    {
+      "Value": "ELSC0000000000",
+      "Label": "ELT Schoolbooks"
+    },
+    {
+      "Value": "ELSE0000000000",
+      "Label": "ELT Secondary"
+    }
+  ],
+  "MU": [
+    {
+      "Value": "MUCH0000000000",
+      "Label": "Choral"
+    },
+    {
+      "Value": "MUWM0000000000",
+      "Label": "Keyboard"
+    },
+    {
+      "Value": "MUZL0000000000",
+      "Label": "Learning an Instrument"
+    },
+    {
+      "Value": "MU000000000000",
+      "Label": "Music"
+    },
+    {
+      "Value": "MUWZ0000000000",
+      "Label": "Music in Education"
+    },
+    {
+      "Value": "MUOR0000000000",
+      "Label": "Orchestral & Ensemble"
+    },
+    {
+      "Value": "MUST0000000000",
+      "Label": "Strings"
+    },
+    {
+      "Value": "MUGA0000000000",
+      "Label": "Vocal & Opera"
+    },
+    {
+      "Value": "MUWA0000000000",
+      "Label": "Woodwind & Brass"
+    }
+  ],
+  "MUCH": [
+    {
+      "Value": "MUCH0000000000",
+      "Label": "Choral"
+    },
+    {
+      "Value": "MUCH2000000000",
+      "Label": "Choral Concert Works"
+    },
+    {
+      "Value": "MUCH1000000000",
+      "Label": "Christmas Choral"
+    },
+    {
+      "Value": "MUCH3000000000",
+      "Label": "Jewish Choral"
+    },
+    {
+      "Value": "MUCH4000000000",
+      "Label": "Sacred Choral"
+    },
+    {
+      "Value": "MUCH5000000000",
+      "Label": "Schools"
+    },
+    {
+      "Value": "MUCH6000000000",
+      "Label": "Secular Choral"
+    },
+    {
+      "Value": "MUCH7000000000",
+      "Label": "Spirituals"
+    }
+  ],
+  "MUGA": [
+    {
+      "Value": "MUGA2000000000",
+      "Label": "Hymn Books"
+    },
+    {
+      "Value": "MUGA4000000000",
+      "Label": "Opera"
+    },
+    {
+      "Value": "MUGA6000000000",
+      "Label": "Solo Voice"
+    },
+    {
+      "Value": "MUGA0000000000",
+      "Label": "Vocal & Opera"
+    }
+  ],
+  "MUOR": [
+    {
+      "Value": "MUOR8500000000",
+      "Label": "Brass Band"
+    },
+    {
+      "Value": "MUOR8000000000",
+      "Label": "Brass Ensemble"
+    },
+    {
+      "Value": "MUOR1000000000",
+      "Label": "Full Orchestra"
+    },
+    {
+      "Value": "MUOR9000000000",
+      "Label": "Mixed Ensemble"
+    },
+    {
+      "Value": "MUOR0000000000",
+      "Label": "Orchestral & Ensemble"
+    },
+    {
+      "Value": "MUOR5000000000",
+      "Label": "Orchestral & Instrumental Carol & Hymn Accompaniments"
+    },
+    {
+      "Value": "MUOR4000000000",
+      "Label": "Orchestral & Instrumental Material for Choral Pieces"
+    },
+    {
+      "Value": "MUOR6000000000",
+      "Label": "String Ensemble"
+    },
+    {
+      "Value": "MUOR2000000000",
+      "Label": "String Orchestra"
+    },
+    {
+      "Value": "MUOR7500000000",
+      "Label": "Wind Band"
+    },
+    {
+      "Value": "MUOR7000000000",
+      "Label": "Woodwind Ensemble"
+    },
+    {
+      "Value": "MUOR3000000000",
+      "Label": "Works for Soloist & Orchestra/Ensemble"
+    }
+  ],
+  "MUST": [
+    {
+      "Value": "MUST3000000000",
+      "Label": "Cello"
+    },
+    {
+      "Value": "MUST4000000000",
+      "Label": "Double bass"
+    },
+    {
+      "Value": "MUST5000000000",
+      "Label": "Guitar & Lute"
+    },
+    {
+      "Value": "MUST6000000000",
+      "Label": "String Ensemble"
+    },
+    {
+      "Value": "MUST0000000000",
+      "Label": "Strings"
+    },
+    {
+      "Value": "MUST2000000000",
+      "Label": "Viola"
+    },
+    {
+      "Value": "MUST1000000000",
+      "Label": "Violin"
+    }
+  ],
+  "MUWA": [
+    {
+      "Value": "MUWA3000000000",
+      "Label": "Bassoon"
+    },
+    {
+      "Value": "MUWA9000000000",
+      "Label": "Brass Band"
+    },
+    {
+      "Value": "MUWA8500000000",
+      "Label": "Brass Ensemble"
+    },
+    {
+      "Value": "MUWA2500000000",
+      "Label": "Clarinet"
+    },
+    {
+      "Value": "MUWA1500000000",
+      "Label": "Flute"
+    },
+    {
+      "Value": "MUWA7000000000",
+      "Label": "Harmonica"
+    },
+    {
+      "Value": "MUWA3500000000",
+      "Label": "Horn"
+    },
+    {
+      "Value": "MUWA2000000000",
+      "Label": "Oboe"
+    },
+    {
+      "Value": "MUWA1000000000",
+      "Label": "Recorder"
+    },
+    {
+      "Value": "MUWA6000000000",
+      "Label": "Saxophone"
+    },
+    {
+      "Value": "MUWA5000000000",
+      "Label": "Trombone"
+    },
+    {
+      "Value": "MUWA4000000000",
+      "Label": "Trumpet"
+    },
+    {
+      "Value": "MUWA5500000000",
+      "Label": "Tuba"
+    },
+    {
+      "Value": "MUWA8000000000",
+      "Label": "Wind Band"
+    },
+    {
+      "Value": "MUWA0000000000",
+      "Label": "Woodwind & Brass"
+    },
+    {
+      "Value": "MUWA7500000000",
+      "Label": "Woodwind Ensemble"
+    }
+  ],
+  "MUWM": [
+    {
+      "Value": "MUWM0000000000",
+      "Label": "Keyboard"
+    },
+    {
+      "Value": "MUWM4000000000",
+      "Label": "Organ"
+    },
+    {
+      "Value": "MUWM6000000000",
+      "Label": "Other Keyboard Instruments"
+    },
+    {
+      "Value": "MUWM2000000000",
+      "Label": "Piano"
+    }
+  ],
+  "MUWZ": [
+    {
+      "Value": "MUWZ2000000000",
+      "Label": "Books on Music Education"
+    },
+    {
+      "Value": "MUWZ4000000000",
+      "Label": "Classroom Resources"
+    },
+    {
+      "Value": "MUWZ0000000000",
+      "Label": "Music in Education"
+    },
+    {
+      "Value": "MUWZ6000000000",
+      "Label": "Musical Plays"
+    },
+    {
+      "Value": "MUWZ8000000000",
+      "Label": "Vocal & Choral for Schools"
+    }
+  ],
+  "MUZL": [
+    {
+      "Value": "MUZL1000000000",
+      "Label": "Choral"
+    },
+    {
+      "Value": "MUZL6000000000",
+      "Label": "Keyboard"
+    },
+    {
+      "Value": "MUZL0000000000",
+      "Label": "Learning an Instrument"
+    },
+    {
+      "Value": "MUZL7000000000",
+      "Label": "Music in Education"
+    },
+    {
+      "Value": "MUZL3000000000",
+      "Label": "Orchestral & Ensemble"
+    },
+    {
+      "Value": "MUZL4000000000",
+      "Label": "Strings"
+    },
+    {
+      "Value": "MUZL2000000000",
+      "Label": "Vocal & Opera"
+    },
+    {
+      "Value": "MUZL5000000000",
+      "Label": "Woodwind & Brass"
+    }
+  ],
+  "OX": [
+    {
+      "Value": "OX000000000000",
+      "Label": "Children&#39;s & Schools"
+    },
+    {
+      "Value": "OXYC0000000000",
+      "Label": "Children&#39;s Books"
+    },
+    {
+      "Value": "OXDI0000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXIN0000000000",
+      "Label": "International Schools"
+    },
+    {
+      "Value": "OXAP0000000000",
+      "Label": "Primary"
+    },
+    {
+      "Value": "OXCS0000000000",
+      "Label": "Secondary"
+    }
+  ],
+  "OXAP": [
+    {
+      "Value": "OXAP8000000000",
+      "Label": "Atlases"
+    },
+    {
+      "Value": "OXAP7000000000",
+      "Label": "Cross Curricular"
+    },
+    {
+      "Value": "OXAP7500000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXAP6500000000",
+      "Label": "Digital Resources"
+    },
+    {
+      "Value": "OXAP4000000000",
+      "Label": "French"
+    },
+    {
+      "Value": "OXAP9000000000",
+      "Label": "Libraries"
+    },
+    {
+      "Value": "OXAP1000000000",
+      "Label": "Literacy"
+    },
+    {
+      "Value": "OXAP2000000000",
+      "Label": "Maths"
+    },
+    {
+      "Value": "OXAP0000000000",
+      "Label": "Primary"
+    },
+    {
+      "Value": "OXAP6000000000",
+      "Label": "Science"
+    },
+    {
+      "Value": "OXAP5000000000",
+      "Label": "Spanish"
+    },
+    {
+      "Value": "OXAP3000000000",
+      "Label": "Special Needs"
+    }
+  ],
+  "OXCS": [
+    {
+      "Value": "OXCS1000000000",
+      "Label": "Business Studies & Economics"
+    },
+    {
+      "Value": "OXCS1300000000",
+      "Label": "Citizenship & PSHE"
+    },
+    {
+      "Value": "OXCS1500000000",
+      "Label": "Classics"
+    },
+    {
+      "Value": "OXCS2000000000",
+      "Label": "Design & Technology"
+    },
+    {
+      "Value": "OXCS8500000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXCS2500000000",
+      "Label": "Drama"
+    },
+    {
+      "Value": "OXCS2700000000",
+      "Label": "EAL"
+    },
+    {
+      "Value": "OXCS9000000000",
+      "Label": "Electronic Resources"
+    },
+    {
+      "Value": "OXCS3000000000",
+      "Label": "English"
+    },
+    {
+      "Value": "OXCS4000000000",
+      "Label": "Geography"
+    },
+    {
+      "Value": "OXCS4300000000",
+      "Label": "Health & Social Care"
+    },
+    {
+      "Value": "OXCS4500000000",
+      "Label": "History"
+    },
+    {
+      "Value": "OXCS5000000000",
+      "Label": "ICT"
+    },
+    {
+      "Value": "OXCS5500000000",
+      "Label": "Maths"
+    },
+    {
+      "Value": "OXCS6000000000",
+      "Label": "Modern Languages"
+    },
+    {
+      "Value": "OXCS6500000000",
+      "Label": "Physical Education"
+    },
+    {
+      "Value": "OXCS7000000000",
+      "Label": "Psychology"
+    },
+    {
+      "Value": "OXCS7500000000",
+      "Label": "Religious Education"
+    },
+    {
+      "Value": "OXCS8000000000",
+      "Label": "Science"
+    },
+    {
+      "Value": "OXCS0000000000",
+      "Label": "Secondary"
+    },
+    {
+      "Value": "OXCS8200000000",
+      "Label": "SEN"
+    },
+    {
+      "Value": "OXCS8300000000",
+      "Label": "Sociology"
+    }
+  ],
+  "OXDI": [
+    {
+      "Value": "OXDI4000000000",
+      "Label": "Bilingual"
+    },
+    {
+      "Value": "OXDI0000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXDI1000000000",
+      "Label": "English"
+    },
+    {
+      "Value": "OXDI7000000000",
+      "Label": "Subject"
+    }
+  ],
+  "OXFE": [
+    {
+      "Value": "OXFE1000000000",
+      "Label": "English"
+    },
+    {
+      "Value": "OXFE0000000000",
+      "Label": "FE"
+    },
+    {
+      "Value": "OXFE2000000000",
+      "Label": "Geography"
+    },
+    {
+      "Value": "OXFE3000000000",
+      "Label": "Maths"
+    },
+    {
+      "Value": "OXFE4000000000",
+      "Label": "Modern Languages"
+    },
+    {
+      "Value": "OXFE6000000000",
+      "Label": "Revision Guides"
+    },
+    {
+      "Value": "OXFE5000000000",
+      "Label": "Science"
+    }
+  ],
+  "OXIN": [
+    {
+      "Value": "OXIN7500000000",
+      "Label": "Africa"
+    },
+    {
+      "Value": "OXIN7000000000",
+      "Label": "Bilingual"
+    },
+    {
+      "Value": "OXIN2000000000",
+      "Label": "Cambridge International Primary Programme"
+    },
+    {
+      "Value": "OXIN8000000000",
+      "Label": "Caribbean"
+    },
+    {
+      "Value": "OXIN9000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXIN6000000000",
+      "Label": "IB Diploma Programme"
+    },
+    {
+      "Value": "OXIN5000000000",
+      "Label": "IGCSE"
+    },
+    {
+      "Value": "OXIN1000000000",
+      "Label": "International Oxford Reading Tree"
+    },
+    {
+      "Value": "OXIN0000000000",
+      "Label": "International Schools"
+    },
+    {
+      "Value": "OXIN4000000000",
+      "Label": "MYP"
+    },
+    {
+      "Value": "OXIN3000000000",
+      "Label": "PYP"
+    }
+  ],
+  "OXSE": [
+    {
+      "Value": "OXSE1000000000",
+      "Label": "Children's Books"
+    },
+    {
+      "Value": "OXSE4000000000",
+      "Label": "FE"
+    },
+    {
+      "Value": "OXSE5000000000",
+      "Label": "International"
+    },
+    {
+      "Value": "OXSE2000000000",
+      "Label": "Primary"
+    },
+    {
+      "Value": "OXSE3000000000",
+      "Label": "Secondary"
+    },
+    {
+      "Value": "OXSE0000000000",
+      "Label": "Series"
+    }
+  ],
+  "OXYC": [
+    {
+      "Value": "OXYC7000000000",
+      "Label": "Atlases"
+    },
+    {
+      "Value": "OXYC0000000000",
+      "Label": "Children&#39;s Books"
+    },
+    {
+      "Value": "OXYC5000000000",
+      "Label": "Dictionaries"
+    },
+    {
+      "Value": "OXYC1000000000",
+      "Label": "Fiction"
+    },
+    {
+      "Value": "OXYC4000000000",
+      "Label": "Home Learning"
+    },
+    {
+      "Value": "OXYC6000000000",
+      "Label": "Non-fiction & Encyclopedias"
+    },
+    {
+      "Value": "OXYC2000000000",
+      "Label": "Picture Books"
+    },
+    {
+      "Value": "OXYC3000000000",
+      "Label": "Poetry"
+    }
+  ]
+}

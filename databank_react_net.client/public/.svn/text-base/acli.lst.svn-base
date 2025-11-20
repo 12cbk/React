@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACLI??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACLI0200000000">Arbitration</option>
+<option value="ACLI0300000000">Civil Law</option>
+<option value="ACLI0500000000">Company & Commercial Law</option>
+<option value="ACLI1000000000">Comparative Law</option>
+<option value="ACLI1500000000">Competition Law</option>
+<option value="ACLI2000000000">Constitutional & Administrative Law</option>
+<option value="ACLI2300000000">Construction Law</option>
+<option value="ACLI2500000000">Contract Law</option>
+<option value="ACLI3000000000">Criminal Law</option>
+<option value="ACLI3200000000">Criminology</option>
+<option value="ACLI3500000000">Employment & Labour Law</option>
+<option value="ACLI4100000000">Environment & Energy Law</option>
+<option value="ACLI4700000000">EU Law</option>
+<option value="ACLI5000000000">Family Law</option>
+<option value="ACLI5300000000">Financial Law</option>
+<option value="ACLI5400000000">Human Rights & Immigration</option>
+<option value="ACLI5600000000">Intellectual Property Law</option>
+<option value="ACLI5900000000">International Law</option>
+<option value="ACLI6200000000">IT & Communications Law</option>
+<option value="ACLI6500000000">Jurisprudence & Philosophy of Law</option>
+<option value="ACLI0000000000">Law</option>
+<option value="ACLI6800000000">Law & Society</option>
+<option value="ACLI7100000000">Legal History</option>
+<option value="ACLI7400000000">Legal System - General</option>
+<option value="ACLI3800000000">Media Law</option>
+<option value="ACLI7700000000">Medical & Healthcare Law</option>
+<option value="ACLI8600000000">Property Law</option>
+<option value="ACLI9100000000">Study & Revision Guides</option>
+<option value="ACLI9500000000">Tort</option>
+<option value="ACLI4400000000">Trusts Law</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>
+

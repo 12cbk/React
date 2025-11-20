@@ -1,0 +1,7236 @@
+{
+  "AC": [
+    {
+      "Value": "FORCH",
+      "Label": ". . . for Choirs Collections"
+    },
+    {
+      "Value": "21COA",
+      "Label": "21st Century Oxford Authors"
+    },
+    {
+      "Value": "HCSD",
+      "Label": "A History Of Cant and Slang Dictionaries"
+    },
+    {
+      "Value": "AHP",
+      "Label": "A History of Philosophy"
+    },
+    {
+      "Value": "HSP",
+      "Label": "A History of Scottish Philosophy"
+    },
+    {
+      "Value": "LCAAH",
+      "Label": "A Life Course Approach to Adult Health"
+    },
+    {
+      "Value": "HOENG",
+      "Label": "A Linguistic History of English"
+    },
+    {
+      "Value": "APA",
+      "Label": "A Practical Approach"
+    },
+    {
+      "Value": "AARA",
+      "Label": "AAR Academy Series"
+    },
+    {
+      "Value": "AARASR",
+      "Label": "AAR Aids for Study of Religion"
+    },
+    {
+      "Value": "AARCRS",
+      "Label": "AAR Classics in Religious Studies"
+    },
+    {
+      "Value": "AARRTSR",
+      "Label": "AAR Reflection and Theory in the Study of Religion"
+    },
+    {
+      "Value": "AARTT",
+      "Label": "AAR Religion in Translation"
+    },
+    {
+      "Value": "AARCC",
+      "Label": "AAR Religion, Culture, and History"
+    },
+    {
+      "Value": "AARSR",
+      "Label": "AAR Studies in Religion Series"
+    },
+    {
+      "Value": "AARTRS",
+      "Label": "AAR Teaching Religious Studies"
+    },
+    {
+      "Value": "AARP",
+      "Label": "Academy of Rehabilitation Psychology Series"
+    },
+    {
+      "Value": "ACSAD",
+      "Label": "ACS Advances in Chemistry"
+    },
+    {
+      "Value": "ACSCP",
+      "Label": "ACS Conference Proceedings"
+    },
+    {
+      "Value": "ACSHB",
+      "Label": "ACS Handbooks"
+    },
+    {
+      "Value": "ACSMS",
+      "Label": "ACS Monographs"
+    },
+    {
+      "Value": "ACSPR",
+      "Label": "ACS Professional Reference Book"
+    },
+    {
+      "Value": "ACSPPD",
+      "Label": "ACS Profiles, Pathways and Dreams"
+    },
+    {
+      "Value": "ACSSS",
+      "Label": "ACS Symposium Series"
+    },
+    {
+      "Value": "AMHI",
+      "Label": "Adolescent Mental Health Initiative"
+    },
+    {
+      "Value": "ATE",
+      "Label": "Advanced Texts in Econometrics"
+    },
+    {
+      "Value": "ACP",
+      "Label": "Advances in Culture and Psychology"
+    },
+    {
+      "Value": "AMB",
+      "Label": "Advances in Molecular Biology"
+    },
+    {
+      "Value": "AVC",
+      "Label": "Advances in Visual Cognition"
+    },
+    {
+      "Value": "ADR",
+      "Label": "African Development Report"
+    },
+    {
+      "Value": "AWH",
+      "Label": "African World Histories"
+    },
+    {
+      "Value": "AAA",
+      "Label": "Alcohol and Alcoholism"
+    },
+    {
+      "Value": "ALLSTRTIME",
+      "Label": "All String Time"
+    },
+    {
+      "Value": "ACH",
+      "Label": "America: A Cultural History"
+    },
+    {
+      "Value": "AAOM",
+      "Label": "American Academy of Ophthalmology Monograph Series"
+    },
+    {
+      "Value": "AAR",
+      "Label": "American Academy of Religion Series"
+    },
+    {
+      "Value": "AFA",
+      "Label": "American Family Albums"
+    },
+    {
+      "Value": "AILC4",
+      "Label": "American International Law Cases 4th Series"
+    },
+    {
+      "Value": "AM",
+      "Label": "American Musicspheres Series"
+    },
+    {
+      "Value": "APAACS",
+      "Label": "American Philological Association American Classical Studies Series"
+    },
+    {
+      "Value": "APACR",
+      "Label": "American Philological Association Classical Resources"
+    },
+    {
+      "Value": "APAPM",
+      "Label": "American Philological Association Philological Monographs"
+    },
+    {
+      "Value": "APAT",
+      "Label": "American Philological Association Textbooks"
+    },
+    {
+      "Value": "APACT",
+      "Label": "American Philological Association Texts & Commentaries"
+    },
+    {
+      "Value": "PLP",
+      "Label": "American Psychology-Law Society Series"
+    },
+    {
+      "Value": "APPA",
+      "Label": "American Psychopathological Association"
+    },
+    {
+      "Value": "ACD",
+      "Label": "Americans and the California Dream"
+    },
+    {
+      "Value": "AMSSM",
+      "Label": "AMS Studies in Music"
+    },
+    {
+      "Value": "ESHB",
+      "Label": "An Economic and Social History of Britain"
+    },
+    {
+      "Value": "AWC",
+      "Label": "Ancient Warfare and Civilization"
+    },
+    {
+      "Value": "ASC",
+      "Label": "Anglo-Saxon Charters"
+    },
+    {
+      "Value": "ARUNA",
+      "Label": "Annual Review of United Nations Affairs 1961-2004"
+    },
+    {
+      "Value": "APOS",
+      "Label": "APOS Clinical Reference Handbooks"
+    },
+    {
+      "Value": "OXM-APOS",
+      "Label": "APOS Clinical Reference Handbooks Online"
+    },
+    {
+      "Value": "AGE",
+      "Label": "Applied Geostatistics"
+    },
+    {
+      "Value": "AAP",
+      "Label": "Attention and Performance Series"
+    },
+    {
+      "Value": "ABMA",
+      "Label": "Auctores Britannici Medii Aevi"
+    },
+    {
+      "Value": "AS",
+      "Label": "Auden Studies"
+    },
+    {
+      "Value": "BM",
+      "Label": "Bar Manuals"
+    },
+    {
+      "Value": "BG",
+      "Label": "Beliefs in Government"
+    },
+    {
+      "Value": "GBP",
+      "Label": "Best Practices for Forensic Mental Health Assessments"
+    },
+    {
+      "Value": "BIBR",
+      "Label": "Biblical Refigurations"
+    },
+    {
+      "Value": "BEBR",
+      "Label": "Bicentennial Essays on the Bill of Rights"
+    },
+    {
+      "Value": "BMFBA",
+      "Label": "Biographical Memoirs of Fellows of the British Academy"
+    },
+    {
+      "Value": "BOD",
+      "Label": "Biographies of Disease"
+    },
+    {
+      "Value": "BRMS",
+      "Label": "Biological Resource Management"
+    },
+    {
+      "Value": "BOHS",
+      "Label": "Biology of Habitats Series"
+    },
+    {
+      "Value": "BTS",
+      "Label": "Biophysical Techniques Series"
+    },
+    {
+      "Value": "BFW",
+      "Label": "Bird Families of the World"
+    },
+    {
+      "Value": "BLG",
+      "Label": "Blackstone's Guides"
+    },
+    {
+      "Value": "BHR",
+      "Label": "Blackstone's Human Rights"
+    },
+    {
+      "Value": "POL",
+      "Label": "Blackstone's Police Manuals"
+    },
+    {
+      "Value": "BPPS",
+      "Label": "Blackstone's Practical Policing"
+    },
+    {
+      "Value": "BLSB",
+      "Label": "Blackstone's Statute Series"
+    },
+    {
+      "Value": "BLPS-PM",
+      "Label": "Blackstones Police Service Police Manuals Online"
+    },
+    {
+      "Value": "BMB",
+      "Label": "Breakthroughs in Molecular Biology"
+    },
+    {
+      "Value": "BACM",
+      "Label": "British Academy Centenary Monographs"
+    },
+    {
+      "Value": "BAOP",
+      "Label": "British Academy Occasional Papers"
+    },
+    {
+      "Value": "BAOPBS",
+      "Label": "British Academy Original Paperbacks"
+    },
+    {
+      "Value": "BAPFM",
+      "Label": "British Academy Postdoctoral Fellowship Monographs"
+    },
+    {
+      "Value": "BDAC",
+      "Label": "British Drama 1533-1642: A Catalogue"
+    },
+    {
+      "Value": "BMBULL",
+      "Label": "British Medical Bulletin"
+    },
+    {
+      "Value": "BMP",
+      "Label": "British Moral Philosophers"
+    },
+    {
+      "Value": "BYBIL",
+      "Label": "British Yearbook of International Law"
+    },
+    {
+      "Value": "BWL",
+      "Label": "Broadway Legacies"
+    },
+    {
+      "Value": "BY",
+      "Label": "Broadway Yearbook"
+    },
+    {
+      "Value": "BSWRC",
+      "Label": "Building Social Work Research Capacity"
+    },
+    {
+      "Value": "BTB",
+      "Label": "Butterflies Through Binoculars"
+    },
+    {
+      "Value": "CIC",
+      "Label": "Casebooks in Criticism"
+    },
+    {
+      "Value": "CASRAD",
+      "Label": "Cases In Radiology"
+    },
+    {
+      "Value": "CELLOTIME",
+      "Label": "Cello Time"
+    },
+    {
+      "Value": "CESS",
+      "Label": "Center for Environmental Structure Series"
+    },
+    {
+      "Value": "CERFMFE",
+      "Label": "CERF Monographs on Finance and the Economy"
+    },
+    {
+      "Value": "CHCON",
+      "Label": "Challenging Concepts"
+    },
+    {
+      "Value": "CPHST",
+      "Label": "Changing Paradigms in Historical and Systematic Theology"
+    },
+    {
+      "Value": "CDCC",
+      "Label": "Child Development in Cultural Context"
+    },
+    {
+      "Value": "CW",
+      "Label": "Child Welfare: A Series in Child Welfare Practice, Policy, and Research"
+    },
+    {
+      "Value": "CTC",
+      "Label": "Christian Theology in Context"
+    },
+    {
+      "Value": "CMS",
+      "Label": "Church Music Society"
+    },
+    {
+      "Value": "CTA",
+      "Label": "City Tales"
+    },
+    {
+      "Value": "CAHS",
+      "Label": "Clarendon Ancient History Series"
+    },
+    {
+      "Value": "CAS",
+      "Label": "Clarendon Aristotle Series"
+    },
+    {
+      "Value": "CD",
+      "Label": "Clarendon Dickens"
+    },
+    {
+      "Value": "CENGE",
+      "Label": "Clarendon Edition of the Novels of George Eliot"
+    },
+    {
+      "Value": "CENB",
+      "Label": "Clarendon Edition of the Novels of the Brontes"
+    },
+    {
+      "Value": "CWJLW",
+      "Label": "Clarendon Edition of the Works of John Locke"
+    },
+    {
+      "Value": "CEWTH",
+      "Label": "Clarendon Edition of the Works of Thomas Hobbes"
+    },
+    {
+      "Value": "CHE",
+      "Label": "Clarendon Hume Edition Series"
+    },
+    {
+      "Value": "CLAP",
+      "Label": "Clarendon Later Ancient Philosophers"
+    },
+    {
+      "Value": "CLL",
+      "Label": "Clarendon Law Lectures"
+    },
+    {
+      "Value": "CLS",
+      "Label": "Clarendon Law Series"
+    },
+    {
+      "Value": "CL",
+      "Label": "Clarendon Lectures"
+    },
+    {
+      "Value": "CLEC",
+      "Label": "Clarendon Lectures in Economics"
+    },
+    {
+      "Value": "CLEN",
+      "Label": "Clarendon Lectures in English"
+    },
+    {
+      "Value": "CLF",
+      "Label": "Clarendon Lectures in Finance"
+    },
+    {
+      "Value": "CLGES",
+      "Label": "Clarendon Lectures in Geography and Environmental Studies"
+    },
+    {
+      "Value": "CLMS",
+      "Label": "Clarendon Lectures in Management Studies"
+    },
+    {
+      "Value": "CLLP",
+      "Label": "Clarendon Library of Logic and Philosophy"
+    },
+    {
+      "Value": "CPS",
+      "Label": "Clarendon Plato Series"
+    },
+    {
+      "Value": "CSC",
+      "Label": "Clarendon Studies in Criminology"
+    },
+    {
+      "Value": "CSHA",
+      "Label": "Clarendon Studies in the History of Art"
+    },
+    {
+      "Value": "CLASSIC",
+      "Label": "Classic Choral Works"
+    },
+    {
+      "Value": "CCS",
+      "Label": "Classical Culture and Society"
+    },
+    {
+      "Value": "CLPR",
+      "Label": "Classical Presences"
+    },
+    {
+      "Value": "CBTSP",
+      "Label": "Cognitive Behaviour Therapy: Science and Practice"
+    },
+    {
+      "Value": "CCAEL",
+      "Label": "Collected Courses of the Academy of European Law"
+    },
+    {
+      "Value": "CE",
+      "Label": "Collected Essays"
+    },
+    {
+      "Value": "CLPUG",
+      "Label": "Collected Letters of A.W.N. Pugin"
+    },
+    {
+      "Value": "MCLS",
+      "Label": "Collected Letters of Katherine Mansfield"
+    },
+    {
+      "Value": "CWGMH",
+      "Label": "Collected Works of Gerard Manley Hopkins"
+    },
+    {
+      "Value": "OETJF",
+      "Label": "Collected Works of John Ford"
+    },
+    {
+      "Value": "OETHU",
+      "Label": "Collected Works of Lucy Hutchinson"
+    },
+    {
+      "Value": "CWORKS",
+      "Label": "Collected Works Series"
+    },
+    {
+      "Value": "CULT",
+      "Label": "College and University Level Texts"
+    },
+    {
+      "Value": "CCSAC",
+      "Label": "Commonwealth Center Studies in American Culture"
+    },
+    {
+      "Value": "CSIA",
+      "Label": "Communicating Science in the Information Age"
+    },
+    {
+      "Value": "CS",
+      "Label": "Communication and Society"
+    },
+    {
+      "Value": "CPIS",
+      "Label": "Comparative Political Institutions Series"
+    },
+    {
+      "Value": "CEP",
+      "Label": "Comparative Politics"
+    },
+    {
+      "Value": "CSES",
+      "Label": "Comparative Study Of Electoral Systems"
+    },
+    {
+      "Value": "COMP",
+      "Label": "Complete"
+    },
+    {
+      "Value": "COMPANTHEM",
+      "Label": "Composer Anthem Collections"
+    },
+    {
+      "Value": "COMPCAROLS",
+      "Label": "Composer Carol Collections"
+    },
+    {
+      "Value": "CN",
+      "Label": "Computational Neuroscience Series"
+    },
+    {
+      "Value": "ACSCACC",
+      "Label": "Computer Applications in Chemistry Collection"
+    },
+    {
+      "Value": "CONC",
+      "Label": "Concentrate"
+    },
+    {
+      "Value": "CSCS",
+      "Label": "Consciousness & Self-Consciousness Series"
+    },
+    {
+      "Value": "CTIA",
+      "Label": "Consolidated Treaties and International Agreements"
+    },
+    {
+      "Value": "CIPL",
+      "Label": "Contemporary Introductions To Philosophy Of Language"
+    },
+    {
+      "Value": "CNS",
+      "Label": "Contemporary Neurology Series"
+    },
+    {
+      "Value": "COCO",
+      "Label": "Context And Content"
+    },
+    {
+      "Value": "COSS",
+      "Label": "Controversies in Orthopaedic Surgery Series"
+    },
+    {
+      "Value": "CPAN",
+      "Label": "Core Principles of Acute Neurology"
+    },
+    {
+      "Value": "CTS",
+      "Label": "Core Texts Series"
+    },
+    {
+      "Value": "CASSS",
+      "Label": "Corpus of Anglo-Saxon Stone Sculpture"
+    },
+    {
+      "Value": "CSIR",
+      "Label": "Corpus Signorum Imperii Romani"
+    },
+    {
+      "Value": "CVA",
+      "Label": "Corpus Vasorum Antiquorum"
+    },
+    {
+      "Value": "CVMA",
+      "Label": "Corpus Vitraearum Medii Aevi: Great Britain"
+    },
+    {
+      "Value": "CORWAL",
+      "Label": "Correspondence of John Wallis 1616-1703"
+    },
+    {
+      "Value": "CTP",
+      "Label": "Counterpoints: Cognition, Memory, and Language"
+    },
+    {
+      "Value": "GSGE",
+      "Label": "Creating Sustainable Growth In Europe"
+    },
+    {
+      "Value": "CREATIVECL",
+      "Label": "Creative Clarinet"
+    },
+    {
+      "Value": "SAX",
+      "Label": "Creative Saxophone"
+    },
+    {
+      "Value": "CJCB",
+      "Label": "Criminal Justice Case Briefs"
+    },
+    {
+      "Value": "CRIM",
+      "Label": "Criminalization"
+    },
+    {
+      "Value": "CIIP",
+      "Label": "Critical Issues in Indian Politics"
+    },
+    {
+      "Value": "CHLP",
+      "Label": "Cultural Heritage Law and Policy"
+    },
+    {
+      "Value": "CCB",
+      "Label": "Culture, Cognition, and Behavior"
+    },
+    {
+      "Value": "CLI",
+      "Label": "Current Legal Issues"
+    },
+    {
+      "Value": "CILAM",
+      "Label": "Currents in Latin American and Iberian Music"
+    },
+    {
+      "Value": "DIHS",
+      "Label": "Debates in Indian History and Society"
+    },
+    {
+      "Value": "DEBETH",
+      "Label": "Debating Ethics"
+    },
+    {
+      "Value": "DAR",
+      "Label": "Development at Risk Series"
+    },
+    {
+      "Value": "DE",
+      "Label": "Development of Ethics"
+    },
+    {
+      "Value": "DCN",
+      "Label": "Developmental Cognitive Neuroscience"
+    },
+    {
+      "Value": "DPP",
+      "Label": "Developmental Perspectives in Psychiatry"
+    },
+    {
+      "Value": "DIGUS",
+      "Label": "Digest of US Practice in International Law"
+    },
+    {
+      "Value": "DP",
+      "Label": "Dimensions of Philosophy"
+    },
+    {
+      "Value": "DRT",
+      "Label": "Directions series"
+    },
+    {
+      "Value": "DJD",
+      "Label": "Discoveries in the Judaean Desert"
+    },
+    {
+      "Value": "DBSOLO",
+      "Label": "Double Bass Solo"
+    },
+    {
+      "Value": "DRI",
+      "Label": "Drugs In"
+    },
+    {
+      "Value": "EAWW",
+      "Label": "Early American Women Writers"
+    },
+    {
+      "Value": "EETSO",
+      "Label": "Early English Text Society Original Series"
+    },
+    {
+      "Value": "EETSS",
+      "Label": "Early English Text Society Supplementary Series"
+    },
+    {
+      "Value": "EMS",
+      "Label": "Early Music Series"
+    },
+    {
+      "Value": "EEPS",
+      "Label": "Ecological and Environmental Physiology Series"
+    },
+    {
+      "Value": "EDS",
+      "Label": "Economic Development Series"
+    },
+    {
+      "Value": "EDIS",
+      "Label": "EDI Series in Economic Development"
+    },
+    {
+      "Value": "ETPE",
+      "Label": "Edward Thomas Prose Writing Selected Edition"
+    },
+    {
+      "Value": "EBLM",
+      "Label": "Emblems of Antiquity"
+    },
+    {
+      "Value": "EI",
+      "Label": "Emergencies in..."
+    },
+    {
+      "Value": "EMERGVOICE",
+      "Label": "Emerging Voices"
+    },
+    {
+      "Value": "EIH",
+      "Label": "Emotions In History"
+    },
+    {
+      "Value": "EMPA",
+      "Label": "Emotions of the Past"
+    },
+    {
+      "Value": "ELPS",
+      "Label": "Employment Law Practice Series"
+    },
+    {
+      "Value": "EEA",
+      "Label": "English Episcopal Acta"
+    },
+    {
+      "Value": "ENJGUITAR",
+      "Label": "Enjoy Playing Guitar"
+    },
+    {
+      "Value": "EESPS",
+      "Label": "Environmental Ethics and Science Policy Series"
+    },
+    {
+      "Value": "AETPH",
+      "Label": "Epidemiology: From Aetiology to Public Health"
+    },
+    {
+      "Value": "EPBP",
+      "Label": "Epistles of the Brethren of Purity"
+    },
+    {
+      "Value": "ECCS",
+      "Label": "European Civil Code"
+    },
+    {
+      "Value": "ES",
+      "Label": "European Societies"
+    },
+    {
+      "Value": "EBP",
+      "Label": "Evidence-Based Practices"
+    },
+    {
+      "Value": "EVC",
+      "Label": "Evolution and Cognition"
+    },
+    {
+      "Value": "ELS",
+      "Label": "Explorations in Language and Space"
+    },
+    {
+      "Value": "ELT",
+      "Label": "Explorations in Linguistic Typology"
+    },
+    {
+      "Value": "ENP",
+      "Label": "Explorations in Narrative Psychology"
+    },
+    {
+      "Value": "FCFPW",
+      "Label": "Family Change and Family Policy in the West"
+    },
+    {
+      "Value": "FIDTIME",
+      "Label": "Fiddle Time"
+    },
+    {
+      "Value": "FSEDSK",
+      "Label": "Fifty Studies Every Doctor Should Know"
+    },
+    {
+      "Value": "FMASSS",
+      "Label": "Financial Management Association Survey and Synthesis"
+    },
+    {
+      "Value": "FMI",
+      "Label": "Financial Markets and Investments"
+    },
+    {
+      "Value": "FNA",
+      "Label": "Flora of North America"
+    },
+    {
+      "Value": "FLTIME",
+      "Label": "Flute Time"
+    },
+    {
+      "Value": "FOLK",
+      "Label": "Folk Song Sight Singing"
+    },
+    {
+      "Value": "FHASAH",
+      "Label": "Fontes Historiae Africanae"
+    },
+    {
+      "Value": "FL",
+      "Label": "Ford Lectures"
+    },
+    {
+      "Value": "FHI",
+      "Label": "Foundations of Human Interaction"
+    },
+    {
+      "Value": "FPI",
+      "Label": "Foundations of Philosophy in India"
+    },
+    {
+      "Value": "FPIL",
+      "Label": "Foundations of Public International Law"
+    },
+    {
+      "Value": "FMPST",
+      "Label": "Founders of Modern Political and Social Thought"
+    },
+    {
+      "Value": "FSSACS",
+      "Label": "French Studies on South Asian Culture and Society"
+    },
+    {
+      "Value": "FCP",
+      "Label": "Frontiers in Culture and Pyschology"
+    },
+    {
+      "Value": "FHRS",
+      "Label": "Frontiers in Headache Research Series"
+    },
+    {
+      "Value": "FMB",
+      "Label": "Frontiers in Molecular Biology"
+    },
+    {
+      "Value": "FBH",
+      "Label": "Fuji Business History"
+    },
+    {
+      "Value": "FC",
+      "Label": "Fundamentals in Cognition"
+    },
+    {
+      "Value": "IBMS",
+      "Label": "Fundamentals of Biomedical Science"
+    },
+    {
+      "Value": "FPS",
+      "Label": "Fundamentals of Philosophy Series"
+    },
+    {
+      "Value": "GP",
+      "Label": "Gender and Politics"
+    },
+    {
+      "Value": "GENORC",
+      "Label": "Genera Orchidacearum"
+    },
+    {
+      "Value": "GCIP",
+      "Label": "Genetic Counselling in Practice"
+    },
+    {
+      "Value": "GLW",
+      "Label": "Geomorphological Landscapes of the World"
+    },
+    {
+      "Value": "GSWW",
+      "Label": "Germany and the Second World War"
+    },
+    {
+      "Value": "GCWI",
+      "Label": "Gettysburg Civil War Institute Books"
+    },
+    {
+      "Value": "GLES",
+      "Label": "Glasgow Edition of the Works of Adam Smith"
+    },
+    {
+      "Value": "GCE",
+      "Label": "Global and Comparative Ethnography"
+    },
+    {
+      "Value": "GLA",
+      "Label": "Global Asias"
+    },
+    {
+      "Value": "GLOCOM",
+      "Label": "Global Community: Yearbook of International Law and Jurisprudence"
+    },
+    {
+      "Value": "GMS",
+      "Label": "Global Music Series"
+    },
+    {
+      "Value": "GOBS",
+      "Label": "Global Outlook Book Series"
+    },
+    {
+      "Value": "GPS",
+      "Label": "Global Perspectives"
+    },
+    {
+      "Value": "STRGLOBE",
+      "Label": "Globetrotters for strings"
+    },
+    {
+      "Value": "WINDGLOBE",
+      "Label": "Globetrotters for wind"
+    },
+    {
+      "Value": "GASBS",
+      "Label": "Governance of Addictive Substances and Behaviours Series"
+    },
+    {
+      "Value": "GIR",
+      "Label": "Government-Industry Relations"
+    },
+    {
+      "Value": "GTCS",
+      "Label": "Graduate Texts in Computer Science"
+    },
+    {
+      "Value": "GBA",
+      "Label": "Great Battles"
+    },
+    {
+      "Value": "GMT",
+      "Label": "Great Medieval Thinkers"
+    },
+    {
+      "Value": "GTNT",
+      "Label": "Greek Tragedy in New Translations"
+    },
+    {
+      "Value": "GRO",
+      "Label": "Greeks Overseas"
+    },
+    {
+      "Value": "GCS",
+      "Label": "Green Chemistry"
+    },
+    {
+      "Value": "GCP",
+      "Label": "Guidebooks in Clinical Psychology"
+    },
+    {
+      "Value": "MS",
+      "Label": "Gustav Mahler Biography"
+    },
+    {
+      "Value": "HEE",
+      "Label": "Handbooks in Health Economic Evaluation"
+    },
+    {
+      "Value": "HEM",
+      "Label": "Handbooks of Economic Methodology"
+    },
+    {
+      "Value": "HSSPG",
+      "Label": "Hansard Society Series in Politics and Government"
+    },
+    {
+      "Value": "HEGEL",
+      "Label": "Hegel Lectures"
+    },
+    {
+      "Value": "HEPS",
+      "Label": "Hegel's Encyclopedia of the Philosophical Sciences"
+    },
+    {
+      "Value": "HGR",
+      "Label": "Hertie Governance Report"
+    },
+    {
+      "Value": "HGAA",
+      "Label": "Historical Guides to American Authors"
+    },
+    {
+      "Value": "HN",
+      "Label": "History of Neuroscience"
+    },
+    {
+      "Value": "HIB",
+      "Label": "History of the Irish Book"
+    },
+    {
+      "Value": "HOU",
+      "Label": "History of Universities Series"
+    },
+    {
+      "Value": "HW",
+      "Label": "History of Wales"
+    },
+    {
+      "Value": "HWP",
+      "Label": "History of Western Philosophy"
+    },
+    {
+      "Value": "HPNA",
+      "Label": "HPNA Palliative Nursing Manuals"
+    },
+    {
+      "Value": "HES",
+      "Label": "Human Evolution Series"
+    },
+    {
+      "Value": "HTI",
+      "Label": "Human Technology Interaction Series"
+    },
+    {
+      "Value": "ICASE",
+      "Label": "ICASE/LaRC Series in Computational Science and Engineering"
+    },
+    {
+      "Value": "IOD",
+      "Label": "Ideologies of Desire"
+    },
+    {
+      "Value": "IHC",
+      "Label": "Illustrated History of Canada"
+    },
+    {
+      "Value": "IA",
+      "Label": "Images of Asia"
+    },
+    {
+      "Value": "ITA",
+      "Label": "Imagining The Americas"
+    },
+    {
+      "Value": "IR",
+      "Label": "Inalienable Rights"
+    },
+    {
+      "Value": "IBLB",
+      "Label": "Index to British Literary Bibliography"
+    },
+    {
+      "Value": "INDICES",
+      "Label": "Indices"
+    },
+    {
+      "Value": "IPDS",
+      "Label": "Initiative for Policy Dialogue"
+    },
+    {
+      "Value": "INLIV",
+      "Label": "Inner Lives"
+    },
+    {
+      "Value": "IPSDVP",
+      "Label": "Innovations in Practice and Service Delivery with Vulnerable Populations"
+    },
+    {
+      "Value": "IMACS",
+      "Label": "Institute of Mathematics and its Applications Conference Series"
+    },
+    {
+      "Value": "IAD",
+      "Label": "Institutions of American Democracy"
+    },
+    {
+      "Value": "IMP",
+      "Label": "Insula of the Menander at Pompeii"
+    },
+    {
+      "Value": "IFP",
+      "Label": "Integrated Foundations of Pharmacy"
+    },
+    {
+      "Value": "IAMGS",
+      "Label": "International Association for Mathematical Geology Studies in Mathematical Geology"
+    },
+    {
+      "Value": "ICTS",
+      "Label": "International Courts and Tribunals Series"
+    },
+    {
+      "Value": "IELS",
+      "Label": "International Economic Law Series"
+    },
+    {
+      "Value": "ILDO",
+      "Label": "International Law in Domestic Legal Orders"
+    },
+    {
+      "Value": "IPPP",
+      "Label": "International Perspectives in Philosophy and Psychiatry"
+    },
+    {
+      "Value": "IPE",
+      "Label": "International Policy Exchange"
+    },
+    {
+      "Value": "ISCS",
+      "Label": "International Schools for Computer Scientists"
+    },
+    {
+      "Value": "ISMC",
+      "Label": "International Series of Monographs on Chemistry"
+    },
+    {
+      "Value": "ISMCS",
+      "Label": "International Series of Monographs on Computer Science"
+    },
+    {
+      "Value": "ISMP",
+      "Label": "International Series of Monographs on Physics"
+    },
+    {
+      "Value": "ISAA",
+      "Label": "International Series on Astronomy and Astrophysics"
+    },
+    {
+      "Value": "ISD",
+      "Label": "International Studies in Demography"
+    },
+    {
+      "Value": "IUCRMC",
+      "Label": "International Union of Crystallography Monographs on Crystallography"
+    },
+    {
+      "Value": "IUCRTC",
+      "Label": "International Union of Crystallography Texts on Crystallography"
+    },
+    {
+      "Value": "IV",
+      "Label": "Interpersonal Violence"
+    },
+    {
+      "Value": "IHS",
+      "Label": "Introducing Health Science"
+    },
+    {
+      "Value": "INTUNE",
+      "Label": "IntUne"
+    },
+    {
+      "Value": "IBE",
+      "Label": "Issues in Biomedical Ethics"
+    },
+    {
+      "Value": "IZA",
+      "Label": "IZA Prize in Labor Economics"
+    },
+    {
+      "Value": "JBE",
+      "Label": "Japan Business and Economics Series"
+    },
+    {
+      "Value": "JSESH",
+      "Label": "Japanese Studies in Economic and Social History"
+    },
+    {
+      "Value": "JRAE",
+      "Label": "John Rutter Anniversary Edition"
+    },
+    {
+      "Value": "JHAPL",
+      "Label": "Johns Hopkins University Applied Physics Laboratories Series in Science and Engineering"
+    },
+    {
+      "Value": "JSSS",
+      "Label": "Journal of Semitic Studies Supplement"
+    },
+    {
+      "Value": "KQA",
+      "Label": "Key Questions Answered"
+    },
+    {
+      "Value": "KIS",
+      "Label": "Kinsey Institute Series"
+    },
+    {
+      "Value": "KTHS",
+      "Label": "Kodaly Today Handbook Series"
+    },
+    {
+      "Value": "LPI",
+      "Label": "Landmark Papers In"
+    },
+    {
+      "Value": "LI",
+      "Label": "Landscapes of the Imagination"
+    },
+    {
+      "Value": "LCAMS",
+      "Label": "Law and Current Events Masters"
+    },
+    {
+      "Value": "LGG",
+      "Label": "Law And Global Governance"
+    },
+    {
+      "Value": "LIS",
+      "Label": "Law in India Series"
+    },
+    {
+      "Value": "LSS",
+      "Label": "Law in its Social Setting"
+    },
+    {
+      "Value": "LSIM",
+      "Label": "Law Society of Ireland Manuals"
+    },
+    {
+      "Value": "LSPR",
+      "Label": "Law, State, and Practical Reason"
+    },
+    {
+      "Value": "LNLH",
+      "Label": "Lecture Notes of the Les Houches Summer School"
+    },
+    {
+      "Value": "LS",
+      "Label": "Legacy Series"
+    },
+    {
+      "Value": "LPCG",
+      "Label": "Legal Practice Course Manuals"
+    },
+    {
+      "Value": "WL",
+      "Label": "Letters of William and Dorothy Wordsworth"
+    },
+    {
+      "Value": "LGPN",
+      "Label": "Lexicon of Greek Personal Names"
+    },
+    {
+      "Value": "LLA",
+      "Label": "Library of Latin America"
+    },
+    {
+      "Value": "LPE",
+      "Label": "Library of Political Economy"
+    },
+    {
+      "Value": "LIGHTCHOIR",
+      "Label": "Lighter Choral Repertoire"
+    },
+    {
+      "Value": "LINL",
+      "Label": "Linacre Lectures"
+    },
+    {
+      "Value": "LOT",
+      "Label": "Lines of Thought"
+    },
+    {
+      "Value": "LIPL",
+      "Label": "Lipsey Lectures"
+    },
+    {
+      "Value": "LLS",
+      "Label": "Lives and Legacies"
+    },
+    {
+      "Value": "LCPS",
+      "Label": "Logic and Computation in Philosophy"
+    },
+    {
+      "Value": "LBT",
+      "Label": "London Book Trade"
+    },
+    {
+      "Value": "LMSMS",
+      "Label": "London Mathematical Society Monographs"
+    },
+    {
+      "Value": "LSEPAS",
+      "Label": "London School of Economics Perspectives in Economic Analysis"
+    },
+    {
+      "Value": "LTER",
+      "Label": "Long-Term Ecological Research Network Series"
+    },
+    {
+      "Value": "LLB",
+      "Label": "Lyell Lectures in Bibliography"
+    },
+    {
+      "Value": "MIC",
+      "Label": "Makers of Islamic Civilization"
+    },
+    {
+      "Value": "MOMW",
+      "Label": "Making of the Modern World"
+    },
+    {
+      "Value": "MAKS",
+      "Label": "Making Sense"
+    },
+    {
+      "Value": "MI",
+      "Label": "Marxist Introductions"
+    },
+    {
+      "Value": "MMU",
+      "Label": "Master Musicians Series"
+    },
+    {
+      "Value": "MAYO",
+      "Label": "Mayo Clinic Scientific Press"
+    },
+    {
+      "Value": "MEMW",
+      "Label": "Medieval and Early Modern World Series"
+    },
+    {
+      "Value": "MHA",
+      "Label": "Medieval History and Archaeology"
+    },
+    {
+      "Value": "DML",
+      "Label": "Medieval Latin Dictionary"
+    },
+    {
+      "Value": "MPN",
+      "Label": "Mesoscopic Physics and Nanotechnology"
+    },
+    {
+      "Value": "MICL",
+      "Label": "Milestones in Canadian Literature"
+    },
+    {
+      "Value": "MAOS",
+      "Label": "Mind Association Occasional Series"
+    },
+    {
+      "Value": "MITPSME",
+      "Label": "MIT-Pappalardo Series in Mechanical Engineering"
+    },
+    {
+      "Value": "MJLS",
+      "Label": "Modern Japanese Law Series"
+    },
+    {
+      "Value": "MLC",
+      "Label": "Modernist Literature and Culture"
+    },
+    {
+      "Value": "MCN",
+      "Label": "Molecular and Cellular Neurobiology Series"
+    },
+    {
+      "Value": "MEEE",
+      "Label": "Monographs in Electrical and Electronic Engineering"
+    },
+    {
+      "Value": "MEB",
+      "Label": "Monographs in Epidemiology and Biostatistics"
+    },
+    {
+      "Value": "MPS",
+      "Label": "Monographs of the Physiological Society"
+    },
+    {
+      "Value": "MC",
+      "Label": "Monographs on Cryogenics"
+    },
+    {
+      "Value": "MNA",
+      "Label": "Monographs on Numerical Analysis"
+    },
+    {
+      "Value": "MHPB",
+      "Label": "Monographs on the History and Philosophy of Biology"
+    },
+    {
+      "Value": "MPCM",
+      "Label": "Monographs on the Physics and Chemistry of Materials"
+    },
+    {
+      "Value": "ML",
+      "Label": "Monumental Legacy"
+    },
+    {
+      "Value": "MLCLS",
+      "Label": "Moral Limits of the Criminal Law"
+    },
+    {
+      "Value": "MUSTIME",
+      "Label": "Music through Time"
+    },
+    {
+      "Value": "MUSICA",
+      "Label": "Musica Dei donum"
+    },
+    {
+      "Value": "NANSEP",
+      "Label": "National Academy of Neuropsychology: Series on Evidence-Based Practices"
+    },
+    {
+      "Value": "NHC",
+      "Label": "Natural History of Crustacea"
+    },
+    {
+      "Value": "NG",
+      "Label": "Nature Guides"
+    },
+    {
+      "Value": "AANB",
+      "Label": "Neurology Now Books"
+    },
+    {
+      "Value": "NCHM",
+      "Label": "New Cultural History of Music"
+    },
+    {
+      "Value": "NDCS",
+      "Label": "New Directions in Cognitive Science"
+    },
+    {
+      "Value": "NEU",
+      "Label": "New European Union Series"
+    },
+    {
+      "Value": "GAS",
+      "Label": "New Grove Art"
+    },
+    {
+      "Value": "GLWA",
+      "Label": "New Grove Library of World Art"
+    },
+    {
+      "Value": "NGO",
+      "Label": "New Grove Operas"
+    },
+    {
+      "Value": "NHI",
+      "Label": "New History of Ireland"
+    },
+    {
+      "Value": "NHWP",
+      "Label": "New History of Western Philosophy"
+    },
+    {
+      "Value": "NH",
+      "Label": "New Horizons"
+    },
+    {
+      "Value": "NML",
+      "Label": "New Medieval Literatures"
+    },
+    {
+      "Value": "NNAH",
+      "Label": "New Narratives in American History"
+    },
+    {
+      "Value": "NOHE",
+      "Label": "New Oxford History of England"
+    },
+    {
+      "Value": "NOHM",
+      "Label": "New Oxford History of Music"
+    },
+    {
+      "Value": "NOWH",
+      "Label": "New Oxford World History"
+    },
+    {
+      "Value": "NYRPC",
+      "Label": "New York Rules of Professional Conduct"
+    },
+    {
+      "Value": "NLD",
+      "Label": "Newman Letters & Diaries"
+    },
+    {
+      "Value": "ILESJAZZ",
+      "Label": "Nikki Iles Jazz series"
+    },
+    {
+      "Value": "NHP",
+      "Label": "Nuclear History Program"
+    },
+    {
+      "Value": "NES",
+      "Label": "Nuffield European Studies"
+    },
+    {
+      "Value": "NMSC",
+      "Label": "Numerical Mathematics and Scientific Computation"
+    },
+    {
+      "Value": "ODEON",
+      "Label": "Odeon"
+    },
+    {
+      "Value": "OLHC",
+      "Label": "Onassis Series in Hellenic Culture"
+    },
+    {
+      "Value": "HRC",
+      "Label": "OUP/Humanities Research Centre of the Australian National University Series"
+    },
+    {
+      "Value": "AAHR",
+      "Label": "Oxford African American Historical Reference"
+    },
+    {
+      "Value": "OACARDL",
+      "Label": "Oxford American Cardiology Library"
+    },
+    {
+      "Value": "OAHM",
+      "Label": "Oxford American Handbooks of Medicine"
+    },
+    {
+      "Value": "OAIDL",
+      "Label": "Oxford American Infectious Disease Library"
+    },
+    {
+      "Value": "OAOPHL",
+      "Label": "Oxford American Ophthamology Library"
+    },
+    {
+      "Value": "OAPL",
+      "Label": "Oxford American Pain Library"
+    },
+    {
+      "Value": "OAPCL",
+      "Label": "Oxford American Palliative Care Library"
+    },
+    {
+      "Value": "OAPN",
+      "Label": "Oxford American Pocket Notes"
+    },
+    {
+      "Value": "OAPSYL",
+      "Label": "Oxford American Psychiatry Library"
+    },
+    {
+      "Value": "OARL",
+      "Label": "Oxford American Rheumatology Library"
+    },
+    {
+      "Value": "OAUL",
+      "Label": "Oxford American Urology Library"
+    },
+    {
+      "Value": "OAL",
+      "Label": "Oxford Amnesty Lectures"
+    },
+    {
+      "Value": "OABS",
+      "Label": "Oxford Animal Biology Series"
+    },
+    {
+      "Value": "OAF",
+      "Label": "Oxford Apostolic Fathers"
+    },
+    {
+      "Value": "OALS",
+      "Label": "Oxford Applied Linguistics"
+    },
+    {
+      "Value": "OAMCSS",
+      "Label": "Oxford Applied Mathematics and Computing Science Series"
+    },
+    {
+      "Value": "OACL",
+      "Label": "Oxford Approaches to Classical Literature"
+    },
+    {
+      "Value": "OAG",
+      "Label": "Oxford Archaeological Guides"
+    },
+    {
+      "Value": "OASS",
+      "Label": "Oxford Aristotle Studies Series"
+    },
+    {
+      "Value": "OXAP",
+      "Label": "Oxford Assess and Progress"
+    },
+    {
+      "Value": "OAO",
+      "Label": "Oxford Atlases in Ophthalmology"
+    },
+    {
+      "Value": "OAVB",
+      "Label": "Oxford Avian Biology"
+    },
+    {
+      "Value": "OBBO",
+      "Label": "Oxford Bach Books for Organ"
+    },
+    {
+      "Value": "OBCOM",
+      "Label": "Oxford Bible Commentary"
+    },
+    {
+      "Value": "OBS",
+      "Label": "Oxford Bible Series"
+    },
+    {
+      "Value": "OBGS",
+      "Label": "Oxford Biogeography Series"
+    },
+    {
+      "Value": "OBP",
+      "Label": "Oxford Books of Prose"
+    },
+    {
+      "Value": "OBPV",
+      "Label": "Oxford Books of Prose & Verse"
+    },
+    {
+      "Value": "OBV",
+      "Label": "Oxford Books of Verse"
+    },
+    {
+      "Value": "OCAL",
+      "Label": "Oxford Cardiology Library"
+    },
+    {
+      "Value": "OXCM",
+      "Label": "Oxford Care Manuals"
+    },
+    {
+      "Value": "OCAH",
+      "Label": "Oxford Case Histories"
+    },
+    {
+      "Value": "OCG",
+      "Label": "Oxford Chemistry Guides"
+    },
+    {
+      "Value": "OCHM",
+      "Label": "Oxford Chemistry Masters"
+    },
+    {
+      "Value": "OCP",
+      "Label": "Oxford Chemistry Primers"
+    },
+    {
+      "Value": "OCCLASS",
+      "Label": "Oxford Choral Classics"
+    },
+    {
+      "Value": "OCCO",
+      "Label": "Oxford Choral Classics Octavos"
+    },
+    {
+      "Value": "OCTPS",
+      "Label": "Oxford Classic Texts in the Physical Sciences"
+    },
+    {
+      "Value": "OCPM",
+      "Label": "Oxford Classical and Philosophical Monographs"
+    },
+    {
+      "Value": "OCM",
+      "Label": "Oxford Classical Monographs"
+    },
+    {
+      "Value": "OCT",
+      "Label": "Oxford Classical Texts"
+    },
+    {
+      "Value": "OCNS",
+      "Label": "Oxford Clinical Nephrology Series"
+    },
+    {
+      "Value": "OCSS",
+      "Label": "Oxford Cognitive Science Series"
+    },
+    {
+      "Value": "OXCAL",
+      "Label": "Oxford Commentaries On American Law"
+    },
+    {
+      "Value": "GATTWTO",
+      "Label": "Oxford Commentaries on GATT/WTO Agreements"
+    },
+    {
+      "Value": "OCILS",
+      "Label": "Oxford Commentaries on International Law"
+    },
+    {
+      "Value": "OC",
+      "Label": "Oxford Companions"
+    },
+    {
+      "Value": "OCPOL",
+      "Label": "Oxford Companions to Political Studies"
+    },
+    {
+      "Value": "OCON",
+      "Label": "Oxford Constitutional Theory"
+    },
+    {
+      "Value": "COREL",
+      "Label": "Oxford Core Linguistics"
+    },
+    {
+      "Value": "OCTS",
+      "Label": "Oxford Core Texts"
+    },
+    {
+      "Value": "OCCHMM",
+      "Label": "Oxford Critical Cultural History of Modernist Magazines"
+    },
+    {
+      "Value": "DRS",
+      "Label": "Oxford Desk Reference Series"
+    },
+    {
+      "Value": "ODL",
+      "Label": "Oxford Diabetes Library Series"
+    },
+    {
+      "Value": "OECGT",
+      "Label": "Oxford Early Christian Gospel Texts"
+    },
+    {
+      "Value": "OECS",
+      "Label": "Oxford Early Christian Studies"
+    },
+    {
+      "Value": "OECT",
+      "Label": "Oxford Early Christian Texts"
+    },
+    {
+      "Value": "OETJDS",
+      "Label": "Oxford Edition of the Sermons of John Donne"
+    },
+    {
+      "Value": "OEOCT",
+      "Label": "Oxford Editions of Cuneiform Texts"
+    },
+    {
+      "Value": "OEAH",
+      "Label": "Oxford Encyclopedias of American History"
+    },
+    {
+      "Value": "OEB",
+      "Label": "Oxford Encyclopedias of the Bible"
+    },
+    {
+      "Value": "OENL",
+      "Label": "Oxford Endocrinology Library"
+    },
+    {
+      "Value": "OESS",
+      "Label": "Oxford Engineering Science Series"
+    },
+    {
+      "Value": "OELH",
+      "Label": "Oxford English Literary History"
+    },
+    {
+      "Value": "OEM",
+      "Label": "Oxford English Monographs"
+    },
+    {
+      "Value": "OETBR",
+      "Label": "Oxford English Texts: Browning"
+    },
+    {
+      "Value": "OES",
+      "Label": "Oxford Ethics Series"
+    },
+    {
+      "Value": "OEULL",
+      "Label": "Oxford European Union Law Library"
+    },
+    {
+      "Value": "OFS",
+      "Label": "Oxford Finance Series"
+    },
+    {
+      "Value": "OGPL",
+      "Label": "Oxford General Practice Library"
+    },
+    {
+      "Value": "OGPS",
+      "Label": "Oxford General Practice Series"
+    },
+    {
+      "Value": "OGESS",
+      "Label": "Oxford Geographical and Environmental Studies Series"
+    },
+    {
+      "Value": "OGT",
+      "Label": "Oxford Graduate Texts"
+    },
+    {
+      "Value": "OGTM",
+      "Label": "Oxford Graduate Texts in Mathematics"
+    },
+    {
+      "Value": "OGC",
+      "Label": "Oxford Guides to Chaucer"
+    },
+    {
+      "Value": "OGCBT",
+      "Label": "Oxford Guides to Cognitive Behavioural Therapy"
+    },
+    {
+      "Value": "OGWL",
+      "Label": "Oxford Guides To The Worlds languages"
+    },
+    {
+      "Value": "OHBK",
+      "Label": "Oxford Handbooks"
+    },
+    {
+      "Value": "OHEM",
+      "Label": "Oxford Handbooks in Emergency Medicine"
+    },
+    {
+      "Value": "OHLIN",
+      "Label": "Oxford Handbooks in Linguistics"
+    },
+    {
+      "Value": "OHN",
+      "Label": "Oxford Handbooks in Nursing"
+    },
+    {
+      "Value": "OXSTHR",
+      "Label": "Oxford Higher Specialty Training Higher Revision"
+    },
+    {
+      "Value": "OHS",
+      "Label": "Oxford Hispanic Studies"
+    },
+    {
+      "Value": "OHM",
+      "Label": "Oxford Historical Monographs"
+    },
+    {
+      "Value": "OH",
+      "Label": "Oxford Histories"
+    },
+    {
+      "Value": "OHA",
+      "Label": "Oxford History of Art"
+    },
+    {
+      "Value": "OHCREL",
+      "Label": "Oxford History of Classical Reception in English Literature"
+    },
+    {
+      "Value": "OHEME",
+      "Label": "Oxford History of Early Modern Europe"
+    },
+    {
+      "Value": "OHE",
+      "Label": "Oxford History of England"
+    },
+    {
+      "Value": "OHEL",
+      "Label": "Oxford History of English Literature"
+    },
+    {
+      "Value": "OHHW",
+      "Label": "Oxford History of Historical Writing"
+    },
+    {
+      "Value": "HLTE",
+      "Label": "Oxford History of Literary Translation in English"
+    },
+    {
+      "Value": "OHME",
+      "Label": "Oxford History of Modern Europe"
+    },
+    {
+      "Value": "OHBE",
+      "Label": "Oxford History of the British Empire"
+    },
+    {
+      "Value": "OHBECS",
+      "Label": "Oxford History of the British Empire Companion Series"
+    },
+    {
+      "Value": "OHCC",
+      "Label": "Oxford History of the Christian Church"
+    },
+    {
+      "Value": "OHLE",
+      "Label": "Oxford History of the Laws of England"
+    },
+    {
+      "Value": "OHNE",
+      "Label": "Oxford History of the Novel in English"
+    },
+    {
+      "Value": "OHUS",
+      "Label": "Oxford History of the United States"
+    },
+    {
+      "Value": "OXHYMNSET",
+      "Label": "Oxford Hymn Settings for Organists"
+    },
+    {
+      "Value": "OIH",
+      "Label": "Oxford Illustrated History"
+    },
+    {
+      "Value": "OIA",
+      "Label": "Oxford Illustrated Jane Austen"
+    },
+    {
+      "Value": "OIAHR",
+      "Label": "Oxford in Asia Historical Reprints"
+    },
+    {
+      "Value": "OIAP",
+      "Label": "Oxford in Asia Paperbacks"
+    },
+    {
+      "Value": "OIRSSA",
+      "Label": "Oxford in India Readings in Sociology and Social Anthropology"
+    },
+    {
+      "Value": "OIRTIH",
+      "Label": "Oxford in India Readings: Themes in Indian History"
+    },
+    {
+      "Value": "OIRTIP",
+      "Label": "Oxford in India Readings: Themes in Indian Politics"
+    },
+    {
+      "Value": "OIC",
+      "Label": "Oxford India Collection"
+    },
+    {
+      "Value": "OIP",
+      "Label": "Oxford India Paperbacks"
+    },
+    {
+      "Value": "OIPS",
+      "Label": "Oxford India Perennials Series"
+    },
+    {
+      "Value": "OISI",
+      "Label": "Oxford India Short Introductions Series"
+    },
+    {
+      "Value": "OIALS",
+      "Label": "Oxford International Arbitration Series"
+    },
+    {
+      "Value": "OILL",
+      "Label": "Oxford International Law Library"
+    },
+    {
+      "Value": "IRSA",
+      "Label": "Oxford International Relations in South Asia"
+    },
+    {
+      "Value": "OILS",
+      "Label": "Oxford Introduction to Language Study ELT"
+    },
+    {
+      "Value": "SIL",
+      "Label": "Oxford Introductions to US Law"
+    },
+    {
+      "Value": "OISLS",
+      "Label": "Oxford Islamic Legal Studies"
+    },
+    {
+      "Value": "OLSMA",
+      "Label": "Oxford Lecture Series in Mathematics and Its Applications"
+    },
+    {
+      "Value": "OLPH",
+      "Label": "Oxford Legal Philosophy"
+    },
+    {
+      "Value": "OLOP",
+      "Label": "Oxford Library of Psychology"
+    },
+    {
+      "Value": "OL",
+      "Label": "Oxford Lives"
+    },
+    {
+      "Value": "OLG",
+      "Label": "Oxford Logic Guides"
+    },
+    {
+      "Value": "OMR",
+      "Label": "Oxford Management Readers"
+    },
+    {
+      "Value": "OMSP",
+      "Label": "Oxford Master Series in Physics"
+    },
+    {
+      "Value": "OMM",
+      "Label": "Oxford Mathematical Monographs"
+    },
+    {
+      "Value": "OXHMED",
+      "Label": "Oxford Medical Handbooks"
+    },
+    {
+      "Value": "OMH",
+      "Label": "Oxford Medical Histories"
+    },
+    {
+      "Value": "OXM-T",
+      "Label": "Oxford Medical Textbooks Online"
+    },
+    {
+      "Value": "OMT",
+      "Label": "Oxford Medieval Texts"
+    },
+    {
+      "Value": "OMBR",
+      "Label": "Oxford Modern Britain"
+    },
+    {
+      "Value": "OMLLM",
+      "Label": "Oxford Modern Languages and Literature Monographs"
+    },
+    {
+      "Value": "OMIHCL",
+      "Label": "Oxford Monographs In International Humanitarian And Criminal Law"
+    },
+    {
+      "Value": "OMIL",
+      "Label": "Oxford Monographs in International Law"
+    },
+    {
+      "Value": "OMCA",
+      "Label": "Oxford Monographs on Classical Archaeology"
+    },
+    {
+      "Value": "OMCLJ",
+      "Label": "Oxford Monographs on Criminal Law and Justice"
+    },
+    {
+      "Value": "OMGG",
+      "Label": "Oxford Monographs on Geology and Geophysics"
+    },
+    {
+      "Value": "OMLL",
+      "Label": "Oxford Monographs on Labour Law"
+    },
+    {
+      "Value": "OMMG",
+      "Label": "Oxford Monographs on Medical Genetics"
+    },
+    {
+      "Value": "OMMUS",
+      "Label": "Oxford Monographs on Music"
+    },
+    {
+      "Value": "OXFMT",
+      "Label": "Oxford Moral Theory"
+    },
+    {
+      "Value": "OMMS",
+      "Label": "Oxford Music / Media"
+    },
+    {
+      "Value": "OMUES",
+      "Label": "Oxford Music Education"
+    },
+    {
+      "Value": "CANADA",
+      "Label": "Oxford Music from Canada"
+    },
+    {
+      "Value": "ONEL",
+      "Label": "Oxford Neurology Library"
+    },
+    {
+      "Value": "ONS",
+      "Label": "Oxford Neuroscience Series"
+    },
+    {
+      "Value": "OOL",
+      "Label": "Oxford Oncology Library"
+    },
+    {
+      "Value": "ORALHIS",
+      "Label": "Oxford Oral History Series"
+    },
+    {
+      "Value": "OOS",
+      "Label": "Oxford Ornithology Series"
+    },
+    {
+      "Value": "OPML",
+      "Label": "Oxford Pain Management Library"
+    },
+    {
+      "Value": "OPP",
+      "Label": "Oxford Pakistan Paperbacks"
+    },
+    {
+      "Value": "OPC",
+      "Label": "Oxford Philosophical Concepts"
+    },
+    {
+      "Value": "OPM",
+      "Label": "Oxford Philosophical Monographs"
+    },
+    {
+      "Value": "OPHT",
+      "Label": "Oxford Philosophical Texts"
+    },
+    {
+      "Value": "OXFPP",
+      "Label": "Oxford Political Philosophy"
+    },
+    {
+      "Value": "OPT",
+      "Label": "Oxford Political Theory"
+    },
+    {
+      "Value": "OXPOR",
+      "Label": "Oxford Portraits"
+    },
+    {
+      "Value": "OPIS",
+      "Label": "Oxford Portraits in Science"
+    },
+    {
+      "Value": "OXPPS",
+      "Label": "Oxford Positive Psychology"
+    },
+    {
+      "Value": "OPEL",
+      "Label": "Oxford Principles of English Law"
+    },
+    {
+      "Value": "OPILS",
+      "Label": "Oxford Private International Law Series"
+    },
+    {
+      "Value": "OPL",
+      "Label": "Oxford Psychiatry Library Series"
+    },
+    {
+      "Value": "OPSS",
+      "Label": "Oxford Psychology Series"
+    },
+    {
+      "Value": "OQR",
+      "Label": "Oxford Quick Reference"
+    },
+    {
+      "Value": "OXR",
+      "Label": "Oxford Readers"
+    },
+    {
+      "Value": "ORCS",
+      "Label": "Oxford Readings in Classical Studies"
+    },
+    {
+      "Value": "ORF",
+      "Label": "Oxford Readings in Feminism"
+    },
+    {
+      "Value": "ORP",
+      "Label": "Oxford Readings in Philosophy"
+    },
+    {
+      "Value": "ORE",
+      "Label": "Oxford Regional Environments"
+    },
+    {
+      "Value": "ORML",
+      "Label": "Oxford Respiratory Medicine Library"
+    },
+    {
+      "Value": "ORHL",
+      "Label": "Oxford Rheumatology Library"
+    },
+    {
+      "Value": "ORSS",
+      "Label": "Oxford Ritual Studies"
+    },
+    {
+      "Value": "OSCP",
+      "Label": "Oxford Series in Clinical Psychology"
+    },
+    {
+      "Value": "OCD",
+      "Label": "Oxford Series in Cognitive Development"
+    },
+    {
+      "Value": "OSEE",
+      "Label": "Oxford Series in Ecology and Evolution"
+    },
+    {
+      "Value": "OSNLP",
+      "Label": "Oxford Series in Neuroscience, Law & Philosophy"
+    },
+    {
+      "Value": "OSOIS",
+      "Label": "Oxford Series in Optical and Imaging Sciences"
+    },
+    {
+      "Value": "OSAM",
+      "Label": "Oxford Series on Advanced Manufacturing"
+    },
+    {
+      "Value": "OSHAR",
+      "Label": "Oxford Series on History and Archives"
+    },
+    {
+      "Value": "OSMM",
+      "Label": "Oxford Series on Materials Modelling"
+    },
+    {
+      "Value": "OSNSCM",
+      "Label": "Oxford Series on Neutron Scattering in Condensed Matter"
+    },
+    {
+      "Value": "OSSR",
+      "Label": "Oxford Series on Synchrotron Radiation"
+    },
+    {
+      "Value": "SERVORGAN",
+      "Label": "Oxford Service Music for Organ"
+    },
+    {
+      "Value": "OSTS",
+      "Label": "Oxford Shakespeare Topics"
+    },
+    {
+      "Value": "SOHG",
+      "Label": "Oxford Short History of Germany"
+    },
+    {
+      "Value": "OSLS",
+      "Label": "Oxford Socio-Legal Studies"
+    },
+    {
+      "Value": "OSHB",
+      "Label": "Oxford Specialist Handbooks"
+    },
+    {
+      "Value": "OSHANAE",
+      "Label": "Oxford Specialist Handbooks in Anaesthesia"
+    },
+    {
+      "Value": "OSHCARD",
+      "Label": "Oxford Specialist Handbooks in Cardiology"
+    },
+    {
+      "Value": "OSHLIFE",
+      "Label": "Oxford Specialist Handbooks in End of Life Care"
+    },
+    {
+      "Value": "OSHNEUR",
+      "Label": "Oxford Specialist Handbooks in Neurology"
+    },
+    {
+      "Value": "OSHONCO",
+      "Label": "Oxford Specialist Handbooks in Oncology"
+    },
+    {
+      "Value": "OSHPAED",
+      "Label": "Oxford Specialist Handbooks in Paediatrics"
+    },
+    {
+      "Value": "OSHPSY",
+      "Label": "Oxford Specialist Handbooks in Psychiatry"
+    },
+    {
+      "Value": "OSHRADI",
+      "Label": "Oxford Specialist Handbooks in Radiology"
+    },
+    {
+      "Value": "OSHSURG",
+      "Label": "Oxford Specialist Handbooks in Surgery"
+    },
+    {
+      "Value": "OXSTBS",
+      "Label": "Oxford Specialty Training: Basic Science"
+    },
+    {
+      "Value": "OXSTRT",
+      "Label": "Oxford Specialty Training: Revision Texts"
+    },
+    {
+      "Value": "OXSTTE",
+      "Label": "Oxford Specialty Training: Techniques"
+    },
+    {
+      "Value": "OXSTTI",
+      "Label": "Oxford Specialty Training: Training In"
+    },
+    {
+      "Value": "OSSS",
+      "Label": "Oxford Statistical Science Series"
+    },
+    {
+      "Value": "OXSLL",
+      "Label": "Oxford Studies  in Language and Law"
+    },
+    {
+      "Value": "OXSAR",
+      "Label": "Oxford Studies In Agency And Responsibility"
+    },
+    {
+      "Value": "OSALH",
+      "Label": "Oxford Studies in American Literary History"
+    },
+    {
+      "Value": "OSAT",
+      "Label": "Oxford Studies in Analytic Theology"
+    },
+    {
+      "Value": "OSACR",
+      "Label": "Oxford Studies in Ancient Culture & Representation"
+    },
+    {
+      "Value": "OSAD",
+      "Label": "Oxford Studies in Ancient Documents"
+    },
+    {
+      "Value": "OSAP",
+      "Label": "Oxford Studies in Ancient Philosophy"
+    },
+    {
+      "Value": "OSAL",
+      "Label": "Oxford Studies in Anthropological Linguistics"
+    },
+    {
+      "Value": "OSANTL",
+      "Label": "Oxford Studies in Anthropology of Language"
+    },
+    {
+      "Value": "OSB",
+      "Label": "Oxford Studies in Biolinguistics"
+    },
+    {
+      "Value": "OSBCM",
+      "Label": "Oxford Studies in British Church Music"
+    },
+    {
+      "Value": "OSBYZ",
+      "Label": "Oxford Studies in Byzantium"
+    },
+    {
+      "Value": "OSCL",
+      "Label": "Oxford Studies in Classical Literature and Gender Theory"
+    },
+    {
+      "Value": "OSCS",
+      "Label": "Oxford Studies in Comparative Syntax"
+    },
+    {
+      "Value": "OXSCP",
+      "Label": "Oxford Studies in Culture and Politics"
+    },
+    {
+      "Value": "OSDT",
+      "Label": "Oxford Studies in Dance Theory"
+    },
+    {
+      "Value": "OSD",
+      "Label": "Oxford Studies in Democratization"
+    },
+    {
+      "Value": "OSDHL",
+      "Label": "Oxford Studies in Diachronic and Historical Linguistics"
+    },
+    {
+      "Value": "OSDP",
+      "Label": "Oxford Studies in Digital Politics"
+    },
+    {
+      "Value": "OSEEMP",
+      "Label": "Oxford Studies in Early Empires"
+    },
+    {
+      "Value": "OSEMP",
+      "Label": "Oxford Studies in Early Modern Philosophy"
+    },
+    {
+      "Value": "OSE",
+      "Label": "Oxford Studies in Epistemology"
+    },
+    {
+      "Value": "OSEL",
+      "Label": "Oxford Studies in European Law"
+    },
+    {
+      "Value": "OSEP",
+      "Label": "Oxford Studies In Experimental Philosophy"
+    },
+    {
+      "Value": "OSGIR",
+      "Label": "Oxford Studies in Gender and International Relations"
+    },
+    {
+      "Value": "OSHT",
+      "Label": "Oxford Studies in Historical Theology"
+    },
+    {
+      "Value": "OSIH",
+      "Label": "Oxford Studies in International History"
+    },
+    {
+      "Value": "OSLC",
+      "Label": "Oxford Studies in Language Contact"
+    },
+    {
+      "Value": "OSLA",
+      "Label": "Oxford Studies in Late Antiquity"
+    },
+    {
+      "Value": "OSLL",
+      "Label": "Oxford Studies in Lexicography and Lexicology"
+    },
+    {
+      "Value": "OSMEDEH",
+      "Label": "Oxford Studies In Medieval European History"
+    },
+    {
+      "Value": "OSMP",
+      "Label": "Oxford Studies In Medieval Philosophy"
+    },
+    {
+      "Value": "OSMET",
+      "Label": "Oxford Studies in Metaethics"
+    },
+    {
+      "Value": "OSM",
+      "Label": "Oxford Studies in Metaphysics"
+    },
+    {
+      "Value": "OSMEC",
+      "Label": "Oxford Studies in Modern European Culture"
+    },
+    {
+      "Value": "OSMEH",
+      "Label": "Oxford Studies in Modern European History"
+    },
+    {
+      "Value": "OSMLH",
+      "Label": "Oxford Studies in Modern Legal History"
+    },
+    {
+      "Value": "OXSMT",
+      "Label": "Oxford Studies in Music Theory"
+    },
+    {
+      "Value": "OSNE",
+      "Label": "Oxford Studies In Normative Ethics"
+    },
+    {
+      "Value": "OSNP",
+      "Label": "Oxford Studies in Nuclear Physics"
+    },
+    {
+      "Value": "OXSPL",
+      "Label": "Oxford Studies in Philosophy of Law"
+    },
+    {
+      "Value": "OSPR",
+      "Label": "Oxford Studies in Philosophy of Religion"
+    },
+    {
+      "Value": "OXSPP",
+      "Label": "Oxford Studies in Political Philosophy"
+    },
+    {
+      "Value": "OSPL",
+      "Label": "Oxford Studies in Postcolonial Literatures"
+    },
+    {
+      "Value": "OSIP",
+      "Label": "Oxford Studies in Probability"
+    },
+    {
+      "Value": "OSRJ",
+      "Label": "Oxford Studies in Recorded Jazz"
+    },
+    {
+      "Value": "OSRSL",
+      "Label": "Oxford Studies in Roman Society & Law"
+    },
+    {
+      "Value": "OSSMP",
+      "Label": "Oxford Studies in Semantics and Pragmatics"
+    },
+    {
+      "Value": "OSSCA",
+      "Label": "Oxford Studies in Social and Cultural Anthropology"
+    },
+    {
+      "Value": "OSSCACF",
+      "Label": "Oxford Studies in Social and Cultural Anthropology - Cultural Forms"
+    },
+    {
+      "Value": "OSSH",
+      "Label": "Oxford Studies in Social History"
+    },
+    {
+      "Value": "OSSL",
+      "Label": "Oxford Studies in Sociolinguistics"
+    },
+    {
+      "Value": "OSAR",
+      "Label": "Oxford Studies in the Abrahamic Religions"
+    },
+    {
+      "Value": "OSAAS",
+      "Label": "Oxford Studies in the Archaeology of Ancient States"
+    },
+    {
+      "Value": "SEL",
+      "Label": "Oxford Studies in the Evolution of Language"
+    },
+    {
+      "Value": "OSHARC",
+      "Label": "Oxford Studies in the History of Archaeology"
+    },
+    {
+      "Value": "OSHEC",
+      "Label": "Oxford Studies in the History of Economics"
+    },
+    {
+      "Value": "OSHE",
+      "Label": "Oxford Studies in the History of English"
+    },
+    {
+      "Value": "OSHP",
+      "Label": "Oxford Studies in the History of Philosophy"
+    },
+    {
+      "Value": "OSPS",
+      "Label": "Oxford Studies in the Philosophy of Science"
+    },
+    {
+      "Value": "OSTE",
+      "Label": "Oxford Studies in Theological Ethics"
+    },
+    {
+      "Value": "OSTL",
+      "Label": "Oxford Studies in Theoretical Linguistics"
+    },
+    {
+      "Value": "OSTLT",
+      "Label": "Oxford Studies in Typology and Linguistic Theory"
+    },
+    {
+      "Value": "OSWC",
+      "Label": "Oxford Studies in World Christianity"
+    },
+    {
+      "Value": "OSC",
+      "Label": "Oxford Studies of Composers"
+    },
+    {
+      "Value": "OSTEL",
+      "Label": "Oxford Studies of Endangered Languages"
+    },
+    {
+      "Value": "OXSTLT",
+      "Label": "Oxford Studies of Time in Language and Thought"
+    },
+    {
+      "Value": "OSRE",
+      "Label": "Oxford Studies on the Roman Economy"
+    },
+    {
+      "Value": "OSSP",
+      "Label": "Oxford Surveys in Semantics and Pragmatics"
+    },
+    {
+      "Value": "OSUSM",
+      "Label": "Oxford Surveys in Syntax & Morphology"
+    },
+    {
+      "Value": "OTS",
+      "Label": "Oxford Television Studies"
+    },
+    {
+      "Value": "OXT",
+      "Label": "Oxford Textbook"
+    },
+    {
+      "Value": "OTANA",
+      "Label": "Oxford Textbook in Anaesthesia"
+    },
+    {
+      "Value": "OTCARD",
+      "Label": "Oxford Textbooks in Cardiology"
+    },
+    {
+      "Value": "OTCN",
+      "Label": "Oxford Textbooks in Clinical Neurology"
+    },
+    {
+      "Value": "OTCP",
+      "Label": "Oxford Textbooks in Clinical Psychology"
+    },
+    {
+      "Value": "OTL",
+      "Label": "Oxford Textbooks in Linguistics"
+    },
+    {
+      "Value": "OTPM",
+      "Label": "Oxford Textbooks In Palliative Medicine"
+    },
+    {
+      "Value": "OTP",
+      "Label": "Oxford Textbooks in Psychiatry"
+    },
+    {
+      "Value": "OTPH",
+      "Label": "Oxford Textbooks In Public Health"
+    },
+    {
+      "Value": "OTAEM",
+      "Label": "Oxford Texts in Applied and Engineering Mathematics"
+    },
+    {
+      "Value": "OTIL",
+      "Label": "Oxford Texts in Logic"
+    },
+    {
+      "Value": "OTEXT",
+      "Label": "Oxford Textual Perspectives"
+    },
+    {
+      "Value": "OTM",
+      "Label": "Oxford Theology and Religion Monographs"
+    },
+    {
+      "Value": "O21AL",
+      "Label": "Oxford Twenty-First Century Approaches to Literature"
+    },
+    {
+      "Value": "OWC",
+      "Label": "Oxford World's Classics"
+    },
+    {
+      "Value": "ONRLC",
+      "Label": "Oxford-Norton Rose Law Colloquium"
+    },
+    {
+      "Value": "OWS",
+      "Label": "Oxford-Warburg Studies"
+    },
+    {
+      "Value": "PH",
+      "Label": "Pages from History"
+    },
+    {
+      "Value": "PCCS",
+      "Label": "Palliative Care Consultations"
+    },
+    {
+      "Value": "PSTH",
+      "Label": "Pasold Studies in Textile History"
+    },
+    {
+      "Value": "PM",
+      "Label": "Past Masters"
+    },
+    {
+      "Value": "PRC",
+      "Label": "Pension Research Council Series"
+    },
+    {
+      "Value": "PD",
+      "Label": "Perspectives on Deafness"
+    },
+    {
+      "Value": "PROS",
+      "Label": "Perspectives on Process Organization Studies"
+    },
+    {
+      "Value": "PTS",
+      "Label": "Philodemus Translation Series"
+    },
+    {
+      "Value": "PEDD",
+      "Label": "Philosophical Essays of Donald Davidson"
+    },
+    {
+      "Value": "PF",
+      "Label": "Philosophical Foundations of Law"
+    },
+    {
+      "Value": "PIA",
+      "Label": "Philosophy in Action"
+    },
+    {
+      "Value": "PHMS",
+      "Label": "Philosophy of Mind"
+    },
+    {
+      "Value": "ASTON",
+      "Label": "Piano Duets edited by Michael Aston"
+    },
+    {
+      "Value": "AFRICAN",
+      "Label": "Piano Music of the African Diaspora"
+    },
+    {
+      "Value": "PTIME",
+      "Label": "Piano Time"
+    },
+    {
+      "Value": "PWORKS",
+      "Label": "Pianoworks"
+    },
+    {
+      "Value": "PCCM",
+      "Label": "Pittsburgh Critical Care Medicine"
+    },
+    {
+      "Value": "PPP",
+      "Label": "Pittsburgh Pocket Psychiatry Series"
+    },
+    {
+      "Value": "PMAH",
+      "Label": "Pivotal Moments in American History"
+    },
+    {
+      "Value": "PMWH",
+      "Label": "Pivotal Moments in World History"
+    },
+    {
+      "Value": "PGSWRM",
+      "Label": "Pocket Guide to Social Work Research Methods"
+    },
+    {
+      "Value": "PC",
+      "Label": "Point/Counterpoint"
+    },
+    {
+      "Value": "POLQA",
+      "Label": "Police Q & A"
+    },
+    {
+      "Value": "ACSPSIS",
+      "Label": "Polymer Surfaces and Interfaces Series"
+    },
+    {
+      "Value": "PLB",
+      "Label": "Population-Level Bioethics"
+    },
+    {
+      "Value": "PPE",
+      "Label": "Practical and Professional Ethics"
+    },
+    {
+      "Value": "PAS",
+      "Label": "Practical Approach Series"
+    },
+    {
+      "Value": "PREC",
+      "Label": "Practical Econometrics"
+    },
+    {
+      "Value": "PFP",
+      "Label": "Prepare for Practice"
+    },
+    {
+      "Value": "PO",
+      "Label": "Primer On"
+    },
+    {
+      "Value": "PIB",
+      "Label": "Primers in Biology"
+    },
+    {
+      "Value": "PBA",
+      "Label": "Proceedings of the British Academy"
+    },
+    {
+      "Value": "PPOD",
+      "Label": "Professional Perspectives on Deafness: Evidence and Applications"
+    },
+    {
+      "Value": "PTW",
+      "Label": "Programs That Work"
+    },
+    {
+      "Value": "PPR",
+      "Label": "Protein Profiles"
+    },
+    {
+      "Value": "QEHSDS",
+      "Label": "Queen Elizabeth House Series in Development Studies"
+    },
+    {
+      "Value": "QSS",
+      "Label": "Qur'anic Studies Series"
+    },
+    {
+      "Value": "RAC",
+      "Label": "Race and American Culture"
+    },
+    {
+      "Value": "RADIP",
+      "Label": "Radiotherapy in Practice"
+    },
+    {
+      "Value": "RAM",
+      "Label": "Readers on American Musicians"
+    },
+    {
+      "Value": "RSEH",
+      "Label": "Records of Social and Economic History"
+    },
+    {
+      "Value": "RHIS",
+      "Label": "Reinterpreting History: How Historical Assessments Change over Time"
+    },
+    {
+      "Value": "RGP",
+      "Label": "Religion and Global Politics"
+    },
+    {
+      "Value": "RIA",
+      "Label": "Religion in America"
+    },
+    {
+      "Value": "RIAL",
+      "Label": "Religion in American Life"
+    },
+    {
+      "Value": "RMHPB",
+      "Label": "Research Monographs on Human Population Biology"
+    },
+    {
+      "Value": "RBT",
+      "Label": "Resource Books for Teachers"
+    },
+    {
+      "Value": "RIR",
+      "Label": "Rotations in Radiology"
+    },
+    {
+      "Value": "RHS",
+      "Label": "Royal Historical Society Annual Bibliography of British and Irish History"
+    },
+    {
+      "Value": "RSSS",
+      "Label": "Royal Statistical Society Series"
+    },
+    {
+      "Value": "RSSSI",
+      "Label": "Rutgers Series on Self and Social Identity"
+    },
+    {
+      "Value": "RYL",
+      "Label": "Ryde Lectures"
+    },
+    {
+      "Value": "JEWISH",
+      "Label": "Sacred Jewish choral music"
+    },
+    {
+      "Value": "STGS",
+      "Label": "Sambrook & Tooze Guidebook Series"
+    },
+    {
+      "Value": "SFISSC",
+      "Label": "Santa Fe Institute Studies on the Sciences of Complexity"
+    },
+    {
+      "Value": "SL",
+      "Label": "Schweich Lectures on Biblical Archaeology"
+    },
+    {
+      "Value": "SWJNS",
+      "Label": "Selected Works of Jawaharlal Nehru"
+    },
+    {
+      "Value": "SWJS",
+      "Label": "Selected Works of Joseph E. Stiglitz"
+    },
+    {
+      "Value": "SAS",
+      "Label": "Series in Affective Science"
+    },
+    {
+      "Value": "SPPSY",
+      "Label": "Series in Political Psychology"
+    },
+    {
+      "Value": "SPP",
+      "Label": "Series in Positive Psychology"
+    },
+    {
+      "Value": "SSB",
+      "Label": "Series in Systems Biology"
+    },
+    {
+      "Value": "SSST",
+      "Label": "Series on Semiconductor Science and Technology"
+    },
+    {
+      "Value": "SIAS",
+      "Label": "Sexuality, Identity, and Society"
+    },
+    {
+      "Value": "SOHE",
+      "Label": "Short Oxford History of Europe"
+    },
+    {
+      "Value": "SOHF",
+      "Label": "Short Oxford History of France"
+    },
+    {
+      "Value": "SOHI",
+      "Label": "Short Oxford History of Italy"
+    },
+    {
+      "Value": "SOHBI",
+      "Label": "Short Oxford History of the British Isles"
+    },
+    {
+      "Value": "SOHMW",
+      "Label": "Short Oxford History of the Modern World"
+    },
+    {
+      "Value": "SIGNPOSTS",
+      "Label": "Signposts to Music"
+    },
+    {
+      "Value": "SING",
+      "Label": "Sing Solo . . ."
+    },
+    {
+      "Value": "CBWS",
+      "Label": "SIPRI Chemical & Biological Warfare Studies"
+    },
+    {
+      "Value": "SIPRIMO",
+      "Label": "SIPRI Monographs"
+    },
+    {
+      "Value": "SIPRIRR",
+      "Label": "SIPRI Research Reports"
+    },
+    {
+      "Value": "SIPRIYS",
+      "Label": "SIPRI Yearbook Series"
+    },
+    {
+      "Value": "STS",
+      "Label": "Sloan Technology"
+    },
+    {
+      "Value": "SCS",
+      "Label": "Soane Catalogue Series"
+    },
+    {
+      "Value": "SOASSSA",
+      "Label": "SOAS Studies on South Asia"
+    },
+    {
+      "Value": "SCSN",
+      "Label": "Social Cognition and Social Neuroscience"
+    },
+    {
+      "Value": "SB",
+      "Label": "Soho Bibliographies"
+    },
+    {
+      "Value": "SONGBIRD",
+      "Label": "Songbird"
+    },
+    {
+      "Value": "SAR",
+      "Label": "South Asia Research"
+    },
+    {
+      "Value": "SEASSM",
+      "Label": "South-East Asian Social Science Monographs"
+    },
+    {
+      "Value": "SIS",
+      "Label": "Spatial Information Systems"
+    },
+    {
+      "Value": "SCPPSY",
+      "Label": "Specialty Competencies in Professional Psychology"
+    },
+    {
+      "Value": "SPL",
+      "Label": "Spiritual Lives"
+    },
+    {
+      "Value": "SH",
+      "Label": "Sports and History"
+    },
+    {
+      "Value": "SMS",
+      "Label": "Strategic Management"
+    },
+    {
+      "Value": "STJOG",
+      "Label": "String Time Ensembles"
+    },
+    {
+      "Value": "SSTEP",
+      "Label": "Strings in Step"
+    },
+    {
+      "Value": "SCJ",
+      "Label": "Studies in Contemporary Jewry"
+    },
+    {
+      "Value": "SCPP",
+      "Label": "Studies in Crime and Public Policy"
+    },
+    {
+      "Value": "SFP",
+      "Label": "Studies in Feminist Philosophy"
+    },
+    {
+      "Value": "SIEP",
+      "Label": "Studies in Indian Economic Policies"
+    },
+    {
+      "Value": "SIP",
+      "Label": "Studies in Islamic Philosphy"
+    },
+    {
+      "Value": "SJH",
+      "Label": "Studies in Jewish History"
+    },
+    {
+      "Value": "SLG",
+      "Label": "Studies in Language and Gender"
+    },
+    {
+      "Value": "SLC",
+      "Label": "Studies in Logic and Computation"
+    },
+    {
+      "Value": "SMEH",
+      "Label": "Studies in Middle Eastern History"
+    },
+    {
+      "Value": "SMGS",
+      "Label": "Studies in Musical Genesis, Structure, and Interpretation"
+    },
+    {
+      "Value": "SPTP",
+      "Label": "Studies in Penal Theory and Philosophy"
+    },
+    {
+      "Value": "SSEEH",
+      "Label": "Studies in Social Ecology and Environmental History"
+    },
+    {
+      "Value": "SSP",
+      "Label": "Studies in Strategic Peacebuilding"
+    },
+    {
+      "Value": "SAL",
+      "Label": "Studies in the Arcadian Library"
+    },
+    {
+      "Value": "SHS",
+      "Label": "Studies in the History of Sexuality"
+    },
+    {
+      "Value": "SEGIC",
+      "Label": "Studies of Economic Growth in Industrialized Countries"
+    },
+    {
+      "Value": "SPR",
+      "Label": "Studies of Policy Reform"
+    },
+    {
+      "Value": "SGHIL",
+      "Label": "Studies of the German Historical Institute, London"
+    },
+    {
+      "Value": "SCC",
+      "Label": "Studies on Contemporary China"
+    },
+    {
+      "Value": "SLSC",
+      "Label": "Studies on Law and Social Control"
+    },
+    {
+      "Value": "SIM",
+      "Label": "Success in Medicine"
+    },
+    {
+      "Value": "SC",
+      "Label": "Supportive Care"
+    },
+    {
+      "Value": "SNG",
+      "Label": "Sylloge Nummorum Graecorum"
+    },
+    {
+      "Value": "SCBI",
+      "Label": "Sylloge of Coins of the British Isles"
+    },
+    {
+      "Value": "SZSL",
+      "Label": "Symposia of the Zoological Society of London"
+    },
+    {
+      "Value": "SASV",
+      "Label": "Systematics Association Special Volumes"
+    },
+    {
+      "Value": "TOI",
+      "Label": "Take Off In"
+    },
+    {
+      "Value": "TECS",
+      "Label": "Techniques in Ecology & Conservation"
+    },
+    {
+      "Value": "TGJ",
+      "Label": "Terrorism and Global Justice Series"
+    },
+    {
+      "Value": "TERR",
+      "Label": "Terrorism: Commentary on Security Documents"
+    },
+    {
+      "Value": "TERROR2",
+      "Label": "Terrorism: Documents of International and Local Control, Second Series"
+    },
+    {
+      "Value": "TICLR",
+      "Label": "Terrorism: International Case Law Reporter"
+    },
+    {
+      "Value": "TCMA",
+      "Label": "Text, Cases, and Materials"
+    },
+    {
+      "Value": "TO",
+      "Label": "Textbook on"
+    },
+    {
+      "Value": "TEEE",
+      "Label": "Textbooks in Electrical and Electronic Engineering"
+    },
+    {
+      "Value": "AC",
+      "Label": "The Asia Collection"
+    },
+    {
+      "Value": "ASSET",
+      "Label": "The ASSET Series"
+    },
+    {
+      "Value": "BTL",
+      "Label": "The Berkeley Tanner Lectures"
+    },
+    {
+      "Value": "TBS",
+      "Label": "The Brainstorm Series"
+    },
+    {
+      "Value": "CWJB",
+      "Label": "The Collected Works of Jeremy Bentham"
+    },
+    {
+      "Value": "CAC",
+      "Label": "The Complete American Constitutionalism"
+    },
+    {
+      "Value": "OETJM",
+      "Label": "The Complete Works of John Milton"
+    },
+    {
+      "Value": "CWOW",
+      "Label": "The Complete Works of Oscar Wilde"
+    },
+    {
+      "Value": "CG",
+      "Label": "The Court Guide"
+    },
+    {
+      "Value": "ESC",
+      "Label": "The European Society of Cardiology"
+    },
+    {
+      "Value": "FACTS",
+      "Label": "The Facts Series"
+    },
+    {
+      "Value": "FWW",
+      "Label": "The First World War"
+    },
+    {
+      "Value": "TGW",
+      "Label": "The Greater War"
+    },
+    {
+      "Value": "HTIL",
+      "Label": "The History and Theory of International Law"
+    },
+    {
+      "Value": "TIM",
+      "Label": "The Integrated Musician"
+    },
+    {
+      "Value": "LL",
+      "Label": "The Lindahl Lectures"
+    },
+    {
+      "Value": "LITAG",
+      "Label": "The Literary Agenda"
+    },
+    {
+      "Value": "OMSE",
+      "Label": "The Origins of the Modern State in Europe, 13th to 18th Centuries"
+    },
+    {
+      "Value": "OFB",
+      "Label": "The Oxford Francis Bacon"
+    },
+    {
+      "Value": "OHPHIL",
+      "Label": "The Oxford History of Philosophy"
+    },
+    {
+      "Value": "OXMT",
+      "Label": "The Oxford Mark Twain"
+    },
+    {
+      "Value": "OSECE",
+      "Label": "The Oxford Series in Electrical and Computer Engineering"
+    },
+    {
+      "Value": "OS",
+      "Label": "The Oxford Shakespeare"
+    },
+    {
+      "Value": "PPBS",
+      "Label": "The Past and Present Book Series"
+    },
+    {
+      "Value": "PWL",
+      "Label": "The Phonology of the World's Languages"
+    },
+    {
+      "Value": "PACS",
+      "Label": "The Practical Approach in Chemistry Series"
+    },
+    {
+      "Value": "RBL",
+      "Label": "The Rodolfo De Benedetti Lecture Series"
+    },
+    {
+      "Value": "RSBE",
+      "Label": "The Ruffin Series in Business Ethics"
+    },
+    {
+      "Value": "SLBWW",
+      "Label": "The Schomburg Library of Nineteenth-Century Black Women Writers"
+    },
+    {
+      "Value": "TSFF",
+      "Label": "The Shakespeare First Folio"
+    },
+    {
+      "Value": "SDNB",
+      "Label": "The Subcontinent Divided: A New Beginning"
+    },
+    {
+      "Value": "WEWHF",
+      "Label": "The Wesleyan Edition of the Works of Henry Fielding"
+    },
+    {
+      "Value": "TCS",
+      "Label": "Themes in Canadian Sociology"
+    },
+    {
+      "Value": "TP",
+      "Label": "Themes in Politics"
+    },
+    {
+      "Value": "TCB",
+      "Label": "Three Crowns Books"
+    },
+    {
+      "Value": "TBRG",
+      "Label": "Thrive In Bioscience Revision Guides"
+    },
+    {
+      "Value": "TCE",
+      "Label": "Topics in Chemical Engineering"
+    },
+    {
+      "Value": "TEC",
+      "Label": "Topics in Environmental Chemistry"
+    },
+    {
+      "Value": "TICH",
+      "Label": "Topics in Inorganic Chemistry"
+    },
+    {
+      "Value": "TOCH",
+      "Label": "Topics in Organic Chemistry"
+    },
+    {
+      "Value": "TPC",
+      "Label": "Topics in Physical Chemistry"
+    },
+    {
+      "Value": "TIPS",
+      "Label": "Topics in Polymer Science"
+    },
+    {
+      "Value": "TSA",
+      "Label": "Topics in Sustainable Agronomy"
+    },
+    {
+      "Value": "TFREE",
+      "Label": "Towards Freedom"
+    },
+    {
+      "Value": "TIG",
+      "Label": "Transformations In Governance"
+    },
+    {
+      "Value": "TRB",
+      "Label": "Transgressing Boundaries: Studies in Black Politics and Black Communities"
+    },
+    {
+      "Value": "TTW",
+      "Label": "Treatments That Work"
+    },
+    {
+      "Value": "TCM",
+      "Label": "Tudor Church Music"
+    },
+    {
+      "Value": "TFCLE",
+      "Label": "Twenty-First Century Legal Education"
+    },
+    {
+      "Value": "USPE",
+      "Label": "Uehiro Series in Practical Ethics"
+    },
+    {
+      "Value": "UGCMSE",
+      "Label": "UGC (Monographs) Series in Economics"
+    },
+    {
+      "Value": "UQR",
+      "Label": "Understanding Qualitative Research"
+    },
+    {
+      "Value": "UST",
+      "Label": "Understanding Statistics"
+    },
+    {
+      "Value": "UWBCBRS",
+      "Label": "University of Wisconsin Biotechnology Center Biotechnical Resource Series"
+    },
+    {
+      "Value": "VSCS",
+      "Label": "Vancouver Studies in Cognitive Science"
+    },
+    {
+      "Value": "VIP",
+      "Label": "Very Interesting People"
+    },
+    {
+      "Value": "VSI",
+      "Label": "Very Short Introductions"
+    },
+    {
+      "Value": "VAC",
+      "Label": "Viewpoints on American Culture"
+    },
+    {
+      "Value": "VIOLATIME",
+      "Label": "Viola Time"
+    },
+    {
+      "Value": "VOICEJUNCT",
+      "Label": "Voice Junction"
+    },
+    {
+      "Value": "VW",
+      "Label": "Voiceworks"
+    },
+    {
+      "Value": "WEBDIS",
+      "Label": "W.E.B. Du Bois Institute"
+    },
+    {
+      "Value": "WRMS",
+      "Label": "Water Resource Management"
+    },
+    {
+      "Value": "IML",
+      "Label": "Weil Integrative Medicine Library"
+    },
+    {
+      "Value": "WDIDN",
+      "Label": "What do I do now"
+    },
+    {
+      "Value": "WENTK",
+      "Label": "What Everyone Needs To Know"
+    },
+    {
+      "Value": "WIDER",
+      "Label": "WIDER Studies in Development Economics"
+    },
+    {
+      "Value": "WALTON",
+      "Label": "William Walton Edition"
+    },
+    {
+      "Value": "WS",
+      "Label": "Winchester Studies"
+    },
+    {
+      "Value": "WIA",
+      "Label": "Women in Antiquity"
+    },
+    {
+      "Value": "WWE",
+      "Label": "Women Writers in English 1350-1850"
+    },
+    {
+      "Value": "WSEB",
+      "Label": "Writings and Speeches of Edmund Burke"
+    },
+    {
+      "Value": "WB",
+      "Label": "Wynford Books"
+    },
+    {
+      "Value": "YSNPO",
+      "Label": "Yale Studies on Non-Profit Organizations"
+    },
+    {
+      "Value": "YEEL",
+      "Label": "Yearbook of European Environmental Law"
+    },
+    {
+      "Value": "YCLS",
+      "Label": "Yeats Collected Letters Series"
+    },
+    {
+      "Value": "ZOV",
+      "Label": "Zones of Violence"
+    }
+  ],
+  "ACHE": [
+    {
+      "Value": "APACR",
+      "Label": "American Philological Association Classical Resources"
+    },
+    {
+      "Value": "BM",
+      "Label": "Bar Manuals"
+    },
+    {
+      "Value": "BEBR",
+      "Label": "Bicentennial Essays on the Bill of Rights"
+    },
+    {
+      "Value": "BLSB",
+      "Label": "Blackstone's Statute Series"
+    },
+    {
+      "Value": "CPIS",
+      "Label": "Comparative Political Institutions Series"
+    },
+    {
+      "Value": "COMP",
+      "Label": "Complete"
+    },
+    {
+      "Value": "CONC",
+      "Label": "Concentrate"
+    },
+    {
+      "Value": "CTS",
+      "Label": "Core Texts Series"
+    },
+    {
+      "Value": "DRT",
+      "Label": "Directions series"
+    },
+    {
+      "Value": "ES",
+      "Label": "European Societies"
+    },
+    {
+      "Value": "IBMS",
+      "Label": "Fundamentals of Biomedical Science"
+    },
+    {
+      "Value": "MS",
+      "Label": "Gustav Mahler Biography"
+    },
+    {
+      "Value": "HEPS",
+      "Label": "Hegel's Encyclopedia of the Philosophical Sciences"
+    },
+    {
+      "Value": "IHS",
+      "Label": "Introducing Health Science"
+    },
+    {
+      "Value": "JHAPL",
+      "Label": "Johns Hopkins University Applied Physics Laboratories Series in Science and Engineering"
+    },
+    {
+      "Value": "LQA",
+      "Label": "Law Questions & Answers"
+    },
+    {
+      "Value": "LSIM",
+      "Label": "Law Society of Ireland Manuals"
+    },
+    {
+      "Value": "LPCG",
+      "Label": "Legal Practice Course Guide"
+    },
+    {
+      "Value": "MITPSME",
+      "Label": "MIT-Pappalardo Series in Mechanical Engineering"
+    },
+    {
+      "Value": "NEU",
+      "Label": "The New European Union Series"
+    },
+    {
+      "Value": "NNAH",
+      "Label": "New Narratives in American History Series"
+    },
+    {
+      "Value": "OCP",
+      "Label": "Oxford Chemistry Primers"
+    },
+    {
+      "Value": "OCTS",
+      "Label": "Oxford Core Texts"
+    },
+    {
+      "Value": "OECLS",
+      "Label": "Oxford European Community Law Library Series"
+    },
+    {
+      "Value": "OPHT",
+      "Label": "Oxford Philosophical Texts"
+    },
+    {
+      "Value": "OR",
+      "Label": "Oxford Readers"
+    },
+    {
+      "Value": "ORP",
+      "Label": "Oxford Readings in Philosophy"
+    },
+    {
+      "Value": "OSAM",
+      "Label": "Oxford Series on Advanced Manufacturing"
+    },
+    {
+      "Value": "OTS",
+      "Label": "Oxford Television Studies"
+    },
+    {
+      "Value": "PGSWRM",
+      "Label": "Pocket Guide to Social Work Research Methods"
+    },
+    {
+      "Value": "APA",
+      "Label": "A Practical Approach"
+    },
+    {
+      "Value": "PIB",
+      "Label": "Primers in Biology"
+    },
+    {
+      "Value": "RCP",
+      "Label": "Readings in Crime and Punishment"
+    },
+    {
+      "Value": "SAS",
+      "Label": "Series in Affective Science"
+    },
+    {
+      "Value": "SIS",
+      "Label": "Spatial Information Systems"
+    },
+    {
+      "Value": "SLC",
+      "Label": "Studies in Logic and Computation"
+    },
+    {
+      "Value": "TEEE",
+      "Label": "Textbooks in Electrical and Electronic Engineering"
+    },
+    {
+      "Value": "TCE",
+      "Label": "Topics in Chemical Engineering"
+    },
+    {
+      "Value": "TEC",
+      "Label": "Topics in Environmental Chemistry"
+    },
+    {
+      "Value": "TICH",
+      "Label": "Topics in Inorganic Chemistry"
+    },
+    {
+      "Value": "TPC",
+      "Label": "Topics in Physical Chemistry"
+    }
+  ],
+  "EL": [
+    {
+      "Value": "4ASG",
+      "Label": "ACADEMIC SKILLS GRAMMAR"
+    },
+    {
+      "Value": "4ACV",
+      "Label": "ACHIEVE SERIES"
+    },
+    {
+      "Value": "4ASK",
+      "Label": "ADVANCED SKILLS"
+    },
+    {
+      "Value": "4ADV",
+      "Label": "ADVENTURES"
+    },
+    {
+      "Value": "4AMH",
+      "Label": "AIM HIGH"
+    },
+    {
+      "Value": "4AST",
+      "Label": "ALL STARS"
+    },
+    {
+      "Value": "4AMG",
+      "Label": "AM GET READY!"
+    },
+    {
+      "Value": "4AMS",
+      "Label": "AM START WITH ENGLISH"
+    },
+    {
+      "Value": "4AMA",
+      "Label": "AMERICAN ADVENTURES"
+    },
+    {
+      "Value": "4ACH",
+      "Label": "AMERICAN CHATTERBOX"
+    },
+    {
+      "Value": "4AEF",
+      "Label": "AMERICAN ENGLISH FILE"
+    },
+    {
+      "Value": "4AET",
+      "Label": "AMERICAN ENGLISH TODAY"
+    },
+    {
+      "Value": "4AFF",
+      "Label": "AMERICAN FAMILY & FRIENDS"
+    },
+    {
+      "Value": "4AFIF",
+      "Label": "AMERICAN FIRST FRIENDS"
+    },
+    {
+      "Value": "4AHP",
+      "Label": "AMERICAN HAPPY SERIES"
+    },
+    {
+      "Value": "4HDA",
+      "Label": "AMERICAN HEADWAY"
+    },
+    {
+      "Value": "4HDA2",
+      "Label": "American Headway 2E"
+    },
+    {
+      "Value": "4HTA",
+      "Label": "AMERICAN HOTLINE"
+    },
+    {
+      "Value": "4AOPS",
+      "Label": "AMERICAN OXFORD PRIMARY SKILLS"
+    },
+    {
+      "Value": "4ASL2",
+      "Label": "AMERICAN STREAMLINE 2E"
+    },
+    {
+      "Value": "4WOW",
+      "Label": "AMERICAN WOW!"
+    },
+    {
+      "Value": "4ARA",
+      "Label": "ARABIC DICTIONARIES"
+    },
+    {
+      "Value": "4AOB",
+      "Label": "ASPECTS OF BRITAIN"
+    },
+    {
+      "Value": "4ATT",
+      "Label": "ATTAIN"
+    },
+    {
+      "Value": "4BAD",
+      "Label": "BASIC DICTIONARIES"
+    },
+    {
+      "Value": "4BEU",
+      "Label": "BASIC ENGLISH USAGE"
+    },
+    {
+      "Value": "4PDB",
+      "Label": "BASIC PICTURE DICTIONARY"
+    },
+    {
+      "Value": "4PHB",
+      "Label": "BILINGUAL PHOTO DICTIONARIES"
+    },
+    {
+      "Value": "4BRD",
+      "Label": "Brazilian Dictionaries"
+    },
+    {
+      "Value": "4BST",
+      "Label": "BRIGHT STAR"
+    },
+    {
+      "Value": "4BRCL",
+      "Label": "BRINGING CLASSROOM"
+    },
+    {
+      "Value": "4USA",
+      "Label": "BUSINESS ENGLISH USA"
+    },
+    {
+      "Value": "4FOC",
+      "Label": "BUSINESS FOCUS"
+    },
+    {
+      "Value": "4ONE",
+      "Label": "BUSINESS ONE : ONE"
+    },
+    {
+      "Value": "4BPL",
+      "Label": "BUSINESS PLUS"
+    },
+    {
+      "Value": "4VEN",
+      "Label": "BUSINESS VENTURE"
+    },
+    {
+      "Value": "4CYB",
+      "Label": "CAN YOU BELIEVE IT?"
+    },
+    {
+      "Value": "4CED",
+      "Label": "CEE DICTIONARIES"
+    },
+    {
+      "Value": "4CHA",
+      "Label": "CHAMPIONS"
+    },
+    {
+      "Value": "4CHB1",
+      "Label": "CHATTERBOX"
+    },
+    {
+      "Value": "4CCH",
+      "Label": "CHIT CHAT"
+    },
+    {
+      "Value": "4CFU",
+      "Label": "CHRISTMAS FUN"
+    },
+    {
+      "Value": "4CTR",
+      "Label": "CLASSIC TALES"
+    },
+    {
+      "Value": "4CTR2E",
+      "Label": "CLASSIC TALES SECOND EDITION"
+    },
+    {
+      "Value": "4CLO",
+      "Label": "CLOCKWISE"
+    },
+    {
+      "Value": "4CLD",
+      "Label": "COLLOCATIONS DICTIONARIES"
+    },
+    {
+      "Value": "4CSP",
+      "Label": "CONFIDENT SPEAKING"
+    },
+    {
+      "Value": "4COK",
+      "Label": "COOKIE"
+    },
+    {
+      "Value": "4CND",
+      "Label": "COUNTDOWN"
+    },
+    {
+      "Value": "4CTC",
+      "Label": "Cover To Cover"
+    },
+    {
+      "Value": "4XCR",
+      "Label": "CREATE WITH REFERENCE"
+    },
+    {
+      "Value": "4CRM",
+      "Label": "CREATING MEANING"
+    },
+    {
+      "Value": "4DPR",
+      "Label": "DICTIONARY PRACTICE"
+    },
+    {
+      "Value": "4DLC",
+      "Label": "DISTANCE LEARN COURSE"
+    },
+    {
+      "Value": "4DOL",
+      "Label": "DOLPHINS"
+    },
+    {
+      "Value": "4DOM",
+      "Label": "DOMINOES"
+    },
+    {
+      "Value": "4DOM2",
+      "Label": "DOMINOES 2E"
+    },
+    {
+      "Value": "4DTM",
+      "Label": "DREAM TEAM"
+    },
+    {
+      "Value": "4EAW",
+      "Label": "EFFECTIVE ACADEMIC WRITING"
+    },
+    {
+      "Value": "4ENG",
+      "Label": "ENGAGE"
+    },
+    {
+      "Value": "4ENF",
+      "Label": "ENGLISH FILE"
+    },
+    {
+      "Value": "4EFL",
+      "Label": "ENGLISH FOR LIFE"
+    },
+    {
+      "Value": "4SNY",
+      "Label": "ENGLISH KNOW IT ALL"
+    },
+    {
+      "Value": "4KHW",
+      "Label": "ENGLISH KNOWHOW"
+    },
+    {
+      "Value": "4ENP",
+      "Label": "ENGLISH PLUS"
+    },
+    {
+      "Value": "4ETM1",
+      "Label": "ENGLISH TIME 1E"
+    },
+    {
+      "Value": "4ETM2",
+      "Label": "ENGLISH TIME 2E"
+    },
+    {
+      "Value": "4ETR",
+      "Label": "ENGLISH TODAY READERS"
+    },
+    {
+      "Value": "4ZOT",
+      "Label": "ENGLISH ZONE INTERNATIONAL"
+    },
+    {
+      "Value": "4ESL",
+      "Label": "ESL DICTIONARIES"
+    },
+    {
+      "Value": "4SFL",
+      "Label": "ESOL SKILLS FOR LIFE"
+    },
+    {
+      "Value": "4ESP",
+      "Label": "ESP DICTIONARIES"
+    },
+    {
+      "Value": "4ETT",
+      "Label": "ESP TECHNICAL TITLES"
+    },
+    {
+      "Value": "4OPU",
+      "Label": "EVERYBODY UP"
+    },
+    {
+      "Value": "4EXP",
+      "Label": "EXPRESS SERIES"
+    },
+    {
+      "Value": "4FTV",
+      "Label": "FAIRY TALES VIDEO"
+    },
+    {
+      "Value": "4FAF",
+      "Label": "FAMILY & FRIENDS"
+    },
+    {
+      "Value": "4FED",
+      "Label": "Far Eastern Dictionaries"
+    },
+    {
+      "Value": "4FAS2",
+      "Label": "FAST CLASS NEW EDITION"
+    },
+    {
+      "Value": "4FCS",
+      "Label": "FIRST CERTIFICATE SKILLS"
+    },
+    {
+      "Value": "4FIF",
+      "Label": "FIRST FRIENDS"
+    },
+    {
+      "Value": "4FLA",
+      "Label": "FLASHLIGHT"
+    },
+    {
+      "Value": "4FLY",
+      "Label": "FLY HIGH"
+    },
+    {
+      "Value": "4FUS",
+      "Label": "FUSION"
+    },
+    {
+      "Value": "4GTC",
+      "Label": "GATEWAY TO CANADA"
+    },
+    {
+      "Value": "4GER",
+      "Label": "GERMAN DICTIONARIES"
+    },
+    {
+      "Value": "4GRD",
+      "Label": "GET READY"
+    },
+    {
+      "Value": "4GSG",
+      "Label": "GET SET GO"
+    },
+    {
+      "Value": "4GET",
+      "Label": "GET TOGETHER"
+    },
+    {
+      "Value": "4GOO",
+      "Label": "GOOD NEWS, BAD NEWS"
+    },
+    {
+      "Value": "4GOT",
+      "Label": "GOT IT"
+    },
+    {
+      "Value": "4GAP",
+      "Label": "GRAMMAR AND PRACTICE"
+    },
+    {
+      "Value": "4GMR",
+      "Label": "GRAMMAR EXCEL"
+    },
+    {
+      "Value": "4GLB",
+      "Label": "GRAMMAR LAB"
+    },
+    {
+      "Value": "4GSE",
+      "Label": "GRAMMAR SENSE"
+    },
+    {
+      "Value": "4GSE2",
+      "Label": "GRAMMAR SENSE 2E"
+    },
+    {
+      "Value": "4GRK",
+      "Label": "GREEK DICTIONARIES"
+    },
+    {
+      "Value": "4HAP",
+      "Label": "HAPPY SERIES"
+    },
+    {
+      "Value": "4HAP2",
+      "Label": "HAPPY SERIES NEW EDITION"
+    },
+    {
+      "Value": "4HUP",
+      "Label": "HEADS UP"
+    },
+    {
+      "Value": "4HSK",
+      "Label": "HEADWAY ACADEMIC SKILLS"
+    },
+    {
+      "Value": "4HDW1",
+      "Label": "HEADWAY ORIGINAL EDITION"
+    },
+    {
+      "Value": "4HDW0",
+      "Label": "HEADWAY SUPPLEMENTARY MATERIALS"
+    },
+    {
+      "Value": "4HDW9",
+      "Label": "HEADWAY VIDEO"
+    },
+    {
+      "Value": "4HRS",
+      "Label": "HEROES"
+    },
+    {
+      "Value": "4HOR",
+      "Label": "HORIZONS (INTERNATIONAL)"
+    },
+    {
+      "Value": "4HOT",
+      "Label": "HOTSHOTS"
+    },
+    {
+      "Value": "4SPY",
+      "Label": "I SPY (INTERNATIONAL)"
+    },
+    {
+      "Value": "4SPI",
+      "Label": "I SPY (ITALY)"
+    },
+    {
+      "Value": "4IDE",
+      "Label": "IDENTITY"
+    },
+    {
+      "Value": "4INE",
+      "Label": "IN ENGLISH"
+    },
+    {
+      "Value": "4IEN",
+      "Label": "INCREDIBLE ENGLISH"
+    },
+    {
+      "Value": "4IEN2",
+      "Label": "INCREDIBLE ENGLISH 2E"
+    },
+    {
+      "Value": "4IRE",
+      "Label": "INSIDE READING"
+    },
+    {
+      "Value": "4SIG",
+      "Label": "INSIGHT"
+    },
+    {
+      "Value": "4ITE",
+      "Label": "INTEGRATED ENGLISH"
+    },
+    {
+      "Value": "4ING",
+      "Label": "INTERMEDIATE GRAMMAR"
+    },
+    {
+      "Value": "4IEX",
+      "Label": "INTERNATIONAL EXPRESS"
+    },
+    {
+      "Value": "4JCA",
+      "Label": "JAZZ CHANTS ADULT"
+    },
+    {
+      "Value": "4JCC",
+      "Label": "JAZZ CHANTS CHILDREN"
+    },
+    {
+      "Value": "4JET",
+      "Label": "JETSTREAM (AMERICAN STREAMLINE 3E)"
+    },
+    {
+      "Value": "4EAT",
+      "Label": "JOIN IN"
+    },
+    {
+      "Value": "4JUG",
+      "Label": "JUNIOR GRAMMARS"
+    },
+    {
+      "Value": "4LAN",
+      "Label": "LANDMARK"
+    },
+    {
+      "Value": "4LAD",
+      "Label": "Latin American Dictionaries"
+    },
+    {
+      "Value": "4LEC",
+      "Label": "LECTURE READY!"
+    },
+    {
+      "Value": "4LGO1",
+      "Label": "LETS GO 1E"
+    },
+    {
+      "Value": "4LGO2",
+      "Label": "LETS GO 2E"
+    },
+    {
+      "Value": "4LGO3",
+      "Label": "LETS GO 3E"
+    },
+    {
+      "Value": "4LGON",
+      "Label": "LETS GO 4E"
+    },
+    {
+      "Value": "4LIF",
+      "Label": "LIFELINES"
+    },
+    {
+      "Value": "4LCR",
+      "Label": "LISTEN CAREFULLY"
+    },
+    {
+      "Value": "4LFT",
+      "Label": "LISTEN FIRST"
+    },
+    {
+      "Value": "4LFI",
+      "Label": "LISTEN FOR IT"
+    },
+    {
+      "Value": "4LVW",
+      "Label": "LIVEWIRES"
+    },
+    {
+      "Value": "4LIG",
+      "Label": "LIVING GRAMMAR"
+    },
+    {
+      "Value": "4LUP",
+      "Label": "LOOK UP"
+    },
+    {
+      "Value": "4MAG1",
+      "Label": "MAGIC TIME 1E"
+    },
+    {
+      "Value": "4MAG2",
+      "Label": "MAGIC TIME 2E"
+    },
+    {
+      "Value": "4MAS",
+      "Label": "Masterclass"
+    },
+    {
+      "Value": "4MAT",
+      "Label": "MATRIX"
+    },
+    {
+      "Value": "4MRB",
+      "Label": "MR BUGS PHONICS"
+    },
+    {
+      "Value": "4NTE",
+      "Label": "NATURAL ENGLISH"
+    },
+    {
+      "Value": "4NTG",
+      "Label": "NATURAL GRAMMAR"
+    },
+    {
+      "Value": "4NET",
+      "Label": "NETWORK"
+    },
+    {
+      "Value": "4BLU",
+      "Label": "NEW BLUE 2 COURSE"
+    },
+    {
+      "Value": "4CHB2",
+      "Label": "NEW CHATTERBOX"
+    },
+    {
+      "Value": "4ENF2",
+      "Label": "NEW ENGLISH FILE"
+    },
+    {
+      "Value": "4HDW3",
+      "Label": "NEW HEADWAY - THIRD EDITION"
+    },
+    {
+      "Value": "4HDW2",
+      "Label": "NEW HEADWAY ENGLISH COURSE"
+    },
+    {
+      "Value": "4HDW4",
+      "Label": "NEW HEADWAY FOURTH EDITION"
+    },
+    {
+      "Value": "4HDWP1",
+      "Label": "NEW HEADWAY PLUS"
+    },
+    {
+      "Value": "4HOR2",
+      "Label": "NEW HORIZONS (INTERNATIONAL)"
+    },
+    {
+      "Value": "4HTL2",
+      "Label": "NEW HOTLINE"
+    },
+    {
+      "Value": "4MAT2",
+      "Label": "NEW MATRIX"
+    },
+    {
+      "Value": "4NPD",
+      "Label": "NEW OXFORD PICTURE DICTIONARY"
+    },
+    {
+      "Value": "4NPL",
+      "Label": "NEW OXFORD PICTURE DICTIONARY BILINGUALS"
+    },
+    {
+      "Value": "4PDC2",
+      "Label": "NEW PICTURE DICTIONARY FOR CONTENT AREAS"
+    },
+    {
+      "Value": "4NIC",
+      "Label": "NOW I CAN"
+    },
+    {
+      "Value": "4ODB",
+      "Label": "O'DRISCOLL BRITAIN"
+    },
+    {
+      "Value": "4OCI",
+      "Label": "ON COURSE FOR IELTS"
+    },
+    {
+      "Value": "4OOI",
+      "Label": "ONE-OFF IMPORTS"
+    },
+    {
+      "Value": "4ODC",
+      "Label": "OPEN DOORS CEE"
+    },
+    {
+      "Value": "4OPF",
+      "Label": "OPEN FORUM"
+    },
+    {
+      "Value": "4OHS",
+      "Label": "OPEN HOUSE"
+    },
+    {
+      "Value": "4OSM",
+      "Label": "OPEN SESAME"
+    },
+    {
+      "Value": "4OWB",
+      "Label": "OSCARS WORD BANK"
+    },
+    {
+      "Value": "4KCL",
+      "Label": "OXF KEY CONCEPTS FOR THE LANG CLASSROOM"
+    },
+    {
+      "Value": "4TOF",
+      "Label": "OXF PREPARATION COURSE FOR TOEFL FOR IBT"
+    },
+    {
+      "Value": "4OSK",
+      "Label": "OXFORD ACADEMIC SKILLS SERIES 4OSK"
+    },
+    {
+      "Value": "4OAB",
+      "Label": "OXFORD ACTIVITY BOOKS"
+    },
+    {
+      "Value": "4ALD7",
+      "Label": "OXFORD ADVANCED LEARNERS DICTIONARY 7E"
+    },
+    {
+      "Value": "4ALD8",
+      "Label": "OXFORD ADVANCED LEARNERS DICTIONARY 8E"
+    },
+    {
+      "Value": "4OAL",
+      "Label": "OXFORD APPLIED LINGUISTICS"
+    },
+    {
+      "Value": "4OBM",
+      "Label": "OXFORD BASICS"
+    },
+    {
+      "Value": "4OBF",
+      "Label": "OXFORD BOOKWORM FACTFILES"
+    },
+    {
+      "Value": "4OBP",
+      "Label": "OXFORD BOOKWORM PLAYSCRIPTS"
+    },
+    {
+      "Value": "4OBL",
+      "Label": "OXFORD BOOKWORMS LIBRARY"
+    },
+    {
+      "Value": "4OBL3",
+      "Label": "OXFORD BOOKWORMS LIBRARY 3RD EDITION"
+    },
+    {
+      "Value": "4ECT",
+      "Label": "OXFORD ENGLISH FOR CAREERS"
+    },
+    {
+      "Value": "4OEG",
+      "Label": "OXFORD ENGLISH GRAMMAR COURSE"
+    },
+    {
+      "Value": "4HLT",
+      "Label": "OXFORD HANDBOOKS FOR LANGUAGE TEACHERS"
+    },
+    {
+      "Value": "4ICD",
+      "Label": "OXFORD ILLUSTRATED CONTENT DICTIONARIES"
+    },
+    {
+      "Value": "OILS",
+      "Label": "Oxford Introduction to Language Study ELT"
+    },
+    {
+      "Value": "4OIL",
+      "Label": "OXFORD INTRODUCTIONS TO LANGUAGE STUDY"
+    },
+    {
+      "Value": "4OLG",
+      "Label": "OXFORD LEARNERS GRAMMAR"
+    },
+    {
+      "Value": "4THE",
+      "Label": "Oxford Learners Thesaurus"
+    },
+    {
+      "Value": "4PDT",
+      "Label": "OXFORD PICTURE DICTIONARY 1E"
+    },
+    {
+      "Value": "4PDT2",
+      "Label": "OXFORD PICTURE DICTIONARY 2E"
+    },
+    {
+      "Value": "4PDL",
+      "Label": "OXFORD PICTURE DICTIONARY BILINGUALS 1E"
+    },
+    {
+      "Value": "4PDL2",
+      "Label": "OXFORD PICTURE DICTIONARY BILINGUALS 2E"
+    },
+    {
+      "Value": "4PDK",
+      "Label": "OXFORD PICTURE DICTIONARY FOR KIDS"
+    },
+    {
+      "Value": "4PDK2",
+      "Label": "OXFORD PICTURE DICTIONARY FOR KIDS 2E"
+    },
+    {
+      "Value": "4OPT",
+      "Label": "OXFORD PLACEMENT TESTS"
+    },
+    {
+      "Value": "4PGM",
+      "Label": "OXFORD PRACTICE GRAMMAR"
+    },
+    {
+      "Value": "4OPS",
+      "Label": "OXFORD PRIMARY SKILLS (INT)"
+    },
+    {
+      "Value": "4PER",
+      "Label": "OXFORD PROGRESSIVE ENGLISH READERS"
+    },
+    {
+      "Value": "4PTH",
+      "Label": "OXFORD PUPPET THEATRE"
+    },
+    {
+      "Value": "4ODV",
+      "Label": "OXFORD READ AND DISCOVER"
+    },
+    {
+      "Value": "4REP",
+      "Label": "OXFORD REPETYTORIUM"
+    },
+    {
+      "Value": "4OSR",
+      "Label": "OXFORD STORYLAND READERS"
+    },
+    {
+      "Value": "4STD",
+      "Label": "OXFORD STUDENTS DICTIONARY"
+    },
+    {
+      "Value": "4OTE",
+      "Label": "OXFORD TEACHING ESSENTIALS"
+    },
+    {
+      "Value": "4OWS",
+      "Label": "OXFORD WORD SKILLS"
+    },
+    {
+      "Value": "4WPD3",
+      "Label": "OXFORD WORDPOWER DICTIONARY 3E"
+    },
+    {
+      "Value": "4PCT",
+      "Label": "PACESETTER"
+    },
+    {
+      "Value": "4PAN",
+      "Label": "PANORAMA"
+    },
+    {
+      "Value": "4PPC",
+      "Label": "PEN PICTURES"
+    },
+    {
+      "Value": "4PPT2",
+      "Label": "PEOPLE, PLACES & THINGS LISTENING"
+    },
+    {
+      "Value": "4PPT",
+      "Label": "PEOPLE, PLACES & THINGS READING"
+    },
+    {
+      "Value": "4PED",
+      "Label": "PERSIAN DICTIONARIES"
+    },
+    {
+      "Value": "4PTP3",
+      "Label": "PERSON TO PERSON 3E"
+    },
+    {
+      "Value": "4PVI",
+      "Label": "PHRASAL VERBS IDIOMS DICTIONARIES"
+    },
+    {
+      "Value": "4PCD",
+      "Label": "PICTURE DICTIONARIES"
+    },
+    {
+      "Value": "4PDC",
+      "Label": "PICTURE DICTIONARY FOR CONTENT AREAS"
+    },
+    {
+      "Value": "4PLT",
+      "Label": "PLAYTIME"
+    },
+    {
+      "Value": "4PLD",
+      "Label": "POCKET LEARNERS DICTIONARIES"
+    },
+    {
+      "Value": "4POT",
+      "Label": "POTATO PALS"
+    },
+    {
+      "Value": "4PEG",
+      "Label": "PRACTICAL ENGLISH GRAMMAR"
+    },
+    {
+      "Value": "4PEU",
+      "Label": "PRACTICAL ENGLISH USAGE"
+    },
+    {
+      "Value": "4PRT",
+      "Label": "Practice Tests"
+    },
+    {
+      "Value": "4PRF",
+      "Label": "PROFILE"
+    },
+    {
+      "Value": "4PJT",
+      "Label": "PROJECT"
+    },
+    {
+      "Value": "4PJT3",
+      "Label": "PROJECT 3RD EDITION"
+    },
+    {
+      "Value": "4PUF",
+      "Label": "PUFFENDORF"
+    },
+    {
+      "Value": "4IKS",
+      "Label": "Q SKILLS FOR SUCCESS"
+    },
+    {
+      "Value": "4QPT",
+      "Label": "QUICK PLACEMENT TEST"
+    },
+    {
+      "Value": "4QWK",
+      "Label": "QUICK WORK"
+    },
+    {
+      "Value": "4RAA",
+      "Label": "READ ALL ABOUT IT"
+    },
+    {
+      "Value": "4RNR",
+      "Label": "READ AND REFLECT"
+    },
+    {
+      "Value": "4REC",
+      "Label": "READING CONNECTIONS"
+    },
+    {
+      "Value": "4RTW",
+      "Label": "REASON TO WRITE"
+    },
+    {
+      "Value": "4RFD",
+      "Label": "REFERENCE DICTIONARIES"
+    },
+    {
+      "Value": "4RBT",
+      "Label": "RESOURCE BOOKS FOR TEACHERS"
+    },
+    {
+      "Value": "4REA",
+      "Label": "RESULT - ADULT COURSE"
+    },
+    {
+      "Value": "4REB",
+      "Label": "RESULT - BUSINESS RESULT"
+    },
+    {
+      "Value": "4REE",
+      "Label": "RESULT - EXAMS COURSE"
+    },
+    {
+      "Value": "4REG",
+      "Label": "Result for Greece"
+    },
+    {
+      "Value": "4RCC",
+      "Label": "RIVERS CONVERSATION COURSE"
+    },
+    {
+      "Value": "4RPD",
+      "Label": "ROMANCE POCKET DICTIONARIES"
+    },
+    {
+      "Value": "4STE",
+      "Label": "SCHEME FOR TEACHER EDUCATION"
+    },
+    {
+      "Value": "4SGS",
+      "Label": "SEIDL GRAMMAR SERIES"
+    },
+    {
+      "Value": "4SER1",
+      "Label": "SELECT READINGS 1E"
+    },
+    {
+      "Value": "4SER2",
+      "Label": "SELECT READINGS 2E"
+    },
+    {
+      "Value": "4SMC",
+      "Label": "SMART CHOICE 1E"
+    },
+    {
+      "Value": "4SMC2",
+      "Label": "SMART CHOICE 2E"
+    },
+    {
+      "Value": "4SOL",
+      "Label": "SOLUTIONS (INTERNATIONAL)"
+    },
+    {
+      "Value": "4SAD",
+      "Label": "SPANISH ADVANCED DICTIONARIES"
+    },
+    {
+      "Value": "4SPD",
+      "Label": "SPANISH POCKET DICTIONARIES"
+    },
+    {
+      "Value": "4SOB",
+      "Label": "SPOTLIGHT ON BRITAIN"
+    },
+    {
+      "Value": "4SPU",
+      "Label": "SPOTLIGHT ON THE USA"
+    },
+    {
+      "Value": "4STM",
+      "Label": "STAR TEAM"
+    },
+    {
+      "Value": "4STA",
+      "Label": "STARDUST"
+    },
+    {
+      "Value": "4SRG",
+      "Label": "START READING"
+    },
+    {
+      "Value": "4SWE",
+      "Label": "START WITH ENGLISH"
+    },
+    {
+      "Value": "4SWR",
+      "Label": "START WITH ENGLISH READERS"
+    },
+    {
+      "Value": "4STF",
+      "Label": "STEP FORWARD"
+    },
+    {
+      "Value": "4STF2",
+      "Label": "STEP FORWARD 2E"
+    },
+    {
+      "Value": "4STP",
+      "Label": "STEPS"
+    },
+    {
+      "Value": "4STO",
+      "Label": "STORIES"
+    },
+    {
+      "Value": "4STR",
+      "Label": "STREAMLINE"
+    },
+    {
+      "Value": "4STW",
+      "Label": "STREETWISE"
+    },
+    {
+      "Value": "4SFC",
+      "Label": "SUCCESS AT FIRST CERTIFICATE"
+    },
+    {
+      "Value": "4SME",
+      "Label": "SUPER ME"
+    },
+    {
+      "Value": "4SUS",
+      "Label": "SUPER SONGS"
+    },
+    {
+      "Value": "4SSUR",
+      "Label": "SUPER SURPRISE"
+    },
+    {
+      "Value": "4SUB",
+      "Label": "SUPPLEMENTARY BUSINESS"
+    },
+    {
+      "Value": "4SUR1",
+      "Label": "SURPRISE INTERNATIONAL"
+    },
+    {
+      "Value": "4TAC2",
+      "Label": "TACTICS FOR LISTENING 2E"
+    },
+    {
+      "Value": "4TAC3",
+      "Label": "TACTICS FOR LISTENING 3E"
+    },
+    {
+      "Value": "4TAT",
+      "Label": "Talk Time"
+    },
+    {
+      "Value": "4BEA",
+      "Label": "TEACHING WITH BEAR"
+    },
+    {
+      "Value": "4TMU",
+      "Label": "TEAM UP"
+    },
+    {
+      "Value": "4TTK",
+      "Label": "TECH TALK"
+    },
+    {
+      "Value": "4TYT",
+      "Label": "TEDDYS TRAIN"
+    },
+    {
+      "Value": "4TIF",
+      "Label": "TEST IT, FIX IT"
+    },
+    {
+      "Value": "4TIB",
+      "Label": "THIS IS BRITAIN"
+    },
+    {
+      "Value": "4TIL",
+      "Label": "TILLYS WORD FUN"
+    },
+    {
+      "Value": "4TIN1",
+      "Label": "TINY TALK 1E"
+    },
+    {
+      "Value": "4TIN2",
+      "Label": "TINY TALK 2E"
+    },
+    {
+      "Value": "4TOC",
+      "Label": "TOEIC COURSE"
+    },
+    {
+      "Value": "4TSC",
+      "Label": "TOP SCORE"
+    },
+    {
+      "Value": "4TSV",
+      "Label": "TOP SHOW VIDEO"
+    },
+    {
+      "Value": "4TSN",
+      "Label": "TOP SONGS"
+    },
+    {
+      "Value": "4TOT",
+      "Label": "TOTALLY TRUE"
+    },
+    {
+      "Value": "4THO",
+      "Label": "TOURISM/HOTELS"
+    },
+    {
+      "Value": "4TOW",
+      "Label": "TOWARDS PROFICIENCY"
+    },
+    {
+      "Value": "4TTI",
+      "Label": "TREETOPS INTERNATIONAL"
+    },
+    {
+      "Value": "4TUN",
+      "Label": "Tune In"
+    },
+    {
+      "Value": "4TUD",
+      "Label": "TURKISH DICTIONARIES"
+    },
+    {
+      "Value": "4TWI",
+      "Label": "TWIST"
+    },
+    {
+      "Value": "4UPA1",
+      "Label": "UP & AWAY 1E"
+    },
+    {
+      "Value": "4UPA2",
+      "Label": "UP & AWAY 2E"
+    },
+    {
+      "Value": "4UTD",
+      "Label": "US TEACHER DEVELOPMENT"
+    },
+    {
+      "Value": "4VID",
+      "Label": "VIDEO ADULT"
+    },
+    {
+      "Value": "4WAG",
+      "Label": "WALLACE AND GROMIT"
+    },
+    {
+      "Value": "4WER",
+      "Label": "WELL READ"
+    },
+    {
+      "Value": "4WOB",
+      "Label": "WINDOW ON BRITAIN"
+    },
+    {
+      "Value": "4WDW",
+      "Label": "WINDOW ON THE WORLD"
+    },
+    {
+      "Value": "4WTW",
+      "Label": "WINNIE SERIES"
+    },
+    {
+      "Value": "4WIZ",
+      "Label": "WIZADORA"
+    },
+    {
+      "Value": "4WFW",
+      "Label": "WORD FOR WORD"
+    },
+    {
+      "Value": "4WIM",
+      "Label": "WORDS IN MOTION"
+    },
+    {
+      "Value": "4WSM",
+      "Label": "WORDSMITH TOOLS"
+    },
+    {
+      "Value": "4WOR",
+      "Label": "WORKSHOP"
+    },
+    {
+      "Value": "4WRG",
+      "Label": "WRITING & GRAMMAR"
+    },
+    {
+      "Value": "4WRV",
+      "Label": "WRITING & VOCABULARY"
+    },
+    {
+      "Value": "4YAM",
+      "Label": "YOU AND ME"
+    },
+    {
+      "Value": "4ZAB",
+      "Label": "ZABADOO"
+    },
+    {
+      "Value": "4ZAP",
+      "Label": "ZAP"
+    },
+    {
+      "Value": "4ZIG",
+      "Label": "ZIG ZAG ISLAND"
+    }
+  ],
+  "MU": [
+    {
+      "Value": "FORCHOIRS",
+      "Label": ". . . for Choirs Collections"
+    },
+    {
+      "Value": "ABEXAM",
+      "Label": "ABRSM Exam Pieces"
+    },
+    {
+      "Value": "ABMEDALS",
+      "Label": "ABRSM Music Medals"
+    },
+    {
+      "Value": "ABSCALES",
+      "Label": "ABRSM Scales & Arpeggios"
+    },
+    {
+      "Value": "ABSIGHT",
+      "Label": "ABRSM Sight-reading"
+    },
+    {
+      "Value": "ABSONGBK",
+      "Label": "ABRSM Songbooks (ABRSM)"
+    },
+    {
+      "Value": "ALLSTRTIME",
+      "Label": "All String Time"
+    },
+    {
+      "Value": "ABATIP",
+      "Label": "Aural Training in Practice (ABRSM)"
+    },
+    {
+      "Value": "ABBARFLUTE",
+      "Label": "Baroque Flute Pieces (ABRSM)"
+    },
+    {
+      "Value": "ABBARKEY",
+      "Label": "Baroque Keyboard Pieces (ABRSM)"
+    },
+    {
+      "Value": "ABBARVLN",
+      "Label": "Baroque Violin Pieces (ABRSM)"
+    },
+    {
+      "Value": "CELLOTIME",
+      "Label": "Cello Time"
+    },
+    {
+      "Value": "CMS",
+      "Label": "Church Music Society publications"
+    },
+    {
+      "Value": "CLASSIC",
+      "Label": "Classic Choral Works"
+    },
+    {
+      "Value": "COMPANTHEM",
+      "Label": "Composer Anthem Collections"
+    },
+    {
+      "Value": "COMPCAROLS",
+      "Label": "Composer Carol Collections"
+    },
+    {
+      "Value": "CREATIVECL",
+      "Label": "Creative Clarinet"
+    },
+    {
+      "Value": "SAX",
+      "Label": "Creative Saxophone"
+    },
+    {
+      "Value": "DBSOLO",
+      "Label": "Double Bass Solo"
+    },
+    {
+      "Value": "ABEPP",
+      "Label": "Easier Piano Pieces (ABRSM)"
+    },
+    {
+      "Value": "ABEAPROGST",
+      "Label": "Easy Progressive Studies (ABRSM)"
+    },
+    {
+      "Value": "ABELPROGST",
+      "Label": "Elementary Progressive Studies (ABRSM)"
+    },
+    {
+      "Value": "ENJGUITAR",
+      "Label": "Enjoy Playing Guitar"
+    },
+    {
+      "Value": "ABEXTRLIFE",
+      "Label": "An Extraordinary Life (ABRSM)"
+    },
+    {
+      "Value": "FIDTIME",
+      "Label": "Fiddle Time"
+    },
+    {
+      "Value": "ABFINGJOG",
+      "Label": "Finger Jogging Boogie (ABRSM)"
+    },
+    {
+      "Value": "ABFIRDISC",
+      "Label": "First Discovery in Music (ABRSM)"
+    },
+    {
+      "Value": "FLTIME",
+      "Label": "Flute Time"
+    },
+    {
+      "Value": "FOLKSIGHT",
+      "Label": "Folk Song Sight Singing"
+    },
+    {
+      "Value": "ABGRADEPNO",
+      "Label": "Graded Pianoforte Studies (ABRSM)"
+    },
+    {
+      "Value": "ABJOINDOTS",
+      "Label": "Joining the dots (ABRSM)"
+    },
+    {
+      "Value": "ABKEYANTH",
+      "Label": "Keyboard Anthologies (ABRSM)"
+    },
+    {
+      "Value": "LIGHTCHOIR",
+      "Label": "Lighter Choral Repertoire"
+    },
+    {
+      "Value": "ABMOREROM",
+      "Label": "More Romantic Pieces for Piano (ABRSM)"
+    },
+    {
+      "Value": "ABMTIP",
+      "Label": "Music Theory in Practice (ABRSM)"
+    },
+    {
+      "Value": "MUSTHRTIME",
+      "Label": "Music through Time"
+    },
+    {
+      "Value": "MUSICA",
+      "Label": "Musica Dei donum"
+    },
+    {
+      "Value": "ABMUSPRAC",
+      "Label": "Musicianship in Practice (ABRSM)"
+    },
+    {
+      "Value": "NH",
+      "Label": "New Horizons"
+    },
+    {
+      "Value": "OCCLASS",
+      "Label": "Oxford Choral Classics Collections"
+    },
+    {
+      "Value": "OCCO",
+      "Label": "Oxford Choral Classics Octavos"
+    },
+    {
+      "Value": "OMUES",
+      "Label": "Oxford Music Education"
+    },
+    {
+      "Value": "CANADA",
+      "Label": "Oxford Music from Canada"
+    },
+    {
+      "Value": "SERVORGAN",
+      "Label": "Oxford Service Music for Organ"
+    },
+    {
+      "Value": "ABPERFGUID",
+      "Label": "Performer's Guides (ABRSM)"
+    },
+    {
+      "Value": "ASTON",
+      "Label": "Piano Duets edited by Michael Aston"
+    },
+    {
+      "Value": "AFRICAN",
+      "Label": "Piano Music of the African Diaspora"
+    },
+    {
+      "Value": "PTIME",
+      "Label": "Piano Time"
+    },
+    {
+      "Value": "PIANOWORKS",
+      "Label": "Pianoworks"
+    },
+    {
+      "Value": "ABROMSKTCH",
+      "Label": "Romantic Sketchbook for Piano (ABRSM)"
+    },
+    {
+      "Value": "JEWISH",
+      "Label": "Sacred Jewish choral music"
+    },
+    {
+      "Value": "ABSHORTROM",
+      "Label": "Short Romantic Pieces for Piano (ABRSM)"
+    },
+    {
+      "Value": "ABSIGNAT",
+      "Label": "Signature Series (ABRSM)"
+    },
+    {
+      "Value": "SIGNPOSTS",
+      "Label": "Signposts to Music"
+    },
+    {
+      "Value": "SINGSOLO",
+      "Label": "Sing Solo . . ."
+    },
+    {
+      "Value": "ABSPECAUR",
+      "Label": "Specimen Aural Tests (ABRSM)"
+    },
+    {
+      "Value": "ABSPECT",
+      "Label": "Spectrum (ABRSM)"
+    },
+    {
+      "Value": "STJOG",
+      "Label": "String Time Joggers"
+    },
+    {
+      "Value": "SSTEP",
+      "Label": "Strings in Step"
+    },
+    {
+      "Value": "ABTHRYPAP",
+      "Label": "Theory of Music Exam papers & answers (ABRSM)"
+    },
+    {
+      "Value": "ABTHRYWKBK",
+      "Label": "Theory workbooks (ABRSM)"
+    },
+    {
+      "Value": "ABTIMEPCS",
+      "Label": "Time Pieces (ABRSM)"
+    },
+    {
+      "Value": "TCM",
+      "Label": "Tudor Church Music"
+    },
+    {
+      "Value": "VIOLATIME",
+      "Label": "Viola Time"
+    },
+    {
+      "Value": "ABVLNSTAR",
+      "Label": "Violin Star (ABRSM)"
+    },
+    {
+      "Value": "VW",
+      "Label": "Voiceworks"
+    },
+    {
+      "Value": "WALTON",
+      "Label": "William Walton Edition"
+    }
+  ],
+  "OX": [
+    {
+      "Value": "MATRI",
+      "Label": ""
+    },
+    {
+      "Value": "21CPSHE",
+      "Label": "21st Century Citizenship & PSHE"
+    },
+    {
+      "Value": "ACCIDENT",
+      "Label": "The Accidental Series"
+    },
+    {
+      "Value": "ACTIV",
+      "Label": "Activate"
+    },
+    {
+      "Value": "AFY2",
+      "Label": "Advanced For You Second Edition"
+    },
+    {
+      "Value": "ADVMATAQA",
+      "Label": "Advanced Maths for AQA"
+    },
+    {
+      "Value": "ADVSCI2",
+      "Label": "The Advanced Series Second Edition"
+    },
+    {
+      "Value": "ADVPHY2",
+      "Label": "Advancing Physics Second Edition"
+    },
+    {
+      "Value": "ALLEZ",
+      "Label": "ALLEZ"
+    },
+    {
+      "Value": "AMICI",
+      "Label": "Amici"
+    },
+    {
+      "Value": "AMIGOS",
+      "Label": "Amigos"
+    },
+    {
+      "Value": "ANIMO2",
+      "Label": "Animo A Level Spanish"
+    },
+    {
+      "Value": "AHSC",
+      "Label": "Applied Health & Social Care"
+    },
+    {
+      "Value": "ACTIVKS3",
+      "Label": "AQA Activate for KS3"
+    },
+    {
+      "Value": "AQACERT",
+      "Label": "AQA Certificates"
+    },
+    {
+      "Value": "AQAEP",
+      "Label": "AQA Extended Project"
+    },
+    {
+      "Value": "AQAGBS",
+      "Label": "AQA GCSE Business Studies"
+    },
+    {
+      "Value": "AQAGDT",
+      "Label": "AQA GCSE Design & Technology"
+    },
+    {
+      "Value": "AQAGEC",
+      "Label": "AQA GCSE Economics"
+    },
+    {
+      "Value": "AQAGCSEENG",
+      "Label": "AQA GCSE English"
+    },
+    {
+      "Value": "AQAGCSEENG15",
+      "Label": "AQA GCSE English Language and English Literature"
+    },
+    {
+      "Value": "GCSEFAQA",
+      "Label": "AQA GCSE French"
+    },
+    {
+      "Value": "AQAGFR",
+      "Label": "AQA GCSE French"
+    },
+    {
+      "Value": "AQAGFR2",
+      "Label": "AQA GCSE French 2nd edition"
+    },
+    {
+      "Value": "AQAGFR3",
+      "Label": "AQA GCSE French 3rd edition"
+    },
+    {
+      "Value": "AQAGGEO",
+      "Label": "AQA GCSE Geography A"
+    },
+    {
+      "Value": "GCSEGERAQA",
+      "Label": "AQA GCSE German"
+    },
+    {
+      "Value": "AQAGGER2",
+      "Label": "AQA GCSE German 2nd Edition"
+    },
+    {
+      "Value": "AQAGGER3",
+      "Label": "AQA GCSE German 3rd edition"
+    },
+    {
+      "Value": "AQAGCSEMAT",
+      "Label": "New AQA GCSE Maths"
+    },
+    {
+      "Value": "AQAGCSEMATH",
+      "Label": "AQA GCSE Maths 2014"
+    },
+    {
+      "Value": "AQAGPE",
+      "Label": "AQA GCSE Physical Education"
+    },
+    {
+      "Value": "AQAGPE3",
+      "Label": "AQA GCSE Physical Education 3rd edition"
+    },
+    {
+      "Value": "AQAGPSY",
+      "Label": "AQA GCSE Psychology"
+    },
+    {
+      "Value": "AQAGPSY2",
+      "Label": "AQA GCSE Psychology 2nd Edition"
+    },
+    {
+      "Value": "GCSESCIAQA",
+      "Label": "AQA GCSE Science"
+    },
+    {
+      "Value": "AQAGSCI",
+      "Label": "AQA GCSE Science"
+    },
+    {
+      "Value": "GCSESCIAQA3",
+      "Label": "AQA GCSE Science 3rd Edition"
+    },
+    {
+      "Value": "AQAGSOC",
+      "Label": "AQA GCSE Sociology"
+    },
+    {
+      "Value": "GCSESPAQA",
+      "Label": "AQA GCSE Spanish"
+    },
+    {
+      "Value": "AQAGSP",
+      "Label": "AQA GCSE Spanish"
+    },
+    {
+      "Value": "AQAGSP2",
+      "Label": "AQA GCSE Spanish 2nd edition"
+    },
+    {
+      "Value": "AQAGSP3",
+      "Label": "AQA GCSE Spanish 3rd edition"
+    },
+    {
+      "Value": "ALGEOAQA",
+      "Label": "AQA Geography for A Level"
+    },
+    {
+      "Value": "AQAELTW",
+      "Label": "AQA KS3 English Language Test Workbooks?"
+    },
+    {
+      "Value": "AQAMS",
+      "Label": "AQA Mathematical Studies"
+    },
+    {
+      "Value": "AQAAACC",
+      "Label": "AQA A Level Accounting"
+    },
+    {
+      "Value": "AQAABS",
+      "Label": "AQA A Level Business Studies"
+    },
+    {
+      "Value": "AQAACOM",
+      "Label": "AQA A Level Computing"
+    },
+    {
+      "Value": "AQAADT",
+      "Label": "AQA A Level D&T"
+    },
+    {
+      "Value": "AQAAEC",
+      "Label": "AQA A Level Economics"
+    },
+    {
+      "Value": "AQAALEVENG",
+      "Label": "AQA A Level English 2104"
+    },
+    {
+      "Value": "AQAAF",
+      "Label": "AQA A Level French"
+    },
+    {
+      "Value": "AQAAF2",
+      "Label": "AQA A Level French 2nd edition"
+    },
+    {
+      "Value": "AQAAGEO",
+      "Label": "AQA A Level Geography"
+    },
+    {
+      "Value": "AQAAGER",
+      "Label": "AQA A Level German"
+    },
+    {
+      "Value": "AQAAG2",
+      "Label": "AQA A Level German 2nd edition"
+    },
+    {
+      "Value": "AQAAICT",
+      "Label": "AQA A Level ICT"
+    },
+    {
+      "Value": "AQAALAW",
+      "Label": "AQA A Level Law"
+    },
+    {
+      "Value": "AQAALM",
+      "Label": "AQA A Level Maths"
+    },
+    {
+      "Value": "AQAAOE",
+      "Label": "AQA A Level PE"
+    },
+    {
+      "Value": "AQAAPSYA",
+      "Label": "AQA A Level Psychology A"
+    },
+    {
+      "Value": "AQAARS",
+      "Label": "AQA A Level Religious Studies"
+    },
+    {
+      "Value": "AQAASCI",
+      "Label": "AQA A Level Science"
+    },
+    {
+      "Value": "AQAALEVSCI",
+      "Label": "AQA A Level Sciences 2014"
+    },
+    {
+      "Value": "AQAASOC",
+      "Label": "AQA A Level Sociology"
+    },
+    {
+      "Value": "AQAASP",
+      "Label": "AQA A Level Spanish"
+    },
+    {
+      "Value": "AQAAS2",
+      "Label": "AQA A Level Spanish 2nd edition"
+    },
+    {
+      "Value": "ARAREA",
+      "Label": "The Arabic Reader Club"
+    },
+    {
+      "Value": "ATHOMEWITH",
+      "Label": "At Home With"
+    },
+    {
+      "Value": "ATHENAZE",
+      "Label": "Athenaze"
+    },
+    {
+      "Value": "BEAM",
+      "Label": "BEAM"
+    },
+    {
+      "Value": "BEGSCI",
+      "Label": "Beginning Science"
+    },
+    {
+      "Value": "BIGW",
+      "Label": "Big Writing"
+    },
+    {
+      "Value": "BIGWA",
+      "Label": "Big Writing Adventures"
+    },
+    {
+      "Value": "BLADE",
+      "Label": "Blade"
+    },
+    {
+      "Value": "BOND",
+      "Label": "Bond"
+    },
+    {
+      "Value": "BONDCEM",
+      "Label": "Bond CEM"
+    },
+    {
+      "Value": "BONDSAT",
+      "Label": "Bond SATs Skills"
+    },
+    {
+      "Value": "BOND10",
+      "Label": "Bond: 10 Minute Tests"
+    },
+    {
+      "Value": "BONDASS",
+      "Label": "Bond: Assessment Papers"
+    },
+    {
+      "Value": "BONDCOMP",
+      "Label": "Bond: Comprehension Papers"
+    },
+    {
+      "Value": "BONDFOC",
+      "Label": "Bond: Focus On"
+    },
+    {
+      "Value": "BONDGET",
+      "Label": "Bond: Get Ready"
+    },
+    {
+      "Value": "BONDHOW2",
+      "Label": "Bond: How to Do"
+    },
+    {
+      "Value": "BONDNON",
+      "Label": "Bond: No Nonsense"
+    },
+    {
+      "Value": "BONDREA",
+      "Label": "Bond: Reasoning Puzzles"
+    },
+    {
+      "Value": "BONDSTRE",
+      "Label": "Bond: Stretch"
+    },
+    {
+      "Value": "BONDTEST",
+      "Label": "Bond: Test Papers"
+    },
+    {
+      "Value": "BONDSPE",
+      "Label": "Bond: Up to Speed"
+    },
+    {
+      "Value": "BOOKB",
+      "Label": "Book Boxes"
+    },
+    {
+      "Value": "BORIS",
+      "Label": "Boris"
+    },
+    {
+      "Value": "BREADWINNER",
+      "Label": "The Breadwinner Collection"
+    },
+    {
+      "Value": "BTECSCI",
+      "Label": "BTEC First Applied Science"
+    },
+    {
+      "Value": "BTEC2",
+      "Label": "BTEC Level 2 Firsts in Sport"
+    },
+    {
+      "Value": "BTECNMT",
+      "Label": "BTEC Maths for Technicians"
+    },
+    {
+      "Value": "BTECAIS",
+      "Label": "BTEC Tech Award in Sport"
+    },
+    {
+      "Value": "CAMEFL",
+      "Label": "Cambridge IGCSE English First Language"
+    },
+    {
+      "Value": "CARPEOP",
+      "Label": "Caribbean People"
+    },
+    {
+      "Value": "CARPRIAGR",
+      "Label": "Caribbean Primary Agriculture"
+    },
+    {
+      "Value": "CARPRISCI",
+      "Label": "Caribbean Primary Science"
+    },
+    {
+      "Value": "CARJOIN",
+      "Label": "Carpentry and Joinery"
+    },
+    {
+      "Value": "CHARLIE",
+      "Label": "Charlie Merrick's Misfits"
+    },
+    {
+      "Value": "CYPWF",
+      "Label": "Children and Young People's Workforce"
+    },
+    {
+      "Value": "CHRISNIBBLE",
+      "Label": "Christopher Nibble"
+    },
+    {
+      "Value": "ORTTTCH",
+      "Label": "Chucklers"
+    },
+    {
+      "Value": "CLIC",
+      "Label": "Clic!"
+    },
+    {
+      "Value": "CLUBTOGET",
+      "Label": "Clubbing Together"
+    },
+    {
+      "Value": "COMETE",
+      "Label": "Comete"
+    },
+    {
+      "Value": "COMCAM",
+      "Label": "Commerce for Cambridge AS & A Level"
+    },
+    {
+      "Value": "CCWJEC2",
+      "Label": "The Complete Companions for WJEC"
+    },
+    {
+      "Value": "WJECCOM",
+      "Label": "The Complete Companions for WJEC, Second Edition"
+    },
+    {
+      "Value": "CC4ED",
+      "Label": "Complete Companions Fourth Edition for AQA A"
+    },
+    {
+      "Value": "COMCOIG",
+      "Label": "Complete Computer Science for Cambridge IGCSE"
+    },
+    {
+      "Value": "COMEG",
+      "Label": "Complete Economics for Cambridge IGCSE and O Level"
+    },
+    {
+      "Value": "ceslcs1",
+      "Label": "Complete English as a Second Language for Cambridge Secondary 1"
+    },
+    {
+      "Value": "COMENGSEC1",
+      "Label": "Complete English for Cambridge Secondary 1"
+    },
+    {
+      "Value": "COMICT2",
+      "Label": "Complete ICT for Cambridge IGCSE Second edition"
+    },
+    {
+      "Value": "OIMCS",
+      "Label": "Complete Mathematics for Cambridge Secondary 1"
+    },
+    {
+      "Value": "COMSCIIG2",
+      "Label": "Complete Science for Cambridge IGCSE - updated editions"
+    },
+    {
+      "Value": "COMSCISEC1",
+      "Label": "Complete Science for Cambridge Secondary 1"
+    },
+    {
+      "Value": "COMSCI",
+      "Label": "The Complete Series"
+    },
+    {
+      "Value": "COMSCII",
+      "Label": "The Complete Series for IGCSE"
+    },
+    {
+      "Value": "COMSUC",
+      "Label": "Comprehension Success"
+    },
+    {
+      "Value": "COM16",
+      "Label": "Comprehension to 16"
+    },
+    {
+      "Value": "CEMIG",
+      "Label": "Core and Extended Mathematics for Cambridge IGCSE"
+    },
+    {
+      "Value": "CREEPER",
+      "Label": "The Creeper Files"
+    },
+    {
+      "Value": "CSECEDPM",
+      "Label": "CSEC EDPM"
+    },
+    {
+      "Value": "CSECGEO",
+      "Label": "CSEC Geography"
+    },
+    {
+      "Value": "CSECSCI",
+      "Label": "CSEC Sciences"
+    },
+    {
+      "Value": "NVQCON",
+      "Label": "CSkills Awards Construction Diploma"
+    },
+    {
+      "Value": "CXCCCSLC",
+      "Label": "CXC Caribbean Certificate for Secondary Level Competence"
+    },
+    {
+      "Value": "CXCCSEC2",
+      "Label": "CXC CSEC"
+    },
+    {
+      "Value": "CXC",
+      "Label": "CXC study guides"
+    },
+    {
+      "Value": "DEMHEAD",
+      "Label": "Demon Headmaster"
+    },
+    {
+      "Value": "DESTECFOUND",
+      "Label": "Design and Technology Foundations"
+    },
+    {
+      "Value": "DINOCOVE",
+      "Label": "Dinosaur Cove"
+    },
+    {
+      "Value": "DINOCOVE13",
+      "Label": "Dinosaur Cove 2013 Editions"
+    },
+    {
+      "Value": "NTDL",
+      "Label": "Diploma in Health & Social Care"
+    },
+    {
+      "Value": "HELSOCARE",
+      "Label": "Diploma in Leadership  Level 5"
+    },
+    {
+      "Value": "DISCMAT",
+      "Label": "Discovering Mathematics"
+    },
+    {
+      "Value": "DRKITTY",
+      "Label": "Dr. KittyCat is Ready to Rescue"
+    },
+    {
+      "Value": "DRAMAS",
+      "Label": "Dramascripts"
+    },
+    {
+      "Value": "EAGLENINTH",
+      "Label": "The Eagle of the Ninth film tie-in editions"
+    },
+    {
+      "Value": "EDCERT",
+      "Label": "Edexcel Certificate in Mathematics"
+    },
+    {
+      "Value": "EDEXCELGMATHS",
+      "Label": "Edexcel GCSE Maths 2014"
+    },
+    {
+      "Value": "EDEXCELGPE",
+      "Label": "Edexcel GCSE Physical Education"
+    },
+    {
+      "Value": "EDEXCELALM",
+      "Label": "Edexcel A Level Maths"
+    },
+    {
+      "Value": "ELAN2",
+      "Label": "Elan A Level French"
+    },
+    {
+      "Value": "ELECINS",
+      "Label": "Electrical Installations"
+    },
+    {
+      "Value": "ELECTR",
+      "Label": "Electrigirl"
+    },
+    {
+      "Value": "EMIL",
+      "Label": "Emil"
+    },
+    {
+      "Value": "ENCTRI2",
+      "Label": "Encore Tricolore Nouvelle"
+    },
+    {
+      "Value": "ENGALICAR",
+      "Label": "English Alive for the Caribbean"
+    },
+    {
+      "Value": "CAMBE2L",
+      "Label": "English as a Second Language for Cambridge IGCSE"
+    },
+    {
+      "Value": "ENGNOW",
+      "Label": "English Now"
+    },
+    {
+      "Value": "EQNOU",
+      "Label": "Equipe nouvelle"
+    },
+    {
+      "Value": "EQUIPE",
+      "Label": "Equipe Original Edition"
+    },
+    {
+      "Value": "EBSA",
+      "Label": "Essential Business Studies A Level for AQA"
+    },
+    {
+      "Value": "EICTGCSE",
+      "Label": "Essential ICT GCSE"
+    },
+    {
+      "Value": "EICTAL",
+      "Label": "Essential ICT A Level"
+    },
+    {
+      "Value": "MATHCAM",
+      "Label": "Essential Mathematics for Cambridge IGCSE"
+    },
+    {
+      "Value": "CAMSEC1MAT",
+      "Label": "Essential Mathematics for Cambridge Secondary 1"
+    },
+    {
+      "Value": "ESSSCI",
+      "Label": "Essential Science for Cambridge IGCSE"
+    },
+    {
+      "Value": "CAMSEC1SCI",
+      "Label": "Essential Science for Cambridge Secondary 1"
+    },
+    {
+      "Value": "EBTEACH",
+      "Label": "Evidence Based Teaching"
+    },
+    {
+      "Value": "CAMESB",
+      "Label": "Exam Skills Builders for Cambridge IGCSE English"
+    },
+    {
+      "Value": "ORTEXPLORE",
+      "Label": "Explore with Biff, Chip and Kipper"
+    },
+    {
+      "Value": "EXTMAT",
+      "Label": "Extension Mathematics"
+    },
+    {
+      "Value": "FINDSKY",
+      "Label": "Finding Sky Trilogy"
+    },
+    {
+      "Value": "ORTFIR",
+      "Label": "Fireflies Non-Fiction"
+    },
+    {
+      "Value": "FIRELIGHT",
+      "Label": "Firelight Trilogy"
+    },
+    {
+      "Value": "FEBCK",
+      "Label": "First Experiences with Biff, Chip and Kipper"
+    },
+    {
+      "Value": "FIRSTWORDS",
+      "Label": "First Words"
+    },
+    {
+      "Value": "FIRSTS",
+      "Label": "Firsts"
+    },
+    {
+      "Value": "FLAMBARDS",
+      "Label": "Flambards"
+    },
+    {
+      "Value": "ORTFP",
+      "Label": "Floppy's Phonics"
+    },
+    {
+      "Value": "ORTFPNE",
+      "Label": "Floppy's Phonics - New Edition 2011"
+    },
+    {
+      "Value": "ORTFPSL",
+      "Label": "Floppy's Phonics Sounds and Letters"
+    },
+    {
+      "Value": "NELFREN",
+      "Label": "Framework English"
+    },
+    {
+      "Value": "FRAMAT",
+      "Label": "Framework Maths"
+    },
+    {
+      "Value": "FRASCI",
+      "Label": "Framework Science"
+    },
+    {
+      "Value": "FREEKHAM",
+      "Label": "Freekham High"
+    },
+    {
+      "Value": "FSVOC",
+      "Label": "Functional Skills (Vocational)"
+    },
+    {
+      "Value": "MVT",
+      "Label": "Fundamentals of Motor Vehicle Technology"
+    },
+    {
+      "Value": "FUNMOT",
+      "Label": "Fundamentals of Motorsport"
+    },
+    {
+      "Value": "GCSECITSTUD",
+      "Label": "GCSE Citizenship Studies"
+    },
+    {
+      "Value": "FORYOU5ED",
+      "Label": "GCSE for You 5th Edition"
+    },
+    {
+      "Value": "GCSEOF",
+      "Label": "GCSE French for OCR"
+    },
+    {
+      "Value": "GGEOGAQA16",
+      "Label": "GCSE Geography AQA 2016"
+    },
+    {
+      "Value": "GGEOGA",
+      "Label": "GCSE Geography AQA A"
+    },
+    {
+      "Value": "GEOEDEXCEL",
+      "Label": "GCSE Geography Edexcel B"
+    },
+    {
+      "Value": "GEOEDEXCEL16",
+      "Label": "GCSE Geography Edexcel B"
+    },
+    {
+      "Value": "GEOGOCRA",
+      "Label": "GCSE Geography OCR A"
+    },
+    {
+      "Value": "GEOGOCRB",
+      "Label": "GCSE Geography OCR B"
+    },
+    {
+      "Value": "GGEOGOCRB16",
+      "Label": "GCSE Geography OCR B 2016"
+    },
+    {
+      "Value": "GCSEOG",
+      "Label": "GCSE German for OCR"
+    },
+    {
+      "Value": "GHSC",
+      "Label": "GCSE Health & Social Care"
+    },
+    {
+      "Value": "GCSEHIS",
+      "Label": "GCSE History"
+    },
+    {
+      "Value": "GCSEMATRP",
+      "Label": "GCSE Mathematics: Revision and Practice"
+    },
+    {
+      "Value": "GCSEPEA",
+      "Label": "GCSE PE for AQA"
+    },
+    {
+      "Value": "GCSEPEE",
+      "Label": "GCSE PE for Edexcel"
+    },
+    {
+      "Value": "GCSERS",
+      "Label": "GCSE Religious Studies"
+    },
+    {
+      "Value": "RSGCSEAQA",
+      "Label": "GCSE Religious Studies for AQA"
+    },
+    {
+      "Value": "RSGCSEEDE",
+      "Label": "GCSE Religious Studies for Edexcel"
+    },
+    {
+      "Value": "ROLLERGCSE",
+      "Label": "GCSE Rollercoasters"
+    },
+    {
+      "Value": "GCSESKILLS",
+      "Label": "GCSE Skills"
+    },
+    {
+      "Value": "GCSESOCR",
+      "Label": "GCSE Spanish for OCR"
+    },
+    {
+      "Value": "GEOA",
+      "Label": "GeoActive"
+    },
+    {
+      "Value": "GEOF",
+      "Label": "GeoFile"
+    },
+    {
+      "Value": "GEOG4",
+      "Label": "geog.123 4th edition"
+    },
+    {
+      "Value": "GEOG.",
+      "Label": "geog.123 new edition"
+    },
+    {
+      "Value": "GEOG.GCSE",
+      "Label": "geog.GCSE"
+    },
+    {
+      "Value": "GAIA",
+      "Label": "Geography an Integrated Approach"
+    },
+    {
+      "Value": "GEOSUC",
+      "Label": "Geography Success"
+    },
+    {
+      "Value": "MYPGI",
+      "Label": "Global Issues MYP Project Organizers"
+    },
+    {
+      "Value": "ORTGLO",
+      "Label": "Glow-worms"
+    },
+    {
+      "Value": "GOAT",
+      "Label": "Goat & Donkey"
+    },
+    {
+      "Value": "NVQCARE",
+      "Label": "Good Practice Guides"
+    },
+    {
+      "Value": "GOOZILLA",
+      "Label": "The Goozillas!"
+    },
+    {
+      "Value": "HSCGCSE",
+      "Label": "Health & Social Care GCSE"
+    },
+    {
+      "Value": "HEREBEMON",
+      "Label": "Here Be Monsters"
+    },
+    {
+      "Value": "HISTTF",
+      "Label": "History Through Film"
+    },
+    {
+      "Value": "HOLTHE",
+      "Label": "Holistic Therapy"
+    },
+    {
+      "Value": "GCSEHEC",
+      "Label": "Home Economics GCSE"
+    },
+    {
+      "Value": "HORACE",
+      "Label": "Horace & Harriet"
+    },
+    {
+      "Value": "HUGOBELLA",
+      "Label": "Hugo and Bella"
+    },
+    {
+      "Value": "IBBUS",
+      "Label": "IB Business Management 2014"
+    },
+    {
+      "Value": "IBEC",
+      "Label": "IB Economics"
+    },
+    {
+      "Value": "IBEA",
+      "Label": "IB English A"
+    },
+    {
+      "Value": "IBENGLALI",
+      "Label": "IB English A: Language and Literature"
+    },
+    {
+      "Value": "IBENGLB",
+      "Label": "IB English B"
+    },
+    {
+      "Value": "IBENVSYS",
+      "Label": "IB Environmental Systems and Societies"
+    },
+    {
+      "Value": "IBESPALIT",
+      "Label": "IB EspaA+-ol A: Literatura"
+    },
+    {
+      "Value": "IBEXTESS",
+      "Label": "IB Extended Essay"
+    },
+    {
+      "Value": "IBFRENB",
+      "Label": "IB French B"
+    },
+    {
+      "Value": "IBGEOG",
+      "Label": "IB Geography"
+    },
+    {
+      "Value": "IBGLOPOL",
+      "Label": "IB Global Politics"
+    },
+    {
+      "Value": "IBHIS",
+      "Label": "IB History"
+    },
+    {
+      "Value": "IBHIS2015",
+      "Label": "IB History 2015"
+    },
+    {
+      "Value": "IBMCB",
+      "Label": "IB Maths Course Books"
+    },
+    {
+      "Value": "IBPHIL",
+      "Label": "IB Philosophy"
+    },
+    {
+      "Value": "IBPSYCH",
+      "Label": "IB Psychology"
+    },
+    {
+      "Value": "IBSCI",
+      "Label": "IB Science 2014"
+    },
+    {
+      "Value": "IBSPANB",
+      "Label": "IB Spanish B"
+    },
+    {
+      "Value": "IBSPOEXE",
+      "Label": "IB Sports, Exercise and Health Science"
+    },
+    {
+      "Value": "IBTHEKNO",
+      "Label": "IB Theory of Knowledge"
+    },
+    {
+      "Value": "IBVISART",
+      "Label": "IB Visual Arts"
+    },
+    {
+      "Value": "ICTFS",
+      "Label": "ICT Framework Solutions"
+    },
+    {
+      "Value": "IGNITE",
+      "Label": "Ignite English"
+    },
+    {
+      "Value": "IGWRI",
+      "Label": "Igniting Writing"
+    },
+    {
+      "Value": "ISFY",
+      "Label": "Information Systems for You"
+    },
+    {
+      "Value": "INSPIRE",
+      "Label": "Inspire Maths"
+    },
+    {
+      "Value": "INTENG",
+      "Label": "International English"
+    },
+    {
+      "Value": "IPRIMAT",
+      "Label": "International Primary Maths"
+    },
+    {
+      "Value": "INVSCI",
+      "Label": "Investigating Science"
+    },
+    {
+      "Value": "ISADORA",
+      "Label": "Isadora Moon"
+    },
+    {
+      "Value": "ORTJAC",
+      "Label": "Jackdaws"
+    },
+    {
+      "Value": "JAMS",
+      "Label": "Jamaica Studies"
+    },
+    {
+      "Value": "JCLICKJ",
+      "Label": "Just Click For Jamaica"
+    },
+    {
+      "Value": "KALLEB",
+      "Label": "A Kalle Blomkvist Mystery"
+    },
+    {
+      "Value": "KARLSON",
+      "Label": "Karlson"
+    },
+    {
+      "Value": "KGEOG",
+      "Label": "Key Geography for GCSE"
+    },
+    {
+      "Value": "KGEO",
+      "Label": "Key Geography Fourth"
+    },
+    {
+      "Value": "KEYM",
+      "Label": "Key Maths"
+    },
+    {
+      "Value": "KS3HIS",
+      "Label": "KS3 History by Aaron Wilkes"
+    },
+    {
+      "Value": "KS3HIS3",
+      "Label": "KS3 History by Aaron Wilkes Third Edition"
+    },
+    {
+      "Value": "LLIT",
+      "Label": "Launch into Literacy"
+    },
+    {
+      "Value": "ALENGAQA",
+      "Label": "A Level English for AQA"
+    },
+    {
+      "Value": "ALGEOAQA16",
+      "Label": "A Level Geography for AQA 2016"
+    },
+    {
+      "Value": "ALGEOED",
+      "Label": "A Level Geography for Edexcel"
+    },
+    {
+      "Value": "ALGEOED16",
+      "Label": "A Level Geography for Edexcel 2016"
+    },
+    {
+      "Value": "ALMATED",
+      "Label": "A Level Mathematics for Edexcel"
+    },
+    {
+      "Value": "ALEVELPHIL",
+      "Label": "A Level Philosophy & Ethics Through Film"
+    },
+    {
+      "Value": "ALRE",
+      "Label": "A Level Religious Education"
+    },
+    {
+      "Value": "RSALOCR",
+      "Label": "A Level Religious Studies for OCR"
+    },
+    {
+      "Value": "LIVFAITH",
+      "Label": "Living Faiths"
+    },
+    {
+      "Value": "LIVLIT",
+      "Label": "Living Literacy"
+    },
+    {
+      "Value": "LOTTA",
+      "Label": "Lotta"
+    },
+    {
+      "Value": "MAKENUM",
+      "Label": "Making Numbers"
+    },
+    {
+      "Value": "MAPSKILL",
+      "Label": "Mapwork Skills"
+    },
+    {
+      "Value": "MASTM",
+      "Label": "Mastering Mathematics"
+    },
+    {
+      "Value": "MBS",
+      "Label": "Maths Basic Skills"
+    },
+    {
+      "Value": "MIA",
+      "Label": "Maths in Action"
+    },
+    {
+      "Value": "MMS",
+      "Label": "Maths Makes Sense"
+    },
+    {
+      "Value": "MATSKILL",
+      "Label": "Maths Skills for A Level Business Studies and Economics"
+    },
+    {
+      "Value": "MATSKISCI",
+      "Label": "Maths Skills for A Level Science"
+    },
+    {
+      "Value": "MATHSLINKS",
+      "Label": "MathsLinks"
+    },
+    {
+      "Value": "MEADOW",
+      "Label": "Meadow Vale Ponies"
+    },
+    {
+      "Value": "MEASLE",
+      "Label": "A Measle Stubbs Adventure"
+    },
+    {
+      "Value": "MORTCHAOS",
+      "Label": "Mortal Chaos"
+    },
+    {
+      "Value": "MYKS3",
+      "Label": "MyMaths KS3"
+    },
+    {
+      "Value": "MYPENG",
+      "Label": "MYP English Acquisition"
+    },
+    {
+      "Value": "MYPMATH",
+      "Label": "MYP Mathematics"
+    },
+    {
+      "Value": "MYPSCI",
+      "Label": "MYP Science"
+    },
+    {
+      "Value": "MYPSPA",
+      "Label": "MYP Spanish Acquisition"
+    },
+    {
+      "Value": "NPARKER",
+      "Label": "Nancy Parker"
+    },
+    {
+      "Value": "NELCPRIMAT",
+      "Label": "Nelson Caribbean Primary Maths"
+    },
+    {
+      "Value": "NELCOMP",
+      "Label": "Nelson Comprehension"
+    },
+    {
+      "Value": "NELCOMP2",
+      "Label": "Nelson Comprehension 2nd Edition"
+    },
+    {
+      "Value": "NELENGI",
+      "Label": "Nelson English International"
+    },
+    {
+      "Value": "NELENG2",
+      "Label": "Nelson English New Edition"
+    },
+    {
+      "Value": "KSEN14",
+      "Label": "Nelson English: Essential Anthology"
+    },
+    {
+      "Value": "NELGRAMI",
+      "Label": "Nelson Grammar International"
+    },
+    {
+      "Value": "NELHW3",
+      "Label": "Nelson Handwriting 3rd Edition"
+    },
+    {
+      "Value": "NELHW2",
+      "Label": "Nelson Handwriting New Edition"
+    },
+    {
+      "Value": "NELSCII",
+      "Label": "Nelson International Science"
+    },
+    {
+      "Value": "KGEO5",
+      "Label": "Nelson Key Geography"
+    },
+    {
+      "Value": "CAMAMAT",
+      "Label": "Nelson Mathematics for Cambridge A Level"
+    },
+    {
+      "Value": "NELPHON",
+      "Label": "Nelson Phonics"
+    },
+    {
+      "Value": "NELSPEL2",
+      "Label": "Nelson Spelling New Edition"
+    },
+    {
+      "Value": "MRTOAD",
+      "Label": "The New Adventures of Mr Toad"
+    },
+    {
+      "Value": "NCSCI",
+      "Label": "New Coordinated Science Higher Tier"
+    },
+    {
+      "Value": "NLITKIT",
+      "Label": "New Literacy Kit"
+    },
+    {
+      "Value": "NMASMAT",
+      "Label": "New Mastermaths"
+    },
+    {
+      "Value": "NNFM",
+      "Label": "New National Framework Maths"
+    },
+    {
+      "Value": "NELGRAMNEW",
+      "Label": "New Nelson Grammar"
+    },
+    {
+      "Value": "FORYOU",
+      "Label": "New Science For You"
+    },
+    {
+      "Value": "NSREC",
+      "Label": "New Steps in RE Caribbean"
+    },
+    {
+      "Value": "NWIR",
+      "Label": "New West Indian Readers"
+    },
+    {
+      "Value": "NWW",
+      "Label": "New Wider World"
+    },
+    {
+      "Value": "NUM",
+      "Label": "Numicon"
+    },
+    {
+      "Value": "NUMBI",
+      "Label": "Numicon Big Ideas"
+    },
+    {
+      "Value": "NVQCONSTR",
+      "Label": "NVQ Construction"
+    },
+    {
+      "Value": "OCRBALEVBIO",
+      "Label": "OCR B A Level Biology"
+    },
+    {
+      "Value": "OCRBALEVCHEM",
+      "Label": "OCR B A Level Chemistry"
+    },
+    {
+      "Value": "GCSESCIO",
+      "Label": "OCR Gateway GCSE Science"
+    },
+    {
+      "Value": "GCSESCIO2",
+      "Label": "OCR Gateway GCSE Science 2nd Edition"
+    },
+    {
+      "Value": "GCSECLAO",
+      "Label": "OCR GCSE Classics"
+    },
+    {
+      "Value": "OCRGCSEENG",
+      "Label": "OCR GCSE English 2014"
+    },
+    {
+      "Value": "OCRGCSEPE",
+      "Label": "OCR GCSE Physical Education"
+    },
+    {
+      "Value": "ALENGO",
+      "Label": "OCR A Level English"
+    },
+    {
+      "Value": "OCRALEVPSYCH",
+      "Label": "OCR A Level Psychology"
+    },
+    {
+      "Value": "OCRALEVSCI",
+      "Label": "OCR A Level Sciences"
+    },
+    {
+      "Value": "ODP",
+      "Label": "Olga da Polga"
+    },
+    {
+      "Value": "OTE",
+      "Label": "On the Edge"
+    },
+    {
+      "Value": "OARP",
+      "Label": "Oxford Accelerated Reader Packs"
+    },
+    {
+      "Value": "OAH",
+      "Label": "Oxford Advanced History"
+    },
+    {
+      "Value": "GCSEHISAQA",
+      "Label": "Oxford AQA GCSE History"
+    },
+    {
+      "Value": "AQAALEVHIS",
+      "Label": "Oxford AQA History for A Level"
+    },
+    {
+      "Value": "OCC",
+      "Label": "Oxford Children's Classics"
+    },
+    {
+      "Value": "OCVD",
+      "Label": "Oxford Children's Visual Dictionaries"
+    },
+    {
+      "Value": "OCLS",
+      "Label": "Oxford Content and Language Support"
+    },
+    {
+      "Value": "CAMPRIENG",
+      "Label": "Oxford English for Cambridge Primary"
+    },
+    {
+      "Value": "OEAIA",
+      "Label": "Oxford English: An International Approach"
+    },
+    {
+      "Value": "OIPC",
+      "Label": "Oxford International Computing"
+    },
+    {
+      "Value": "OIEYGLI",
+      "Label": "Oxford International Early Years: The Glitterlings"
+    },
+    {
+      "Value": "OIPG",
+      "Label": "Oxford International Geography"
+    },
+    {
+      "Value": "OIPH",
+      "Label": "Oxford International Primary History"
+    },
+    {
+      "Value": "OIPM",
+      "Label": "Oxford International Primary Maths"
+    },
+    {
+      "Value": "OIPS",
+      "Label": "Oxford International Primary Science"
+    },
+    {
+      "Value": "OLATC",
+      "Label": "Oxford Latin Course"
+    },
+    {
+      "Value": "OLVP",
+      "Label": "Oxford Levelled Variety Packs"
+    },
+    {
+      "Value": "OLC",
+      "Label": "Oxford Literature Companions"
+    },
+    {
+      "Value": "OLCFREN",
+      "Label": "Oxford Literature Companions for AS/A Level French"
+    },
+    {
+      "Value": "OLCGERM",
+      "Label": "Oxford Literature Companions for AS/A Level German"
+    },
+    {
+      "Value": "OLCSPAN",
+      "Label": "Oxford Literature Companions for AS/A Level Spanish"
+    },
+    {
+      "Value": "OLCAL",
+      "Label": "Oxford Literature Companions for A Level"
+    },
+    {
+      "Value": "MATCAMINT",
+      "Label": "Oxford Mathematics for Cambridge International AS & A Level"
+    },
+    {
+      "Value": "OMCAR5",
+      "Label": "Oxford Mathematics for the Caribbean (5th Edition)"
+    },
+    {
+      "Value": "OWLSIP",
+      "Label": "Oxford Owl: School Improvement Pathways"
+    },
+    {
+      "Value": "OXPLAY",
+      "Label": "Oxford Playscripts"
+    },
+    {
+      "Value": "oxprieng",
+      "Label": "Oxford Primary English Assessment"
+    },
+    {
+      "Value": "ORT",
+      "Label": "Oxford Reading Tree"
+    },
+    {
+      "Value": "ORTASF",
+      "Label": "Oxford Reading Tree All Stars Fiction"
+    },
+    {
+      "Value": "ORTINFACT",
+      "Label": "Oxford Reading Tree inFact"
+    },
+    {
+      "Value": "ORTCD",
+      "Label": "Oxford Reading Tree Story CD Storybooks"
+    },
+    {
+      "Value": "ORTSTOSP",
+      "Label": "Oxford Reading Tree Story Sparks"
+    },
+    {
+      "Value": "ORTTRAD",
+      "Label": "Oxford Reading Tree Traditional Tales 2011"
+    },
+    {
+      "Value": "ORTBCK2",
+      "Label": "Oxford Reading Tree, Biff, Chip and Kipper Stories New Edition 2011"
+    },
+    {
+      "Value": "ORTBCKDD",
+      "Label": "Oxford Reading Tree: Biff, Chip and Kipper Decode and Develop"
+    },
+    {
+      "Value": "OSS",
+      "Label": "Oxford School Shakespeare"
+    },
+    {
+      "Value": "OSK",
+      "Label": "Oxford Spelling Kits"
+    },
+    {
+      "Value": "OST",
+      "Label": "Oxford Student Texts"
+    },
+    {
+      "Value": "OTG",
+      "Label": "Oxford Teaching Guides"
+    },
+    {
+      "Value": "OXFAPSY",
+      "Label": "Oxford A Level Psychology for AQA"
+    },
+    {
+      "Value": "PATCUT",
+      "Label": "Pattern Cutting"
+    },
+    {
+      "Value": "PE163E",
+      "Label": "PE to 16 3rd Edition"
+    },
+    {
+      "Value": "PEVA",
+      "Label": "PE Video Analysis Toolkit"
+    },
+    {
+      "Value": "PIPPI",
+      "Label": "Pippi Longstocking"
+    },
+    {
+      "Value": "PRACG",
+      "Label": "Practical Guides"
+    },
+    {
+      "Value": "PRB",
+      "Label": "Pre-Reading Activity Books"
+    },
+    {
+      "Value": "BABYC",
+      "Label": "Preparing to Work in Social Care"
+    },
+    {
+      "Value": "PRISOC",
+      "Label": "Primary Social Studies"
+    },
+    {
+      "Value": "COWLEY",
+      "Label": "The Private Blog of Joe Cowley"
+    },
+    {
+      "Value": "PRWOXF",
+      "Label": "Progress with Oxford"
+    },
+    {
+      "Value": "PROJX",
+      "Label": "Project X"
+    },
+    {
+      "Value": "PROJXAA",
+      "Label": "Project X Alien Adventures"
+    },
+    {
+      "Value": "PROJXC",
+      "Label": "Project X Code"
+    },
+    {
+      "Value": "PROJXCOEX",
+      "Label": "Project X Comprehension Express"
+    },
+    {
+      "Value": "PROJXGT",
+      "Label": "Project X Graphic Texts"
+    },
+    {
+      "Value": "PROJXO",
+      "Label": "Project X Origins"
+    },
+    {
+      "Value": "PROJXPH",
+      "Label": "Project X Phonics"
+    },
+    {
+      "Value": "PRODN",
+      "Label": "Projekt Deutsch neu!"
+    },
+    {
+      "Value": "PROSEAN",
+      "Label": "Prose: An Anthology"
+    },
+    {
+      "Value": "PSYCAMA",
+      "Label": "Psychology for Cambridge International AS and A level"
+    },
+    {
+      "Value": "PUPPYA",
+      "Label": "Puppy Academy"
+    },
+    {
+      "Value": "PARACSEC",
+      "Label": "Que Hay para CSEC"
+    },
+    {
+      "Value": "QUEHAY",
+      "Label": "?Que Hay?"
+    },
+    {
+      "Value": "QUEST",
+      "Label": "Quest"
+    },
+    {
+      "Value": "RR2013",
+      "Label": "Rachel Riley Diaries"
+    },
+    {
+      "Value": "RAILHEAD",
+      "Label": "Railhead"
+    },
+    {
+      "Value": "REJAM",
+      "Label": "RE for Jamaica"
+    },
+    {
+      "Value": "RAH",
+      "Label": "Read at Home"
+    },
+    {
+      "Value": "RBCK",
+      "Label": "Read with Biff, Chip and Kipper"
+    },
+    {
+      "Value": "RBCKAB",
+      "Label": "Read with Biff, Chip and Kipper: Activity Books"
+    },
+    {
+      "Value": "RBCKCOL",
+      "Label": "Read with Biff, Chip and Kipper: Collections"
+    },
+    {
+      "Value": "RBCKSTOR",
+      "Label": "Read with Biff, Chip and Kipper: First Stories"
+    },
+    {
+      "Value": "RBCKFLASH",
+      "Label": "Read with Biff, Chip and Kipper: Flashcards"
+    },
+    {
+      "Value": "RBCKPHON",
+      "Label": "Read with Biff, Chip and Kipper: Phonics"
+    },
+    {
+      "Value": "REWOXF",
+      "Label": "Read with Oxford"
+    },
+    {
+      "Value": "RWISP2",
+      "Label": "Read Write Inc Spelling Second Edition"
+    },
+    {
+      "Value": "RWI",
+      "Label": "Read Write Inc."
+    },
+    {
+      "Value": "RWICOMP",
+      "Label": "Read Write Inc. Comprehension"
+    },
+    {
+      "Value": "RWIFS",
+      "Label": "Read Write Inc. Fresh Start"
+    },
+    {
+      "Value": "RWIHOME",
+      "Label": "Read Write Inc. Home"
+    },
+    {
+      "Value": "RWILL",
+      "Label": "Read Write Inc. Literacy and Language"
+    },
+    {
+      "Value": "RWIPH",
+      "Label": "Read Write Inc. Phonics"
+    },
+    {
+      "Value": "RWIPH2",
+      "Label": "Read Write Inc. Phonics Second Edition"
+    },
+    {
+      "Value": "RWISP",
+      "Label": "Read Write Inc. Spelling"
+    },
+    {
+      "Value": "RMCI",
+      "Label": "Reeve and McIntyre Adventures"
+    },
+    {
+      "Value": "RFT",
+      "Label": "Religion for Today"
+    },
+    {
+      "Value": "RETELLINGS",
+      "Label": "Retellings, Myths & Legends"
+    },
+    {
+      "Value": "REVGUIDES",
+      "Label": "Revision Guides"
+    },
+    {
+      "Value": "RIGOLO",
+      "Label": "Rigolo"
+    },
+    {
+      "Value": "ORTROB",
+      "Label": "Robins"
+    },
+    {
+      "Value": "ROLLER",
+      "Label": "Rollercoasters Key Stage 3 Fiction"
+    },
+    {
+      "Value": "RSCSS",
+      "Label": "RSC School Shakespeare"
+    },
+    {
+      "Value": "CSECSCI2",
+      "Label": "Science for CSEC"
+    },
+    {
+      "Value": "SCICON",
+      "Label": "Science in Context"
+    },
+    {
+      "Value": "SCISUC",
+      "Label": "Science Success"
+    },
+    {
+      "Value": "SCIWKS",
+      "Label": "Science Works"
+    },
+    {
+      "Value": "SCFCA",
+      "Label": "Scientifica"
+    },
+    {
+      "Value": "SECSPECIT",
+      "Label": "Secondary Specials! Citizenship & PSHE"
+    },
+    {
+      "Value": "SECSPEDT",
+      "Label": "Secondary Specials! Design & Technology"
+    },
+    {
+      "Value": "SECSPEEN",
+      "Label": "Secondary Specials! English"
+    },
+    {
+      "Value": "SECSPEGEO",
+      "Label": "Secondary Specials! Geography"
+    },
+    {
+      "Value": "SECSPEHIS",
+      "Label": "Secondary Specials! History"
+    },
+    {
+      "Value": "SECSPERE",
+      "Label": "Secondary Specials! Religious Education"
+    },
+    {
+      "Value": "SME",
+      "Label": "Shakespeare Made Easy"
+    },
+    {
+      "Value": "SHPSHFT",
+      "Label": "Shapeshifter"
+    },
+    {
+      "Value": "SHARK",
+      "Label": "Shark Island"
+    },
+    {
+      "Value": "SHORT",
+      "Label": "Short!"
+    },
+    {
+      "Value": "THIEVES",
+      "Label": "Sky Thieves"
+    },
+    {
+      "Value": "ORTSNA",
+      "Label": "Snapdragons"
+    },
+    {
+      "Value": "ORTSON",
+      "Label": "Songbirds Phonics"
+    },
+    {
+      "Value": "ORTSONHL",
+      "Label": "Songbirds Phonics Home Learning"
+    },
+    {
+      "Value": "SPSCI",
+      "Label": "Spotlight Science"
+    },
+    {
+      "Value": "STASCI",
+      "Label": "Starting Science"
+    },
+    {
+      "Value": "SCEM",
+      "Label": "Steps to Common Entrance Maths"
+    },
+    {
+      "Value": "STINK",
+      "Label": "Stinkbomb and Ketchup-Face"
+    },
+    {
+      "Value": "STPMC",
+      "Label": "STP Caribbean Maths"
+    },
+    {
+      "Value": "STPM",
+      "Label": "STP Maths"
+    },
+    {
+      "Value": "STRUCK",
+      "Label": "Struck"
+    },
+    {
+      "Value": "STUSHAKE",
+      "Label": "Student Shakespeare"
+    },
+    {
+      "Value": "STUNTD",
+      "Label": "Stunt Double"
+    },
+    {
+      "Value": "SWITCH",
+      "Label": "SWITCH"
+    },
+    {
+      "Value": "TALESFROM",
+      "Label": "Tales From & Collections"
+    },
+    {
+      "Value": "TOBANS",
+      "Label": "Test of Basic Arithmetic and Numeracy Skills (TOBANS)"
+    },
+    {
+      "Value": "TEXGEN",
+      "Label": "Text Generation"
+    },
+    {
+      "Value": "ORTTCHR",
+      "Label": "Time Chronicles"
+    },
+    {
+      "Value": "ORTTC",
+      "Label": "Time Chronicles (Children's Books)"
+    },
+    {
+      "Value": "TO14",
+      "Label": "To 14"
+    },
+    {
+      "Value": "SCATTERHORN",
+      "Label": "Tom Scatterhorn"
+    },
+    {
+      "Value": "TOMTRUEHEART",
+      "Label": "Tom Trueheart"
+    },
+    {
+      "Value": "TRADTHL",
+      "Label": "Traditional Tales Home Learning"
+    },
+    {
+      "Value": "ORTTTC",
+      "Label": "TreeTops Classics"
+    },
+    {
+      "Value": "ORTTTCOMP",
+      "Label": "TreeTops Comprehension"
+    },
+    {
+      "Value": "ORTTTF",
+      "Label": "TreeTops Fiction"
+    },
+    {
+      "Value": "ORTTTGN",
+      "Label": "TreeTops Graphic Novels"
+    },
+    {
+      "Value": "ORTTGS",
+      "Label": "TreeTops Greatest Stories"
+    },
+    {
+      "Value": "ORTTTIF",
+      "Label": "TreeTops InFact"
+    },
+    {
+      "Value": "ORTTML",
+      "Label": "TreeTops Myths and Legends"
+    },
+    {
+      "Value": "ORTTNF",
+      "Label": "TreeTops Non-Fiction"
+    },
+    {
+      "Value": "ORTT1",
+      "Label": "TreeTops non-rebrand"
+    },
+    {
+      "Value": "ORTTFP",
+      "Label": "TreeTops Playscripts"
+    },
+    {
+      "Value": "ORTTTTL",
+      "Label": "TreeTops True Lives"
+    },
+    {
+      "Value": "TRIC45ED",
+      "Label": "Tricolore 4 5th edition"
+    },
+    {
+      "Value": "TRIC5",
+      "Label": "Tricolore 5th Edition"
+    },
+    {
+      "Value": "TRICT",
+      "Label": "Tricolore Total"
+    },
+    {
+      "Value": "TRICTKS4",
+      "Label": "Tricolore Total KS4"
+    },
+    {
+      "Value": "21CS2",
+      "Label": "Twenty First Century Science Second Edition"
+    },
+    {
+      "Value": "21CS3",
+      "Label": "Twenty First Century Science Third Edition"
+    },
+    {
+      "Value": "ULTIMATEBOOK",
+      "Label": "Ultimate Book Of"
+    },
+    {
+      "Value": "UNICORN",
+      "Label": "Unicorn in New York"
+    },
+    {
+      "Value": "UNLEASH",
+      "Label": "Unleashed"
+    },
+    {
+      "Value": "USEMATHS",
+      "Label": "Use of Maths"
+    },
+    {
+      "Value": "VTCTBEAU",
+      "Label": "VTCT Beauty Therapy"
+    },
+    {
+      "Value": "WENDY",
+      "Label": "Wendy Quill"
+    },
+    {
+      "Value": "WINNIEWB",
+      "Label": "Wilbur board books"
+    },
+    {
+      "Value": "WIR",
+      "Label": "Wild Reads"
+    },
+    {
+      "Value": "WINNIEAB",
+      "Label": "Winnie activity books"
+    },
+    {
+      "Value": "WINNIEW",
+      "Label": "Winnie and Wilbur"
+    },
+    {
+      "Value": "WINNIEWPB",
+      "Label": "Winnie and Wilbur Picture Books"
+    },
+    {
+      "Value": "WINNIEWYF",
+      "Label": "Winnie and Wilbur Young Fiction"
+    },
+    {
+      "Value": "WINNIEC",
+      "Label": "Winnie collections"
+    },
+    {
+      "Value": "WINNIEPIC",
+      "Label": "Winnie the Witch Picture Books"
+    },
+    {
+      "Value": "WJECGCSEENG",
+      "Label": "WJEC GCSE English"
+    },
+    {
+      "Value": "WOOLLI",
+      "Label": "The Woollies"
+    },
+    {
+      "Value": "WYB",
+      "Label": "Would You Believe"
+    },
+    {
+      "Value": "YOUHIS",
+      "Label": "You're History!"
+    },
+    {
+      "Value": "YOUNG",
+      "Label": "Young Knights"
+    },
+    {
+      "Value": "ZEIT2",
+      "Label": "Zeitgeist A Level German"
+    },
+    {
+      "Value": "ZOOMD",
+      "Label": "Zoom Deutsch"
+    },
+    {
+      "Value": "ZOOME",
+      "Label": "Zoom espanol"
+    }
+  ]
+}

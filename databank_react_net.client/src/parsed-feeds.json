@@ -1,0 +1,20 @@
+[
+  {
+    "name": "testfile23",
+    "Ldat": "25/10/2025",
+    "Lrun": "25/10/2025",
+    "nextsch": "",
+    "Freq": "now",
+    "email": "balakrishnan.c@oup.com",
+    "id": "25102385227"
+  },
+  {
+    "name": "test1",
+    "Ldat": "01/11/2025",
+    "Lrun": "1/11/2025",
+    "nextsch": "8/11/2025",
+    "Freq": "weekly",
+    "email": "FTP to testserver",
+    "id": "25102385228"
+  }
+]

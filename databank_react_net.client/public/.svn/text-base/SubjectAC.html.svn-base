@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">AC??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="AC000000000000">Academic, Professional, & General</option>
+<option value="ACAC0000000000">Archaeology</option>
+<option value="ACAR0000000000">Arts & Architecture</option>
+<option value="ACBI0000000000">Biography</option>
+<option value="ACBY0000000000">Biological Sciences</option>
+<option value="ACBU0000000000">Business & Management</option>
+<option value="ACCH0000000000">Chemistry</option>
+<option value="ACCL0000000000">Classical Studies & Ancient History</option>
+<option value="ACCC0000000000">Computing & Computer Science</option>
+<option value="ACDI0000000000">Dictionaries</option>
+<option value="ACEA0000000000">Earth Sciences</option>
+<option value="ACEC0000000000">Economics & Finance</option>
+<option value="ACET0000000000">Engineering Science</option>
+<option value="ACGE0000000000">Geography</option>
+<option value="ACHI0000000000">History</option>
+<option value="ACLA0000000000">Language & Linguistics</option>
+<option value="ACLI0000000000">Law</option>
+<option value="ACLP0000000000">Lifestyle & Leisure</option>
+<option value="ACLT0000000000">Literature</option>
+<option value="ACMM0000000000">Mathematics</option>
+<option value="ACME0000000000">Medicine & Health</option>
+<option value="ACMU0000000000">Music</option>
+<option value="ACPH0000000000">Philosophy</option>
+<option value="ACPC0000000000">Physics</option>
+<option value="ACPL0000000000">Policing</option>
+<option value="ACPO0000000000">Politics</option>
+<option value="ACPY0000000000">Psychology & Neuroscience</option>
+<option value="ACRE0000000000">Reference</option>
+<option value="ACRL0000000000">Religion & Bibles</option>
+<option value="ACSO0000000000">Society, Culture, & Environment</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>

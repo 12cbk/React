@@ -1,0 +1,30 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+*.dbmdl
+*.pdb
+
+# ASP.NET secrets
+secrets.json
+
+# Node.js / React
+node_modules/
+build/
+dist/
+.env
+npm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS files
+Thumbs.db
+.DS_Store

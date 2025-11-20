@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "//IETF//DTD HTML 2.0//EN"> <html> <head> <meta name="robots" content="noindex, nofollow"> <title></title> <BASE HREF="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt"> </head> <body > <form method=post action="http://databank.oup.com:9004/cgi-bin/starfinder/3822/series.txt" name="form" target="_self"> <input type=hidden name=refault value="">
+<span id="title">ACHE50??00* NOT HIDE=YES NOT DONLY=X</span>
+<script type="text/javascript" src="http://databank.oup.com/databank/js/iframe.js"></script>
+<select name="test" multiple="multiple" size=20>
+<option value="ACHE5010000000">Biochemistry</option>
+<option value="ACHE5000000000">Biosciences</option>
+<option value="ACHE5020000000">Cellular Biology</option>
+<option value="ACHE5030000000">Human Biology</option>
+<option value="ACHE5040000000">Molecular Biology</option>
+</select>
+</table> <input type=hidden name="near" value=""> <input type=hidden name="formatListValue" value=""> <input type=hidden name="defact" value="-2yi29"> _ </form></body></html>
